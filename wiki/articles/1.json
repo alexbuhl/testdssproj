@@ -1,0 +1,23 @@
+{
+    "layout": "WIKI_ARTICLE", 
+    "attachments": [], 
+    "versionTag": {
+        "lastModifiedBy": {
+            "login": "admin"
+        }, 
+        "lastModifiedOn": 1536329575178, 
+        "versionNumber": 2
+    }, 
+    "tags": [], 
+    "creationTag": {
+        "lastModifiedBy": {
+            "login": "admin"
+        }, 
+        "lastModifiedOn": 1536272372322, 
+        "versionNumber": 0
+    }, 
+    "checklists": {
+        "checklists": []
+    }, 
+    "name": "Customer Lifetime Value"
+}
