@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763553831
+    "lastModifiedOn": 1611763726133
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1486142170726
   },
-  "tags": [],
+  "tags": [
+    "Score new data"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "/CUSTOMER_LIFETIME_VALUE.new_customers_scored",

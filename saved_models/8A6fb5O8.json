@@ -133,6 +133,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -218,6 +219,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -303,6 +305,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -387,6 +390,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -498,6 +502,7 @@
             "scaling": "LINEAR"
           }
         },
+        "selection_mode": "auto",
         "max_features": {
           "gridMode": "EXPLICIT",
           "randomMode": "RANGE",
@@ -851,11 +856,13 @@
           }
         },
         "distance_weighting": false,
+        "algorithm": "auto",
         "p": 2,
         "leaf_size": 30,
         "enabled": false
       },
       "logistic_regression": {
+        "multi_class": "ovr",
         "penalty": {
           "values": {
             "l2": {
@@ -1653,6 +1660,10 @@
       "containerMode": "INHERIT"
     },
     "sparkParams": {
+      "sparkConf": {
+        "inheritConf": "default",
+        "conf": []
+      },
       "sparkUseGlobalMetastore": false,
       "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
       "sparkRepartitionNonHDFS": 1,
@@ -1731,13 +1742,15 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763340625
+    "lastModifiedOn": 1611763726150
   },
-  "tags": [],
+  "tags": [
+    "Score new data"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
