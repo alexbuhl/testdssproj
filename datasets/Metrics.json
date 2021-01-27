@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611767389735
+    "lastModifiedOn": 1611767396819
   },
   "creationTag": {
     "versionNumber": 0,
@@ -256,7 +256,8 @@
         "basic:COUNT_FILES",
         "basic:SIZE",
         "records:COUNT_RECORDS",
-        "col_stats:MEAN:mape"
+        "col_stats:MEAN:mape",
+        "check:CHECK:Avg mape check"
       ]
     }
   },
