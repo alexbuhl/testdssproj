@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1449157350856
+    "lastModifiedOn": 1611762958730
   },
   "tags": [
     "creator_admin"
@@ -98,7 +98,7 @@
         "type": "string"
       },
       {
-        "name": "join_ip",
+        "name": "ip",
         "type": "string"
       },
       {
@@ -106,11 +106,11 @@
         "type": "string"
       },
       {
-        "name": "join_pages_visited",
+        "name": "pages_visited",
         "type": "bigint"
       },
       {
-        "name": "join_campain",
+        "name": "campain",
         "type": "boolean"
       },
       {
@@ -118,7 +118,7 @@
         "type": "bigint"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": []
