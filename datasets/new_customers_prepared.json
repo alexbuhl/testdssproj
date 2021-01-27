@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611762958730
+    "lastModifiedOn": 1611763193358
   },
   "tags": [
     "creator_admin"
@@ -98,7 +98,7 @@
         "type": "string"
       },
       {
-        "name": "ip",
+        "name": "join_ip",
         "type": "string"
       },
       {
