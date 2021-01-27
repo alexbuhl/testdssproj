@@ -3,6 +3,9 @@
     "sample_project": {
       "color": "#d66b9b"
     },
+    "Training pipeline": {
+      "color": "#5363f5"
+    },
     "Scoring pipeline": {
       "color": "#22e665"
     },
@@ -17,7 +20,6 @@
     },
     "creator_admin": {
       "color": "#1ac2ab"
-    },
-    "Training pipeline": {}
+    }
   }
 }
