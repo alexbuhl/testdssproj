@@ -5,11 +5,11 @@
   "name": "Score new customers",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611767104764
+    "lastModifiedOn": 1611767266105
   },
   "checklists": {
     "checklists": []
@@ -20,10 +20,133 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "tPh9AAyS",
+      "type": "temporal",
+      "name": "myTrigger",
+      "delay": 5,
+      "active": true,
+      "params": {
+        "frequency": "Weekly",
+        "daysOfWeek": [
+          "Sunday"
+        ],
+        "dayOfMonth": 1,
+        "minute": 0,
+        "hour": 2,
+        "count": 5
+      }
+    }
+  ],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "clear__d_new_customers_scored",
+        "type": "clear_items",
+        "name": "old data",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "clears": [
+            {
+              "type": "DATASET",
+              "itemId": "new_customers_scored",
+              "partitionsSpec": ""
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "build_2_true_d_new_customers_scored_d_Metrics",
+        "type": "build_flowitem",
+        "name": "output prediction",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "new_customers_scored",
+              "partitionsSpec": ""
+            },
+            {
+              "type": "DATASET",
+              "itemId": "Metrics",
+              "partitionsSpec": ""
+            }
+          ],
+          "jobType": "RECURSIVE_FORCED_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "check_false_d_Metrics",
+        "type": "check_dataset",
+        "name": "Evaluate my model",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "checks": [
+            {
+              "type": "DATASET",
+              "itemId": "Metrics",
+              "partitionsSpec": ""
+            }
+          ],
+          "warningsAsErrors": false,
+          "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "refresh_chart_cache_DTp3MvZ",
+        "type": "refresh_chart_cache",
+        "name": "dashboard",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "force": false,
+          "dashboards": [
+            {
+              "smartName": "DTp3MvZ",
+              "name": "Insights and value prediction dashboard"
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
