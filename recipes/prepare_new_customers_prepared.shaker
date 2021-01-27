@@ -149,6 +149,14 @@
           {
             "from": "ip",
             "to": "join_ip"
+          },
+          {
+            "from": "pages_visited",
+            "to": "join_pages_visited"
+          },
+          {
+            "from": "campain",
+            "to": "join_campain"
           }
         ]
       },
