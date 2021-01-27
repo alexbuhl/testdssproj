@@ -87,13 +87,15 @@
     }
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763225722
+    "lastModifiedOn": 1611763484993
   },
-  "tags": [],
+  "tags": [
+    "Scoring pipeline"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []

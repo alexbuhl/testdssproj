@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611762866937
+    "lastModifiedOn": 1611763484985
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1611762866886
   },
-  "tags": [],
+  "tags": [
+    "Scoring pipeline"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/new_customers_joined",

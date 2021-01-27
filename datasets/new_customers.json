@@ -1,79 +1,112 @@
 {
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
   "checklists": {
     "checklists": []
-  }, 
+  },
   "customMeta": {
     "kv": {}
-  }, 
+  },
   "flowOptions": {
-    "crossProjectBuildBehavior": "DEFAULT", 
-    "rebuildBehavior": "NORMAL"
-  }, 
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
   "formatParams": {
-    "arrayMapFormat": "json", 
-    "charset": "utf8", 
-    "compress": "", 
-    "dateSerializationFormat": "ISO", 
-    "escapeChar": "\\", 
+    "style": "excel",
+    "charset": "utf8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
     "hiveSeparators": [
-      "\u0002", 
-      "\u0003", 
-      "\u0004", 
-      "\u0005", 
-      "\u0006", 
-      "\u0007", 
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
       "\b"
-    ], 
-    "normalizeDoubles": false, 
-    "parseHeaderRow": true, 
-    "probableNumberOfRecords": 4, 
-    "quoteChar": "\"", 
-    "separator": ",", 
-    "skipRowsAfterHeader": 0, 
-    "skipRowsBeforeHeader": 0, 
-    "style": "excel"
-  }, 
-  "formatType": "csv", 
-  "managed": false, 
-  "metrics": {
-    "probes": []
-  }, 
-  "params": {}, 
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 4,
+    "normalizeBooleans": false,
+    "normalizeDoubles": false,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
   "partitioning": {
-    "dimensions": [], 
-    "ignoreNonMatchingFile": false
-  }, 
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1611763484961
+  },
+  "tags": [
+    "creator_admin",
+    "Scoring pipeline"
+  ],
+  "params": {
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
   "schema": {
     "columns": [
       {
-        "maxLength": -1, 
-        "name": "customer_id", 
-        "timestampNoTzAsDate": false, 
+        "name": "customer_id",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "birth", 
-        "timestampNoTzAsDate": false, 
+        "name": "birth",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "price_first_item_purchased", 
-        "timestampNoTzAsDate": false, 
+        "name": "price_first_item_purchased",
         "type": "string"
-      }, 
+      },
       {
-        "maxLength": -1, 
-        "name": "gender", 
-        "timestampNoTzAsDate": false, 
+        "name": "gender",
         "type": "string"
       }
-    ], 
-    "userModified": false
-  }, 
-  "tags": [
-    "creator_admin"
-  ], 
-  "type": "UploadedFiles"
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": []
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
 }
