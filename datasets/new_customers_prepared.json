@@ -59,14 +59,13 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763485000
+    "lastModifiedOn": 1611763520564
   },
   "tags": [
-    "creator_admin",
     "Scoring pipeline"
   ],
   "params": {
