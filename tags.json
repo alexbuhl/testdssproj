@@ -6,6 +6,9 @@
     "Training pipeline": {
       "color": "#5363f5"
     },
+    "Evaluation": {
+      "color": "#def026"
+    },
     "Scoring pipeline": {
       "color": "#22e665"
     },
@@ -15,13 +18,14 @@
     "SAMPLE_PROJECT": {
       "color": "#1ac2ab"
     },
+    "Score new data": {
+      "color": "#1ac2ab"
+    },
     "creator:admin": {
       "color": "#28aadd"
     },
     "creator_admin": {
       "color": "#1ac2ab"
-    },
-    "Evaluation": {},
-    "Score new data": {}
+    }
   }
 }
