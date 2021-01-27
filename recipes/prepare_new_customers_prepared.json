@@ -18,6 +18,9 @@
             },
             "country_gdp": {
               "repartition": 10
+            },
+            "new_customers_joined": {
+              "repartition": 10
             }
           }
         },
@@ -67,10 +70,6 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_new_visitors",
-          "deps": []
-        },
-        {
           "ref": "country_gdp",
           "deps": []
         }
@@ -88,11 +87,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611762898183
+    "lastModifiedOn": 1611762958821
   },
   "tags": [],
   "customFields": {},

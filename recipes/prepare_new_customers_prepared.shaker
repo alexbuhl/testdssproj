@@ -98,35 +98,9 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "MemoryEquiJoiner",
-      "params": {
-        "rightCol": "customer_id",
-        "forceRawLevenshteinEngine": false,
-        "copyPrefix": "join_",
-        "sortAlphabetically": false,
-        "language": "english",
-        "leftCol": "customer_id",
-        "copyColumns": [
-          "ip",
-          "pages_visited",
-          "campain"
-        ],
-        "normalize": false,
-        "maxLevenshtein": 1,
-        "clearStopWords": false,
-        "fuzzy": false,
-        "rightInput": "web_new_visitors",
-        "stem": false
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "GeoIPResolver",
       "params": {
-        "inCol": "join_ip",
+        "inCol": "ip",
         "extract_country": true,
         "extract_countrycode3": false,
         "extract_city": false,
@@ -173,7 +147,20 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "pages_visited": 113,
+    "join_pages_visited": 150,
+    "join_campain": 105,
+    "gender": 100,
+    "join_ip": 120,
+    "campain": 100,
+    "price_first_item_purchased": 210,
+    "ip": 120,
+    "join_GDP_cap": 105,
+    "customer_id": 127,
+    "age": 100,
+    "join_ip_country": 141
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
