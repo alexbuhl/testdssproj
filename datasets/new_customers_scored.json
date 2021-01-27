@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1486142170721
+    "lastModifiedOn": 1611763553831
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,9 +72,7 @@
     },
     "lastModifiedOn": 1486142170726
   },
-  "tags": [
-    "creator_admin"
-  ],
+  "tags": [],
   "params": {
     "connection": "filesystem_managed",
     "path": "/CUSTOMER_LIFETIME_VALUE.new_customers_scored",
@@ -129,7 +127,7 @@
         "type": "float"
       }
     ],
-    "userModified": false
+    "userModified": true
   },
   "metrics": {
     "probes": []
