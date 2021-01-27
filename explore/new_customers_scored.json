@@ -5,6 +5,7 @@
     "columnsSelection": {
       "mode": "ALL"
     },
+    "columnWidthsByName": {},
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -15,6 +16,7 @@
     "explorationSampling": {
       "selection": {
         "maxStoredBytes": -1,
+        "timeout": -1,
         "filter": {
           "distinct": false,
           "enabled": false
@@ -218,7 +220,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAABlElEQVRoge3RMUsDMRjG8cyK4ODueKcEHPxQBRfHdhELIngdBKEcKV1uclCsVUSpd/Yd6yc4EJE6touddFAwDpLDXpM2uVbTnPnDu78/HoRsNlvWqoU2VAttWC1eAd1dSk73XzOPEh8o8eF4++aCB06ujBZ0/zpVseMCw7IbCzZ58dhxISvYODTDxo4L8dp6lAVsDDp2HG8InFpZBWwEOo2NHRdozQ9zCeZh0yvXt8KmCniu0TJgSnygLJPBOMCAAwybdXwrRIsyEc3A7KSxkmjdvpHS4J/oiVgJtG7fSDwwDjC8nJ48S4Pf3z6E6J3FDd3GJBEWB1h+XZNWtmALtmBhjU4PRKfbmcSDkq7XJt1KPsFHj3st0q0A73IJFmFzC0ZoNmhjsAhZsDJ6HHYuwbWH8ooQG5a+LyO2cd+v6PZxmwgWnHHrsrJgjQYjNIz+jEp3MuDXaP/aSCxLZd1xK+t2SEeevAMVLA981uld6nYoRVvFpgp4EB02jVw3nerK5zBY1v3z1MmCdf/5K/0LpM32d30Bd/nOI278CW4AAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAACr0lEQVRoQ+3YP2gTURwH8N8vVWptraJDC1JUUHuRrhUyaaF2cJFWEV0UBw1SER0KOtUsjamLIEq6OThJ/2xSGiEdxcWhkAqKcRCkCJKqBEPFk1/0QvK8e/fu3u+FkOSmDne//j7v+3svuSC02IUt5oU2uNkTr1vCdvpJ9vEbC34ilB7tLnZ+3HGxZm0x8X2kHottFGyn02cAft9yIASm68GeIojgCjYSmcHpzYwpvDFwbtDKRm/frOlbCfzvCVOJs4PXLWufbcM89S2CF98dyH/+0XVImnDNEnWMY6JQ4EybFZw7Gp0EtM9VN+iWsjqYKkWSmNhc4ULzggetrNiYPhiAc7zZwLRnvVKoRtM+Dpbw36pcaBawDEvNHrl65du2nl299HdYMBeaBTz0dCj7PPlLus3KKcevn3S96V7vqsoe5UhZG0zY6mbd4IczK8PbBwa6pajCpyI8PPbaD66LZgc7DTvw6Nt191S9ZD5pNyyYPIRuKrA4zmJoa5fXgqXrFDCYstZIt8FCxO2E/Y7gVh3ppVcb0s/liVh/6Hdn9j1848SlSo7xg1OhDq2GBafzs57fn0ndfOAPqWeAuN9ra5oA2wAbZ2P9F1SPA/E+rZGmYtwpmxzn8gtI2JVynvMDBxltPyzV0jmwmMCpZQDslC1c/P1XgNGk9ABTwQLg1kSsb0wnJO2E/ca6jK2+RPjLu6tLPZUfNqUW3XRZEqYic/nZlA1wXOz2P6wHp4Q7Sy+6r0mnBAFz47G+SZ102cBeKauC6Xm/lDnSZQWL6CBYPzAXlh3soINinTF1S5kTawRMRe3MHek3MK99KIK5scbAHGgTWKNgJ8WgaeOp+6HfhFROcJbPYZV/VE59eXovdJQWau7fwvN4OvlFtYbufXUF6zbL8XwbzLGKjVyj5RL+A2iwFDjhs7iQAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -484,6 +486,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
