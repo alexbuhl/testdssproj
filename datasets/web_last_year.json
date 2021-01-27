@@ -58,13 +58,15 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763541589
+    "lastModifiedOn": 1611763609580
   },
-  "tags": [],
+  "tags": [
+    "Training pipeline"
+  ],
   "params": {
     "notReadyIfEmpty": false,
     "filesSelectionRules": {

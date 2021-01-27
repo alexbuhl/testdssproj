@@ -58,14 +58,15 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763504969
+    "lastModifiedOn": 1611763609590
   },
   "tags": [
-    "Scoring pipeline"
+    "Scoring pipeline",
+    "Training pipeline"
   ],
   "params": {
     "notReadyIfEmpty": false,
