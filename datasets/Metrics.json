@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763152996
+    "lastModifiedOn": 1611763706998
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1611763150550
   },
-  "tags": [],
+  "tags": [
+    "Evaluation"
+  ],
   "params": {
     "connection": "filesystem_managed",
     "path": "${projectKey}/Metrics",
