@@ -5,11 +5,11 @@
   "name": "Score new customers",
   "active": false,
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611767268997
+    "lastModifiedOn": 1611774528383
   },
   "checklists": {
     "checklists": []
