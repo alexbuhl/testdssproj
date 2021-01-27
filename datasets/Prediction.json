@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763144416
+    "lastModifiedOn": 1611763152987
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,68 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "customer_id",
+        "type": "string"
+      },
+      {
+        "name": "age",
+        "type": "bigint"
+      },
+      {
+        "name": "price_first_item_purchased",
+        "type": "double"
+      },
+      {
+        "name": "gender",
+        "type": "string"
+      },
+      {
+        "name": "revenue",
+        "type": "bigint"
+      },
+      {
+        "name": "join_ip",
+        "type": "string"
+      },
+      {
+        "name": "join_ip_country",
+        "type": "string"
+      },
+      {
+        "name": "join_pages_visited",
+        "type": "double"
+      },
+      {
+        "name": "join_campain",
+        "type": "boolean"
+      },
+      {
+        "name": "join_GDP_cap",
+        "type": "bigint"
+      },
+      {
+        "name": "prediction",
+        "type": "float"
+      },
+      {
+        "name": "error",
+        "type": "double"
+      },
+      {
+        "name": "error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "abs_error_decile",
+        "type": "smallint"
+      },
+      {
+        "name": "relative_error",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
