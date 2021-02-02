@@ -30,7 +30,7 @@ datasetSelector.onchange = function(event) {
 }
 
 function download_dataset(dataset_name) {
-    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json?formatParams=?columns=mae?filter=mae>12';
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json?filter=mae>12';
     dataikuREST(path, function(res) {
         console.log(res);
     })
