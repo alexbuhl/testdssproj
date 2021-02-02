@@ -67,9 +67,7 @@
           "columnType": "NUMERICAL",
           "currentMode": "ALPHANUM",
           "sort": "count",
-          "selectedValues": {
-            "16.580512590928336": true
-          }
+          "selectedValues": {}
         },
         "alphanumFilter": {
           "type": "alphanum",
