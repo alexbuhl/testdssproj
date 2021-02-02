@@ -35,7 +35,7 @@ function download_dataset(dataset_name) {
         filter : "mae < 12"
     },
     function(dataFrame) {
-        console.log(dataFrame);
+        console.log(dataFrame.getNBRows());
     })
 }
 
