@@ -55,7 +55,43 @@
       "autoRefresh": true
     },
     "globalSearchQuery": "",
-    "explorationFilters": [],
+    "explorationFilters": [
+      {
+        "column": "date",
+        "type": "columnFilter",
+        "currentMode": "FACET",
+        "active": true,
+        "facet": {
+          "type": "facet",
+          "column": "date",
+          "columnType": "DATE",
+          "currentMode": "DATE",
+          "sort": "count",
+          "minValue": 1611972441106,
+          "selectedValues": {},
+          "dateFilterType": "RANGE"
+        },
+        "alphanumFilter": {
+          "type": "alphanum",
+          "column": "date",
+          "values": [],
+          "params": {
+            "mode": "full_string",
+            "normalization": "exact"
+          }
+        },
+        "validityFilter": {
+          "type": "validity",
+          "column": "date",
+          "params": {
+            "type": "Date",
+            "ok": true,
+            "nok": true,
+            "empty": true
+          }
+        }
+      }
+    ],
     "previewMode": "ALL_ROWS"
   },
   "charts": []
