@@ -43,6 +43,7 @@ function dataikuREST_for_dl(path, callback) {
         headers: {
             'Authorization': 'Basic ' + btoa(dataiku.defaultAPIKey + ':' + '')
         },
+        method: "POST"
         body: JSON.stringify({'format': 'json', 'filter' : 'mae>12'}),
     })
         .then(response => {
