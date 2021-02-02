@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "PioXXS4",
+    "id": "KiQ8ce06rtcvaq4q",
+    "key": "8nUcTAj7qlj9auABIrOD6BjY2CKwRzZa",
+    "label": "Key for Web app jswebapp(PioXXS4)",
+    "createdOn": 1612277225999
+  }
+]
