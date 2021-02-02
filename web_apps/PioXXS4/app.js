@@ -30,7 +30,7 @@ datasetSelector.onchange = function(event) {
 }
 
 function download_dataset(dataset_name) {
-    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json?formatParams=?columns=date,mycol2?partitions=2015-07-07?filter=date > 2021-02-01';
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json?formatParams=?columns=date?filter=date > 2021-02-01';
     dataikuREST(path, function(res) {
         console.log(res);
     })
