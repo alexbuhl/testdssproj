@@ -32,7 +32,7 @@ datasetSelector.onchange = function(event) {
 function download_dataset(dataset_name) {
     let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json&filter=date>2021-01-01';
     dataiku.fetch(dataset_name, {
-        filter : "date > '2021-01-01' && mae < 12"
+        filter : "date > '2021-01-01'"
     },
     function(dataFrame) {
         console.log(dataFrame.getRows());
