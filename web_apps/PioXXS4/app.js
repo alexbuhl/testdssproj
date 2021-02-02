@@ -16,6 +16,7 @@ let datasetSelector = document.getElementById('datasets-list');
 datasetSelector.onchange = function(event) {
     let datasetName = event.target.value;
     let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+datasetName+'/schema';
+    download_dataset(datasetName)
     dataikuREST(path, function(schema) {
         console.warn(schema);
         if (schema.columns.length > 0) {
@@ -25,6 +26,13 @@ datasetSelector.onchange = function(event) {
         } else {
             displayMessage("This dataset has no columns")
         }
+    })
+}
+
+function download_dataset(dataset_name) {
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json?formatParams=?columns=date,mycol2?partitions=2015-07-07?filter=date > 2021-02-01';
+    dataikuREST(path, function(res) {
+        console.log(res);
     })
 }
 
