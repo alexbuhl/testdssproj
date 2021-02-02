@@ -39,26 +39,6 @@ function download_dataset(dataset_name) {
     })
 }
 
-function dataikuREST_for_dl(path, callback) {
-    let url = '/public/api' + path;
-    // We use fetch API (https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch)
-    fetch(url, {
-        headers: {
-            'Authorization': 'Basic ' + btoa(dataiku.defaultAPIKey + ':' + '')
-        },
-        body: JSON.stringify({'format': 'json', 'filter' : 'mae>12'}),
-    })
-        .then(response => {
-            if (response.ok) {
-                response.json().then(callback);
-            } else {
-                response.json().then(
-                    err => displayMessage(err.message, 'error-message')
-                );
-            }
-        });
-}
-
 // Most of the Dataiku Rest API is not wrapped in JavaScript
 // Check the documentation: https://doc.dataiku.com/dss/api/7.0/rest (replace 7.0 by the corresponding DSS version)
 function dataikuREST(path, callback) {
