@@ -30,8 +30,7 @@ datasetSelector.onchange = function(event) {
 }
 
 function download_dataset(dataset_name) {
-    let to_filter = parseInt((new Date('2012.08.10').getTime() / 1000).toFixed(0))
-    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json&filter=date>'+to_filter;
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json&filter=date>2021-01-01T14:09:08.124997Z';
     dataikuREST(path, function(res) {
         console.log(res);
     })
