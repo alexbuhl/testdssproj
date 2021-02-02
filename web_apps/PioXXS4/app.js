@@ -35,7 +35,7 @@ function download_dataset(dataset_name) {
         filter : "date > '2021-01-01'"
     },
     function(dataFrame) {
-        console.log(dataFrame.getRows());
+        console.log(dataFrame);
     })
 }
 
