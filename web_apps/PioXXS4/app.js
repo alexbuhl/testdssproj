@@ -30,8 +30,8 @@ datasetSelector.onchange = function(event) {
 }
 
 function download_dataset(dataset_name) {
-    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data';
-    dataikuREST_for_dl(path, function(res) {
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?filter=mae>12';
+    dataikuREST(path, function(res) {
         console.log(res);
     })
 }
@@ -43,7 +43,6 @@ function dataikuREST_for_dl(path, callback) {
         headers: {
             'Authorization': 'Basic ' + btoa(dataiku.defaultAPIKey + ':' + '')
         },
-        method: "POST",
         body: JSON.stringify({'format': 'json', 'filter' : 'mae>12'}),
     })
         .then(response => {
