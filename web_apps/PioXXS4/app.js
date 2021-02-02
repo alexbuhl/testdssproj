@@ -15,7 +15,7 @@ function displayMessage(messageText, messageClassname) {
 let datasetSelector = document.getElementById('datasets-list');
 datasetSelector.onchange = function(event) {
     let datasetName = event.target.value;
-    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+datasetName+'/schema';
+    let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+datasetName+'/dataformat=json?formatParams=?columns=mycol1,mycol2?partitions=2015-07-07?filter=mycol1 > 0 && mycol3 > 0?sampling=
     dataikuREST(path, function(schema) {
         console.warn(schema);
         if (schema.columns.length > 0) {
