@@ -38,7 +38,7 @@ function dataikuREST(path, callback) {
         headers: {
             'Authorization': 'Basic ' + btoa(dataiku.defaultAPIKey + ':' + '')
         },
-        method: "POST"
+        method: "GET"
     })
         .then(response => {
             if (response.ok) {
