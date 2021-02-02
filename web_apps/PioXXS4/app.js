@@ -31,8 +31,8 @@ datasetSelector.onchange = function(event) {
 
 function download_dataset(dataset_name) {
     let path = '/projects/'+dataiku.defaultProjectKey+'/datasets/'+dataset_name+'/data?format=json&filter=date>2021-01-01';
-    dataikuREST(path, function(res) {
-        console.log(res);
+    dataiku.fetch(dataset_name, {
+        filter : "mae < 12"
     })
 }
 
