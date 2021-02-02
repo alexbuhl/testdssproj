@@ -40,11 +40,11 @@
   "name": "jswebapp",
   "apiKey": "8nUcTAj7qlj9auABIrOD6BjY2CKwRzZa",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612277801738
+    "lastModifiedOn": 1612277820700
   },
   "creationTag": {
     "versionNumber": 0,
