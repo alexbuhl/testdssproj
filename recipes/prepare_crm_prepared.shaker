@@ -115,7 +115,7 @@
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": false,
-        "rightInput": "web_last_year",
+        "rightInput": "web_last_year_copy",
         "stem": false
       },
       "alwaysShowComment": false
@@ -173,7 +173,18 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "revenue": 100,
+    "join_pages_visited": 150,
+    "join_campain": 105,
+    "gender": 100,
+    "join_ip": 120,
+    "price_first_item_purchased": 210,
+    "join_GDP_cap": 105,
+    "customer_id": 127,
+    "age": 100,
+    "join_ip_country": 141
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {

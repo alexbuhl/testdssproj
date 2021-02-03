@@ -21,6 +21,9 @@
             },
             "crm_last_year_joined": {
               "repartition": 10
+            },
+            "crm_last_year_copy": {
+              "repartition": 10
             }
           }
         },
@@ -70,7 +73,7 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_last_year",
+          "ref": "web_last_year_copy",
           "deps": []
         },
         {
@@ -91,11 +94,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612368072684
+    "lastModifiedOn": 1612368101088
   },
   "tags": [
     "Training pipeline"
