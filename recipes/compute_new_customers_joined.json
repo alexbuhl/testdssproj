@@ -15,7 +15,7 @@
           "deps": []
         },
         {
-          "ref": "web_new_visitors_copy",
+          "ref": "web_new_visitors",
           "deps": []
         }
       ]
@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612367663395
+    "lastModifiedOn": 1612367694522
   },
   "creationTag": {
     "versionNumber": 0,
