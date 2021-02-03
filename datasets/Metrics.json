@@ -1,5 +1,5 @@
 {
-  "type": "Filesystem",
+  "type": "PostgreSQL",
   "managed": true,
   "formatType": "csv",
   "checklists": {
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611767396819
+    "lastModifiedOn": 1612367802329
   },
   "creationTag": {
     "versionNumber": 0,
@@ -76,15 +76,18 @@
     "Evaluation"
   ],
   "params": {
-    "connection": "filesystem_managed",
-    "path": "${projectKey}/Metrics",
+    "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
+    "connection": "MyPostgreSQL",
     "notReadyIfEmpty": false,
-    "filesSelectionRules": {
-      "mode": "ALL",
-      "excludeRules": [],
-      "includeRules": [],
-      "explicitFiles": []
-    }
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${projectKey}_metrics",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
   },
   "schema": {
     "columns": [
