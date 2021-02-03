@@ -1,4 +1,5 @@
 {
+  "name": "myapi",
   "endpoints": [
     {
       "modelRef": "8A6fb5O8",
