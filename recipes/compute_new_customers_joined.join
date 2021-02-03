@@ -100,22 +100,10 @@
   },
   "virtualInputs": [
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "index": 0,
-      "computedColumns": []
+      "index": 0
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "autoSelectColumns": false,
-      "index": 1,
-      "computedColumns": []
+      "index": 1
     }
   ],
   "computedColumns": [],
