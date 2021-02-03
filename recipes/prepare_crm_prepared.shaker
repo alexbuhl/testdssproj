@@ -115,7 +115,7 @@
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": false,
-        "rightInput": "web_last_year_copy",
+        "rightInput": "web_last_year",
         "stem": false
       },
       "alwaysShowComment": false
