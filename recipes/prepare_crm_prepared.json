@@ -100,11 +100,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612467999097
+    "lastModifiedOn": 1612468002948
   },
   "tags": [
     "Training pipeline"
