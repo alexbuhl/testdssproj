@@ -73,7 +73,7 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_last_year",
+          "ref": "web_last_year2",
           "deps": []
         },
         {
@@ -94,11 +94,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612467418328
+    "lastModifiedOn": 1612467558201
   },
   "tags": [
     "Training pipeline"
