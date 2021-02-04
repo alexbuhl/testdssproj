@@ -24,6 +24,12 @@
             },
             "crm_last_year_copy": {
               "repartition": 10
+            },
+            "crm_last_year2": {
+              "repartition": 10
+            },
+            "web_last_year2": {
+              "repartition": 10
             }
           }
         },
@@ -65,7 +71,7 @@
     "main": {
       "items": [
         {
-          "ref": "crm_last_year2",
+          "ref": "crm_last_year",
           "deps": []
         }
       ]
@@ -73,7 +79,7 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_last_year2",
+          "ref": "web_last_year",
           "deps": []
         },
         {
@@ -94,11 +100,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612467558201
+    "lastModifiedOn": 1612467626915
   },
   "tags": [
     "Training pipeline"
