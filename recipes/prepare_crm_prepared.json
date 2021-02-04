@@ -71,7 +71,7 @@
     "main": {
       "items": [
         {
-          "ref": "crm_last_year2",
+          "ref": "crm_last_year",
           "deps": []
         }
       ]
@@ -100,11 +100,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612468079385
+    "lastModifiedOn": 1612468128182
   },
   "tags": [
     "Training pipeline"
