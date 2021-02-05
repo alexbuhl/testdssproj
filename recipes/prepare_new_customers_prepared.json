@@ -70,7 +70,7 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "country_gdp",
+          "ref": "weather_data_prepared",
           "deps": []
         }
       ]
@@ -87,11 +87,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611763484993
+    "lastModifiedOn": 1612552980458
   },
   "tags": [
     "Scoring pipeline"

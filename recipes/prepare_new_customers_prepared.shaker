@@ -128,13 +128,19 @@
         "language": "english",
         "leftCol": "join_ip_country",
         "copyColumns": [
-          "GDP_cap"
+          "GDP_cap",
+          "weather.0.main",
+          "humidity",
+          "pressure",
+          "temp",
+          "uvi",
+          "visibility"
         ],
         "normalize": true,
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": true,
-        "rightInput": "country_gdp",
+        "rightInput": "weather_data_prepared",
         "stem": false
       },
       "alwaysShowComment": false
@@ -171,16 +177,23 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
-    "pages_visited": 113,
     "join_pages_visited": 150,
     "join_campain": 105,
     "gender": 100,
     "join_ip": 120,
+    "join_temp": 100,
     "campain": 100,
     "price_first_item_purchased": 210,
     "ip": 120,
+    "join_weather.0.main": 158,
+    "join_uvi": 100,
+    "join_pressure": 113,
+    "join_visibility": 128,
+    "pages_visited": 113,
     "join_GDP_cap": 105,
+    "join_humidity": 113,
     "customer_id": 127,
+    "join_": 100,
     "age": 100,
     "join_ip_country": 141
   },
