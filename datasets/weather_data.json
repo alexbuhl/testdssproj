@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612543201287
+    "lastModifiedOn": 1612552621533
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,133 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Country",
+        "type": "string"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "GDP_cap",
+        "type": "bigint"
+      },
+      {
+        "name": "clouds",
+        "type": "double"
+      },
+      {
+        "name": "data_type",
+        "type": "string"
+      },
+      {
+        "name": "dew_point",
+        "type": "double"
+      },
+      {
+        "name": "dt",
+        "type": "string"
+      },
+      {
+        "name": "error",
+        "type": "string"
+      },
+      {
+        "name": "feels_like",
+        "type": "double"
+      },
+      {
+        "name": "granularity",
+        "type": "string"
+      },
+      {
+        "name": "humidity",
+        "type": "double"
+      },
+      {
+        "name": "output_geopoint",
+        "type": "string"
+      },
+      {
+        "name": "pressure",
+        "type": "double"
+      },
+      {
+        "name": "rain.1h",
+        "type": "string"
+      },
+      {
+        "name": "sunrise",
+        "type": "string"
+      },
+      {
+        "name": "sunset",
+        "type": "string"
+      },
+      {
+        "name": "temp",
+        "type": "double"
+      },
+      {
+        "name": "uvi",
+        "type": "double"
+      },
+      {
+        "name": "visibility",
+        "type": "double"
+      },
+      {
+        "name": "weather.0.description",
+        "type": "string"
+      },
+      {
+        "name": "weather.0.icon",
+        "type": "string"
+      },
+      {
+        "name": "weather.0.id",
+        "type": "string"
+      },
+      {
+        "name": "weather.0.main",
+        "type": "string"
+      },
+      {
+        "name": "weather.1.description",
+        "type": "string"
+      },
+      {
+        "name": "weather.1.icon",
+        "type": "string"
+      },
+      {
+        "name": "weather.1.id",
+        "type": "string"
+      },
+      {
+        "name": "weather.1.main",
+        "type": "string"
+      },
+      {
+        "name": "wind_deg",
+        "type": "double"
+      },
+      {
+        "name": "wind_gust",
+        "type": "double"
+      },
+      {
+        "name": "wind_speed",
+        "type": "double"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
