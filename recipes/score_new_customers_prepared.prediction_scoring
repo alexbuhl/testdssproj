@@ -1,17 +1,37 @@
 {
-    "outputProbabilities": true, 
-    "keptInputColumns": [], 
-    "overrideModelSpecifiedThreshold": false, 
-    "backendType": "PY_MEMORY", 
-    "filterInputColumns": false, 
-    "forceOriginalEngine": false, 
-    "sparkParams": {
-        "pipelineAllowStart": null, 
-        "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK", 
-        "sparkConf": null, 
-        "sparkRepartitionNonHDFS": 1, 
-        "pipelineAllowMerge": null
-    }, 
-    "forcedClassifierThreshold": 0, 
-    "outputProbaPercentiles": false
+  "keptInputColumns": [
+    "customer_id",
+    "age",
+    "price_first_item_purchased",
+    "gender",
+    "join_ip",
+    "join_ip_country",
+    "join_pages_visited",
+    "join_campain",
+    "join_GDP_cap",
+    "join_weather.0.main",
+    "join_humidity",
+    "join_pressure",
+    "join_temp",
+    "join_uvi",
+    "join_visibility"
+  ],
+  "backendType": "PY_MEMORY",
+  "filterInputColumns": false,
+  "outputProbabilities": true,
+  "outputProbaPercentiles": false,
+  "forceOriginalEngine": true,
+  "individualExplanationParams": {
+    "subChunkSize": 5000,
+    "method": "ICE",
+    "shapleyBackgroundSize": 100,
+    "nbExplanations": 3
+  },
+  "forcedClassifierThreshold": 0,
+  "overrideModelSpecifiedThreshold": false,
+  "outputExplanations": true,
+  "sparkParams": {
+    "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+    "sparkRepartitionNonHDFS": 1
+  }
 }
