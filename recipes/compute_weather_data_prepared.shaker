@@ -26,8 +26,48 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "rain.1h",
+          "weather.1.id",
+          "weather.1.main",
+          "wind_deg",
+          "wind_gust",
+          "wind_speed",
+          "weather.1.icon",
+          "weather.1.description",
+          "weather.0.id",
+          "weather.0.icon",
+          "weather.0.description",
+          "sunset",
+          "sunrise",
+          "output_geopoint",
+          "granularity",
+          "feels_like",
+          "error",
+          "dt",
+          "dew_point",
+          "data_type",
+          "clouds",
+          "longitude",
+          "latitude"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +75,39 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "sunrise": 155,
+    "latitude": 148,
+    "weather.0.id": 105,
+    "clouds": 100,
+    "error": 100,
+    "wind_gust": 100,
+    "dt": 155,
+    "humidity": 100,
+    "wind_speed": 100,
+    "weather.1.icon": 120,
+    "output_geopoint": 300,
+    "GDP_cap": 100,
+    "weather.1.main": 120,
+    "longitude": 148,
+    "temp": 100,
+    "visibility": 100,
+    "weather.0.icon": 120,
+    "weather.0.main": 120,
+    "uvi": 100,
+    "weather.0.description": 173,
+    "weather.1.id": 105,
+    "pressure": 106,
+    "feels_like": 100,
+    "wind_deg": 100,
+    "dew_point": 100,
+    "weather.1.description": 173,
+    "granularity": 100,
+    "rain.1h": 100,
+    "sunset": 155,
+    "data_type": 113,
+    "Country": 155
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
