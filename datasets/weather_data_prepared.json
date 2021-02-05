@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612552674131
+    "lastModifiedOn": 1612552855660
   },
   "creationTag": {
     "versionNumber": 0,
@@ -64,53 +64,8 @@
         "comment": ""
       },
       {
-        "name": "latitude",
-        "type": "double",
-        "comment": ""
-      },
-      {
-        "name": "longitude",
-        "type": "double",
-        "comment": ""
-      },
-      {
         "name": "GDP_cap",
         "type": "bigint",
-        "comment": ""
-      },
-      {
-        "name": "clouds",
-        "type": "double",
-        "comment": "Cloudiness (in %)"
-      },
-      {
-        "name": "data_type",
-        "type": "string",
-        "comment": ""
-      },
-      {
-        "name": "dew_point",
-        "type": "double",
-        "comment": "Temperature below which dew can form (in °K)"
-      },
-      {
-        "name": "dt",
-        "type": "date",
-        "comment": "Weather datetime (UTC)"
-      },
-      {
-        "name": "error",
-        "type": "string",
-        "comment": "Error message if any"
-      },
-      {
-        "name": "feels_like",
-        "type": "double",
-        "comment": "Temperature according to human perception (in °K)"
-      },
-      {
-        "name": "granularity",
-        "type": "string",
         "comment": ""
       },
       {
@@ -119,29 +74,9 @@
         "comment": "Humidity (in %)"
       },
       {
-        "name": "output_geopoint",
-        "type": "string",
-        "comment": "Desired location (POINT(lon, lat))"
-      },
-      {
         "name": "pressure",
         "type": "double",
         "comment": "Atmospheric pressure on the sea level (in unit_system[pressure])"
-      },
-      {
-        "name": "rain.1h",
-        "type": "double",
-        "comment": "Rain volume for last hour (in mm)"
-      },
-      {
-        "name": "sunrise",
-        "type": "date",
-        "comment": "Sunrise time (UTC)"
-      },
-      {
-        "name": "sunset",
-        "type": "date",
-        "comment": "Sunset time (UTC)"
       },
       {
         "name": "temp",
@@ -159,59 +94,9 @@
         "comment": "Average visibility (in meters)"
       },
       {
-        "name": "weather.0.description",
-        "type": "string",
-        "comment": "Weather condition within the group (in English)"
-      },
-      {
-        "name": "weather.0.icon",
-        "type": "string",
-        "comment": "Weather icon id"
-      },
-      {
-        "name": "weather.0.id",
-        "type": "bigint",
-        "comment": "Weather condition id"
-      },
-      {
         "name": "weather.0.main",
         "type": "string",
         "comment": "Group of weather parameters"
-      },
-      {
-        "name": "weather.1.description",
-        "type": "string",
-        "comment": "Weather condition within the group (in English)"
-      },
-      {
-        "name": "weather.1.icon",
-        "type": "string",
-        "comment": "Weather icon id"
-      },
-      {
-        "name": "weather.1.id",
-        "type": "bigint",
-        "comment": "Weather condition id"
-      },
-      {
-        "name": "weather.1.main",
-        "type": "string",
-        "comment": "Group of weather parameters"
-      },
-      {
-        "name": "wind_deg",
-        "type": "double",
-        "comment": "Wind direction (in degrees)"
-      },
-      {
-        "name": "wind_gust",
-        "type": "double",
-        "comment": "Wind gust (in meter/s)"
-      },
-      {
-        "name": "wind_speed",
-        "type": "double",
-        "comment": "Wind speed (in meter/s)"
       }
     ],
     "userModified": true
