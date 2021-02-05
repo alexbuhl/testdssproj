@@ -1,0 +1,300 @@
+{
+  "type": "PostgreSQL",
+  "managed": true,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1612552674131
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1612552674131
+  },
+  "tags": [],
+  "params": {
+    "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
+    "connection": "MyPostgreSQL",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "table": "${projectKey}_weather_data_prepared",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Country",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "latitude",
+        "type": "double",
+        "comment": ""
+      },
+      {
+        "name": "longitude",
+        "type": "double",
+        "comment": ""
+      },
+      {
+        "name": "GDP_cap",
+        "type": "bigint",
+        "comment": ""
+      },
+      {
+        "name": "clouds",
+        "type": "double",
+        "comment": "Cloudiness (in %)"
+      },
+      {
+        "name": "data_type",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "dew_point",
+        "type": "double",
+        "comment": "Temperature below which dew can form (in °K)"
+      },
+      {
+        "name": "dt",
+        "type": "date",
+        "comment": "Weather datetime (UTC)"
+      },
+      {
+        "name": "error",
+        "type": "string",
+        "comment": "Error message if any"
+      },
+      {
+        "name": "feels_like",
+        "type": "double",
+        "comment": "Temperature according to human perception (in °K)"
+      },
+      {
+        "name": "granularity",
+        "type": "string",
+        "comment": ""
+      },
+      {
+        "name": "humidity",
+        "type": "double",
+        "comment": "Humidity (in %)"
+      },
+      {
+        "name": "output_geopoint",
+        "type": "string",
+        "comment": "Desired location (POINT(lon, lat))"
+      },
+      {
+        "name": "pressure",
+        "type": "double",
+        "comment": "Atmospheric pressure on the sea level (in unit_system[pressure])"
+      },
+      {
+        "name": "rain.1h",
+        "type": "double",
+        "comment": "Rain volume for last hour (in mm)"
+      },
+      {
+        "name": "sunrise",
+        "type": "date",
+        "comment": "Sunrise time (UTC)"
+      },
+      {
+        "name": "sunset",
+        "type": "date",
+        "comment": "Sunset time (UTC)"
+      },
+      {
+        "name": "temp",
+        "type": "double",
+        "comment": "Temperature (in °K)"
+      },
+      {
+        "name": "uvi",
+        "type": "double",
+        "comment": "UV index"
+      },
+      {
+        "name": "visibility",
+        "type": "double",
+        "comment": "Average visibility (in meters)"
+      },
+      {
+        "name": "weather.0.description",
+        "type": "string",
+        "comment": "Weather condition within the group (in English)"
+      },
+      {
+        "name": "weather.0.icon",
+        "type": "string",
+        "comment": "Weather icon id"
+      },
+      {
+        "name": "weather.0.id",
+        "type": "bigint",
+        "comment": "Weather condition id"
+      },
+      {
+        "name": "weather.0.main",
+        "type": "string",
+        "comment": "Group of weather parameters"
+      },
+      {
+        "name": "weather.1.description",
+        "type": "string",
+        "comment": "Weather condition within the group (in English)"
+      },
+      {
+        "name": "weather.1.icon",
+        "type": "string",
+        "comment": "Weather icon id"
+      },
+      {
+        "name": "weather.1.id",
+        "type": "bigint",
+        "comment": "Weather condition id"
+      },
+      {
+        "name": "weather.1.main",
+        "type": "string",
+        "comment": "Group of weather parameters"
+      },
+      {
+        "name": "wind_deg",
+        "type": "double",
+        "comment": "Wind direction (in degrees)"
+      },
+      {
+        "name": "wind_gust",
+        "type": "double",
+        "comment": "Wind gust (in meter/s)"
+      },
+      {
+        "name": "wind_speed",
+        "type": "double",
+        "comment": "Wind speed (in meter/s)"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
+  }
+}
