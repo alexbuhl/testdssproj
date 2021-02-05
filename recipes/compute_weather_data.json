@@ -11,13 +11,8 @@
       "cache_enabled": true,
       "parse_output": true,
       "preset_config": {
-        "mode": "INLINE",
-        "inlinedConfig": {
-          "units": "imperial",
-          "lang": "en",
-          "api_key": "c53b07bb4af73b32d86f9185abb157a2"
-        },
-        "inlinedPluginConfig": {}
+        "mode": "PRESET",
+        "name": "Preset 1"
       },
       "latitude_column": "latitude",
       "longitude_column": "longitude"
@@ -52,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612543811656
+    "lastModifiedOn": 1612543829940
   },
   "creationTag": {
     "versionNumber": 0,
