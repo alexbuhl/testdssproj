@@ -3,7 +3,19 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "date_mode": "current",
+      "advanced_mode": false,
+      "units": "default",
+      "lang": "default",
+      "cache_enabled": true,
+      "parse_output": true,
+      "preset_config": {
+        "mode": "NONE"
+      },
+      "latitude_column": "latitude",
+      "longitude_column": "longitude"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -34,11 +46,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612543202450
+    "lastModifiedOn": 1612543223867
   },
   "creationTag": {
     "versionNumber": 0,
