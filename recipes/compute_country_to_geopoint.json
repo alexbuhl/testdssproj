@@ -3,7 +3,15 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "cache_enabled": true,
+      "batch_enabled": true,
+      "batch_size_bing": 50,
+      "batch_size_uscensus": 1000,
+      "column_prefix": "",
+      "address_column": "Country",
+      "provider": "arcgis"
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -34,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612542920830
+    "lastModifiedOn": 1612542930562
   },
   "creationTag": {
     "versionNumber": 0,
