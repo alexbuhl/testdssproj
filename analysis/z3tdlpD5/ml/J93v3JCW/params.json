@@ -379,7 +379,7 @@
         "generate_derivative": false,
         "numerical_handling": "REGULAR",
         "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
+        "missing_impute_with": "MEDIAN",
         "impute_constant_value": 0.0,
         "rescaling": "AVGSTD",
         "quantile_bin_nb_bins": 4,
@@ -388,7 +388,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning"
         },
@@ -928,7 +928,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "decision_tree_classification": {
       "max_depth": {
@@ -2022,7 +2022,8 @@
     "envMode": "USE_BUILTIN_MODE"
   },
   "containerSelection": {
-    "containerMode": "INHERIT"
+    "containerMode": "NONE",
+    "containerConf": "m4.4xlarge"
   },
   "sparkParams": {
     "sparkConf": {
