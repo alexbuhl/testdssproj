@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613582403504
+    "lastModifiedOn": 1613582403686
   },
   "creationTag": {
     "versionNumber": 0,
@@ -63,115 +63,143 @@
     "columns": [
       {
         "name": "Country",
-        "type": "string"
+        "type": "string",
+        "comment": ""
       },
       {
         "name": "latitude",
-        "type": "double"
+        "type": "double",
+        "comment": ""
       },
       {
         "name": "longitude",
-        "type": "double"
+        "type": "double",
+        "comment": ""
       },
       {
         "name": "GDP_cap",
-        "type": "bigint"
+        "type": "bigint",
+        "comment": ""
       },
       {
         "name": "clouds",
-        "type": "double"
+        "type": "double",
+        "comment": "Cloudiness (in %)"
       },
       {
         "name": "data_type",
-        "type": "string"
+        "type": "string",
+        "comment": ""
       },
       {
         "name": "dew_point",
-        "type": "double"
+        "type": "double",
+        "comment": "Temperature below which dew can form (in °K)"
       },
       {
         "name": "dt",
-        "type": "string"
+        "type": "string",
+        "comment": "Weather datetime (UTC)"
       },
       {
         "name": "error",
-        "type": "string"
+        "type": "string",
+        "comment": "Error message if any"
       },
       {
         "name": "feels_like",
-        "type": "double"
+        "type": "double",
+        "comment": "Temperature according to human perception (in °K)"
       },
       {
         "name": "granularity",
-        "type": "string"
+        "type": "string",
+        "comment": ""
       },
       {
         "name": "humidity",
-        "type": "double"
+        "type": "double",
+        "comment": "Humidity (in %)"
       },
       {
         "name": "output_geopoint",
-        "type": "string"
+        "type": "string",
+        "comment": "Desired location (POINT(lon, lat))"
       },
       {
         "name": "pressure",
-        "type": "double"
+        "type": "double",
+        "comment": "Atmospheric pressure on the sea level (in unit_system[pressure])"
       },
       {
         "name": "rain.1h",
-        "type": "string"
+        "type": "string",
+        "comment": "Rain volume for last hour (in mm)"
       },
       {
         "name": "snow.1h",
-        "type": "string"
+        "type": "string",
+        "comment": "Snow volume for last hours (in mm)"
       },
       {
         "name": "sunrise",
-        "type": "string"
+        "type": "string",
+        "comment": "Sunrise time (UTC)"
       },
       {
         "name": "sunset",
-        "type": "string"
+        "type": "string",
+        "comment": "Sunset time (UTC)"
       },
       {
         "name": "temp",
-        "type": "double"
+        "type": "double",
+        "comment": "Temperature (in °K)"
       },
       {
         "name": "uvi",
-        "type": "double"
+        "type": "double",
+        "comment": "UV index"
       },
       {
         "name": "visibility",
-        "type": "double"
+        "type": "double",
+        "comment": "Average visibility (in meters)"
       },
       {
         "name": "weather.0.description",
-        "type": "string"
+        "type": "string",
+        "comment": "Weather condition within the group (in English)"
       },
       {
         "name": "weather.0.icon",
-        "type": "string"
+        "type": "string",
+        "comment": "Weather icon id"
       },
       {
         "name": "weather.0.id",
-        "type": "string"
+        "type": "string",
+        "comment": "Weather condition id"
       },
       {
         "name": "weather.0.main",
-        "type": "string"
+        "type": "string",
+        "comment": "Group of weather parameters"
       },
       {
         "name": "wind_deg",
-        "type": "double"
+        "type": "double",
+        "comment": "Wind direction (in degrees)"
       },
       {
         "name": "wind_gust",
-        "type": "double"
+        "type": "double",
+        "comment": "Wind gust (in meter/s)"
       },
       {
         "name": "wind_speed",
-        "type": "double"
+        "type": "double",
+        "comment": "Wind speed (in meter/s)"
       }
     ],
     "userModified": false
