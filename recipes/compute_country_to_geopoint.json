@@ -42,11 +42,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612542930562
+    "lastModifiedOn": 1613575713345
   },
   "creationTag": {
     "versionNumber": 0,
@@ -55,7 +55,9 @@
     },
     "lastModifiedOn": 1612542920830
   },
-  "tags": [],
+  "tags": [
+    "Training pipeline"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
