@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612467577835
+    "lastModifiedOn": 1613575688918
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1612467577816
   },
-  "tags": [],
+  "tags": [
+    "Training pipeline"
+  ],
   "params": {
     "bucket": "alex-suresh-eks",
     "metastoreSynchronizationEnabled": true,
