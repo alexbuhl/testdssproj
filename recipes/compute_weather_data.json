@@ -47,11 +47,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613575713419
+    "lastModifiedOn": 1613575737598
   },
   "creationTag": {
     "versionNumber": 0,
@@ -61,7 +61,8 @@
     "lastModifiedOn": 1612543202450
   },
   "tags": [
-    "Training pipeline"
+    "Training pipeline",
+    "Scoring pipeline"
   ],
   "customFields": {},
   "checklists": {
