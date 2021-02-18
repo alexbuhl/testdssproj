@@ -280,11 +280,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 46,
+    "versionNumber": 47,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1611774029031
+    "lastModifiedOn": 1613666774309
   },
   "creationTag": {
     "versionNumber": 1,
