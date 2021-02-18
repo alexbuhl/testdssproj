@@ -87,14 +87,16 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612552980458
+    "lastModifiedOn": 1613667349286
   },
+  "shortDesc": "Parse date and compute age",
   "tags": [
-    "Scoring pipeline"
+    "Scoring pipeline",
+    "Department:sales"
   ],
   "customFields": {},
   "checklists": {
