@@ -21,6 +21,9 @@
             },
             "new_customers_joined": {
               "repartition": 10
+            },
+            "weather_data_prepared": {
+              "repartition": 10
             }
           }
         },
@@ -58,6 +61,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -86,12 +91,13 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613667349286
+    "lastModifiedOn": 1614788481438
   },
   "shortDesc": "Parse date and compute age",
   "tags": [
