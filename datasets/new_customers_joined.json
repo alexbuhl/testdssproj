@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613580333650
+    "lastModifiedOn": 1618314349258
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,7 +109,8 @@
       },
       {
         "name": "ip",
-        "type": "string"
+        "type": "string",
+        "meaning": "Date"
       },
       {
         "name": "pages_visited",
@@ -122,6 +123,7 @@
     ],
     "userModified": true
   },
+  "dkuProperties": [],
   "metrics": {
     "probes": [
       {
