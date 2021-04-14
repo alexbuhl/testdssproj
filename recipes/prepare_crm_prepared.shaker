@@ -160,7 +160,7 @@
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": true,
-        "rightInput": "country_to_geopoint_py",
+        "rightInput": "country_gdp",
         "stem": false
       },
       "alwaysShowComment": false

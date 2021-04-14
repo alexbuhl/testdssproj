@@ -91,7 +91,7 @@
           "deps": []
         },
         {
-          "ref": "country_to_geopoint_py",
+          "ref": "country_gdp",
           "deps": []
         }
       ]
@@ -109,11 +109,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401959580
+    "lastModifiedOn": 1618402201624
   },
   "tags": [
     "Training pipeline"
