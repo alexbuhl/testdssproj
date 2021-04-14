@@ -28,6 +28,7 @@
       "color": "#1ac2ab"
     },
     "Department:sales": {},
-    "recipe-editor": {}
+    "recipe-editor": {},
+    "deleted-recipe-editor": {}
   }
 }
