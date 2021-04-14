@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613666934062
+    "lastModifiedOn": 1618401485186
   },
   "creationTag": {
     "versionNumber": 0,
@@ -51,7 +51,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "DKU_CUSTOMER_LIFETIME_VALUE_web_new_visitors",
+    "table": "DKU_CUSTOMER_LIFETIME_VALUE_web_new_visitors_copy",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
@@ -79,6 +79,7 @@
     ],
     "userModified": true
   },
+  "dkuProperties": [],
   "metrics": {
     "probes": [
       {
@@ -210,10 +211,10 @@
     "checks": [
       {
         "metricId": "col_stats:MAX:pages_visited",
-        "minimum": 0.0,
-        "maximum": 10.0,
-        "softMinimum": 0.0,
-        "softMaximum": 0.0,
+        "minimum": 0,
+        "maximum": 10,
+        "softMinimum": 0,
+        "softMaximum": 0,
         "minimumEnabled": false,
         "maximumEnabled": true,
         "softMinimumEnabled": false,
