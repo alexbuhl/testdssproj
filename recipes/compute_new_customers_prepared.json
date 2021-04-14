@@ -58,6 +58,18 @@
           "deps": []
         }
       ]
+    },
+    "scriptDeps": {
+      "items": [
+        {
+          "ref": "web_last_year",
+          "deps": []
+        },
+        {
+          "ref": "country_to_geopoint_py",
+          "deps": []
+        }
+      ]
     }
   },
   "outputs": {
@@ -72,11 +84,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401789247
+    "lastModifiedOn": 1618401822024
   },
   "creationTag": {
     "versionNumber": 0,

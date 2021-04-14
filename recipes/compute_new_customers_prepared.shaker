@@ -30,7 +30,148 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [],
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "birth_parsed",
+        "formats": [
+          "MM/dd/yyyy"
+        ],
+        "columns": [
+          "birth"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateDifference",
+      "params": {
+        "output": "since_birth_parsed_days",
+        "outputUnit": "YEARS",
+        "input1": "birth_parsed",
+        "compareTo": "NOW",
+        "reverse": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "since_birth_parsed_days",
+            "to": "age"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "birth_parsed",
+          "birth"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "MemoryEquiJoiner",
+      "params": {
+        "rightCol": "customer_id",
+        "forceRawLevenshteinEngine": false,
+        "copyPrefix": "join_",
+        "sortAlphabetically": false,
+        "language": "english",
+        "leftCol": "customer_id",
+        "copyColumns": [
+          "ip",
+          "pages_visited",
+          "campain"
+        ],
+        "normalize": false,
+        "maxLevenshtein": 1,
+        "clearStopWords": false,
+        "fuzzy": false,
+        "rightInput": "web_last_year",
+        "stem": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "GeoIPResolver",
+      "params": {
+        "inCol": "join_ip",
+        "extract_country": true,
+        "extract_countrycode3": false,
+        "extract_city": false,
+        "extract_latlng": false,
+        "extract_countrycode": false,
+        "extract_postalcode": false,
+        "extract_timezone": false,
+        "outColPrefix": "join_ip_",
+        "extract_continentcode": false,
+        "extract_region": false,
+        "extract_geopoint": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "MemoryEquiJoinerFuzzy",
+      "params": {
+        "rightCol": "Country",
+        "forceRawLevenshteinEngine": false,
+        "copyPrefix": "join_",
+        "sortAlphabetically": false,
+        "language": "english",
+        "leftCol": "join_ip_country",
+        "copyColumns": [
+          "GDP_cap",
+          "weather.0.main",
+          "humidity",
+          "pressure",
+          "temp",
+          "uvi",
+          "visibility"
+        ],
+        "normalize": true,
+        "maxLevenshtein": 1,
+        "clearStopWords": false,
+        "fuzzy": true,
+        "rightInput": "country_to_geopoint_py",
+        "stem": false
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -39,13 +180,25 @@
   },
   "analysisColumnData": {},
   "columnWidthsByName": {
-    "pages_visited": 113,
+    "join_pages_visited": 150,
+    "join_campain": 105,
     "gender": 100,
+    "join_ip": 100,
+    "join_temp": 100,
     "campain": 100,
     "price_first_item_purchased": 210,
     "ip": 120,
     "birth": 100,
-    "customer_id": 127
+    "join_weather.0.main": 158,
+    "join_uvi": 100,
+    "join_pressure": 113,
+    "join_visibility": 128,
+    "pages_visited": 113,
+    "join_GDP_cap": 105,
+    "join_humidity": 113,
+    "customer_id": 127,
+    "age": 100,
+    "join_ip_country": 128
   },
   "sorting": [],
   "globalSearchQuery": "",
