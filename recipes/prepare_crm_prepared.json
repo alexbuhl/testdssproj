@@ -30,6 +30,9 @@
             },
             "web_last_year2": {
               "repartition": 10
+            },
+            "weather_data_prepared": {
+              "repartition": 10
             }
           }
         },
@@ -67,6 +70,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -83,7 +88,7 @@
           "deps": []
         },
         {
-          "ref": "weather_data_prepared",
+          "ref": "country_to_geopoint_py",
           "deps": []
         }
       ]
@@ -99,12 +104,13 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 33,
+    "versionNumber": 34,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612553025390
+    "lastModifiedOn": 1618401715109
   },
   "tags": [
     "Training pipeline"

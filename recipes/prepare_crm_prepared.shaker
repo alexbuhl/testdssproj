@@ -166,7 +166,7 @@
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": true,
-        "rightInput": "weather_data_prepared",
+        "rightInput": "country_to_geopoint_py",
         "stem": false
       },
       "alwaysShowComment": false
