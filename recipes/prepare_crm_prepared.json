@@ -109,11 +109,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 36,
+    "versionNumber": 37,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618402201624
+    "lastModifiedOn": 1618402202923
   },
   "tags": [
     "Training pipeline"
