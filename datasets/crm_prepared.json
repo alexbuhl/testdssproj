@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612553025263
+    "lastModifiedOn": 1618401714880
   },
   "creationTag": {
     "versionNumber": 0,
@@ -152,12 +152,13 @@
         "type": "double"
       },
       {
-        "name": "join_",
+        "name": "join_visibility",
         "type": "string"
       }
     ],
     "userModified": true
   },
+  "dkuProperties": [],
   "metrics": {
     "probes": []
   },
