@@ -98,49 +98,22 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "GeoIPResolver",
-      "params": {
-        "inCol": "join_ip",
-        "extract_country": true,
-        "extract_countrycode3": false,
-        "extract_city": false,
-        "extract_latlng": false,
-        "extract_countrycode": false,
-        "extract_postalcode": false,
-        "extract_timezone": false,
-        "outColPrefix": "join_ip_",
-        "extract_continentcode": false,
-        "extract_region": false,
-        "extract_geopoint": false
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "MemoryEquiJoinerFuzzy",
       "params": {
-        "rightCol": "Country",
+        "rightCol": "ip",
         "forceRawLevenshteinEngine": false,
         "copyPrefix": "join_",
         "sortAlphabetically": false,
         "language": "english",
-        "leftCol": "join_ip_country",
+        "leftCol": "ip",
         "copyColumns": [
-          "GDP_cap",
-          "weather.0.main",
-          "humidity",
-          "pressure",
-          "temp",
-          "uvi",
-          "visibility"
+          "GDP_cap"
         ],
         "normalize": true,
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": true,
-        "rightInput": "country_to_geopoint_py",
+        "rightInput": "country_gdp",
         "stem": false
       },
       "alwaysShowComment": false
