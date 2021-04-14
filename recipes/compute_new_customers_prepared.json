@@ -17,6 +17,9 @@
             },
             "country_to_geopoint_py": {
               "repartition": 10
+            },
+            "country_gdp": {
+              "repartition": 10
             }
           }
         },
@@ -86,11 +89,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618402048876
+    "lastModifiedOn": 1618402121760
   },
   "creationTag": {
     "versionNumber": 0,
