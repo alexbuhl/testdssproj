@@ -153,6 +153,10 @@
           {
             "from": "campain",
             "to": "join_campain"
+          },
+          {
+            "from": "ip",
+            "to": "join_ip"
           }
         ]
       },
