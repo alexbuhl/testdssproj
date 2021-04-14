@@ -138,6 +138,25 @@
         "stem": false
       },
       "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "pages_visited",
+            "to": "join_pages_visited"
+          },
+          {
+            "from": "campain",
+            "to": "join_campain"
+          }
+        ]
+      },
+      "alwaysShowComment": false
     }
   ],
   "maxProcessedMemTableBytes": -1,
