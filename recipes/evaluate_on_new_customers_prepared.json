@@ -18,7 +18,7 @@
     "main": {
       "items": [
         {
-          "ref": "new_customers_prepared",
+          "ref": "crm_prepared",
           "deps": []
         }
       ]
@@ -52,11 +52,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618403395321
+    "lastModifiedOn": 1618403412975
   },
   "creationTag": {
     "versionNumber": 0,
