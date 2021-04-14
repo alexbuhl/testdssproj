@@ -98,30 +98,6 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "MemoryEquiJoinerFuzzy",
-      "params": {
-        "rightCol": "ip",
-        "forceRawLevenshteinEngine": false,
-        "copyPrefix": "join_",
-        "sortAlphabetically": false,
-        "language": "english",
-        "leftCol": "ip",
-        "copyColumns": [
-          "GDP_cap"
-        ],
-        "normalize": true,
-        "maxLevenshtein": 1,
-        "clearStopWords": false,
-        "fuzzy": true,
-        "rightInput": "country_gdp",
-        "stem": false
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "GeoIPResolver",
       "params": {
         "inCol": "ip",
@@ -136,6 +112,30 @@
         "extract_continentcode": false,
         "extract_region": false,
         "extract_geopoint": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "MemoryEquiJoinerFuzzy",
+      "params": {
+        "rightCol": "Country",
+        "forceRawLevenshteinEngine": false,
+        "copyPrefix": "join_",
+        "sortAlphabetically": false,
+        "language": "english",
+        "leftCol": "ip_country",
+        "copyColumns": [
+          "GDP_cap"
+        ],
+        "normalize": true,
+        "maxLevenshtein": 1,
+        "clearStopWords": false,
+        "fuzzy": true,
+        "rightInput": "country_gdp",
+        "stem": false
       },
       "alwaysShowComment": false
     }
