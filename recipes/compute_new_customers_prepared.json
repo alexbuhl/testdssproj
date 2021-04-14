@@ -11,6 +11,12 @@
           "map": {
             "new_customers_joined": {
               "repartition": 10
+            },
+            "web_last_year": {
+              "repartition": 10
+            },
+            "country_to_geopoint_py": {
+              "repartition": 10
             }
           }
         },
@@ -62,10 +68,6 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_last_year",
-          "deps": []
-        },
-        {
           "ref": "country_to_geopoint_py",
           "deps": []
         }
@@ -84,11 +86,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401822024
+    "lastModifiedOn": 1618401883227
   },
   "creationTag": {
     "versionNumber": 0,

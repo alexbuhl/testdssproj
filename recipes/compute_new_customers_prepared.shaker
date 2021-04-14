@@ -98,32 +98,6 @@
       "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
-      "type": "MemoryEquiJoiner",
-      "params": {
-        "rightCol": "customer_id",
-        "forceRawLevenshteinEngine": false,
-        "copyPrefix": "join_",
-        "sortAlphabetically": false,
-        "language": "english",
-        "leftCol": "customer_id",
-        "copyColumns": [
-          "ip",
-          "pages_visited",
-          "campain"
-        ],
-        "normalize": false,
-        "maxLevenshtein": 1,
-        "clearStopWords": false,
-        "fuzzy": false,
-        "rightInput": "web_last_year",
-        "stem": false
-      },
-      "alwaysShowComment": false
-    },
-    {
-      "preview": false,
-      "metaType": "PROCESSOR",
-      "disabled": false,
       "type": "GeoIPResolver",
       "params": {
         "inCol": "join_ip",
