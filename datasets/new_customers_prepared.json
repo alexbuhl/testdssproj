@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1612552980322
+    "lastModifiedOn": 1618401649820
   },
   "tags": [
     "Scoring pipeline"
@@ -85,20 +85,24 @@
   "schema": {
     "columns": [
       {
-        "name": "customer_id",
+        "name": "Country",
         "type": "string"
+      },
+      {
+        "name": "latitude",
+        "type": "double"
+      },
+      {
+        "name": "longitude",
+        "type": "double"
+      },
+      {
+        "name": "GDP_cap",
+        "type": "bigint"
       },
       {
         "name": "age",
         "type": "bigint"
-      },
-      {
-        "name": "price_first_item_purchased",
-        "type": "double"
-      },
-      {
-        "name": "gender",
-        "type": "string"
       },
       {
         "name": "join_ip",
@@ -107,14 +111,6 @@
       {
         "name": "join_ip_country",
         "type": "string"
-      },
-      {
-        "name": "join_pages_visited",
-        "type": "bigint"
-      },
-      {
-        "name": "join_campain",
-        "type": "boolean"
       },
       {
         "name": "join_GDP_cap",
@@ -143,10 +139,19 @@
       {
         "name": "join_visibility",
         "type": "double"
+      },
+      {
+        "name": "join_pages_visited",
+        "type": "bigint"
+      },
+      {
+        "name": "join_campain",
+        "type": "boolean"
       }
     ],
     "userModified": true
   },
+  "dkuProperties": [],
   "metrics": {
     "probes": []
   },
