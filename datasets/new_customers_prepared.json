@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401883091
+    "lastModifiedOn": 1618402048653
   },
   "tags": [
     "Scoring pipeline"
@@ -113,39 +113,7 @@
         "type": "boolean"
       },
       {
-        "name": "join_ip",
-        "type": "string"
-      },
-      {
-        "name": "join_ip_country",
-        "type": "string"
-      },
-      {
         "name": "join_GDP_cap",
-        "type": "string"
-      },
-      {
-        "name": "join_weather.0.main",
-        "type": "string"
-      },
-      {
-        "name": "join_humidity",
-        "type": "string"
-      },
-      {
-        "name": "join_pressure",
-        "type": "string"
-      },
-      {
-        "name": "join_temp",
-        "type": "string"
-      },
-      {
-        "name": "join_uvi",
-        "type": "string"
-      },
-      {
-        "name": "join_visibility",
         "type": "string"
       }
     ],
