@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,15 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "pages_visited": 113,
+    "gender": 100,
+    "campain": 100,
+    "price_first_item_purchased": 210,
+    "ip": 120,
+    "birth": 100,
+    "customer_id": 127
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
