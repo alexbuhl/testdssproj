@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401485186
+    "lastModifiedOn": 1618405573190
   },
   "creationTag": {
     "versionNumber": 0,
@@ -66,7 +66,8 @@
       },
       {
         "name": "ip",
-        "type": "string"
+        "type": "string",
+        "meaning": "Date"
       },
       {
         "name": "pages_visited",
