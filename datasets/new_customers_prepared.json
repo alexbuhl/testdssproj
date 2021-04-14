@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618402121617
+    "lastModifiedOn": 1618402412968
   },
   "tags": [
     "Scoring pipeline"
@@ -109,11 +109,11 @@
         "type": "string"
       },
       {
-        "name": "pages_visited",
+        "name": "join_pages_visited",
         "type": "bigint"
       },
       {
-        "name": "campain",
+        "name": "join_campain",
         "type": "boolean"
       },
       {
