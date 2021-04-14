@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401714880
+    "lastModifiedOn": 1618401959386
   },
   "creationTag": {
     "versionNumber": 0,
@@ -130,30 +130,6 @@
       {
         "name": "join_GDP_cap",
         "type": "bigint"
-      },
-      {
-        "name": "join_weather.0.main",
-        "type": "string"
-      },
-      {
-        "name": "join_humidity",
-        "type": "double"
-      },
-      {
-        "name": "join_pressure",
-        "type": "double"
-      },
-      {
-        "name": "join_temp",
-        "type": "double"
-      },
-      {
-        "name": "join_uvi",
-        "type": "double"
-      },
-      {
-        "name": "join_visibility",
-        "type": "string"
       }
     ],
     "userModified": true
