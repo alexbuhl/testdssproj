@@ -154,13 +154,7 @@
         "language": "english",
         "leftCol": "join_ip_country",
         "copyColumns": [
-          "GDP_cap",
-          "weather.0.main",
-          "humidity",
-          "pressure",
-          "temp",
-          "uvi",
-          "visibility"
+          "GDP_cap"
         ],
         "normalize": true,
         "maxLevenshtein": 1,

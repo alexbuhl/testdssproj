@@ -33,6 +33,9 @@
             },
             "weather_data_prepared": {
               "repartition": 10
+            },
+            "country_to_geopoint_py": {
+              "repartition": 10
             }
           }
         },
@@ -106,11 +109,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401715109
+    "lastModifiedOn": 1618401959580
   },
   "tags": [
     "Training pipeline"
