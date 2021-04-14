@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618402048653
+    "lastModifiedOn": 1618402121617
   },
   "tags": [
     "Scoring pipeline"
@@ -102,6 +102,10 @@
       },
       {
         "name": "ip",
+        "type": "string"
+      },
+      {
+        "name": "ip_country",
         "type": "string"
       },
       {
