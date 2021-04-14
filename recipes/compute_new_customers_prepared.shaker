@@ -157,6 +157,10 @@
           {
             "from": "ip",
             "to": "join_ip"
+          },
+          {
+            "from": "ip_country",
+            "to": "join_ip_country"
           }
         ]
       },
