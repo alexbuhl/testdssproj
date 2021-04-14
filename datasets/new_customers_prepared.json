@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401649820
+    "lastModifiedOn": 1618401786755
   },
   "tags": [
     "Scoring pipeline"
@@ -85,67 +85,31 @@
   "schema": {
     "columns": [
       {
-        "name": "Country",
+        "name": "customer_id",
         "type": "string"
       },
       {
-        "name": "latitude",
-        "type": "double"
-      },
-      {
-        "name": "longitude",
-        "type": "double"
-      },
-      {
-        "name": "GDP_cap",
-        "type": "bigint"
-      },
-      {
-        "name": "age",
-        "type": "bigint"
-      },
-      {
-        "name": "join_ip",
+        "name": "birth",
         "type": "string"
       },
       {
-        "name": "join_ip_country",
+        "name": "price_first_item_purchased",
+        "type": "double"
+      },
+      {
+        "name": "gender",
         "type": "string"
       },
       {
-        "name": "join_GDP_cap",
-        "type": "bigint"
-      },
-      {
-        "name": "join_weather.0.main",
+        "name": "ip",
         "type": "string"
       },
       {
-        "name": "join_humidity",
-        "type": "double"
-      },
-      {
-        "name": "join_pressure",
-        "type": "double"
-      },
-      {
-        "name": "join_temp",
-        "type": "double"
-      },
-      {
-        "name": "join_uvi",
-        "type": "double"
-      },
-      {
-        "name": "join_visibility",
-        "type": "double"
-      },
-      {
-        "name": "join_pages_visited",
+        "name": "pages_visited",
         "type": "bigint"
       },
       {
-        "name": "join_campain",
+        "name": "campain",
         "type": "boolean"
       }
     ],
