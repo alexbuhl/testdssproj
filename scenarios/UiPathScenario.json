@@ -5,11 +5,11 @@
   "name": "UiPathScenario",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618403029201
+    "lastModifiedOn": 1618403096017
   },
   "checklists": {
     "checklists": []
@@ -23,7 +23,35 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "UiPath Job_N3lR0RmMNYAOQJlFvJqjQg",
+        "type": "pystep_uipath-orchestrator_uipath-job",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "config": {
+            "access_type": "oauth-token",
+            "folder_name": "demo",
+            "oauth-token": {
+              "mode": "PRESET",
+              "name": "Preset 2"
+            },
+            "process_name": "demoprojectv2",
+            "robot_name": "buhl.alexandre@gmail.com-unattended"
+          },
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
