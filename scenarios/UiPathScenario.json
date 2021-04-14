@@ -5,11 +5,11 @@
   "name": "UiPathScenario",
   "active": false,
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618417091324
+    "lastModifiedOn": 1618417166828
   },
   "checklists": {
     "checklists": []
@@ -46,7 +46,7 @@
               "name": "Preset 2"
             },
             "process_name": "demoprojectv2",
-            "robot_name": "buhl.alexandre@gmail.com-unattended"
+            "robot_name": ""
           },
           "proceedOnFailure": false
         }
