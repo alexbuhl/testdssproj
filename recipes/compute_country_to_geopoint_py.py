@@ -5,7 +5,7 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
 # Read recipe inputs
-country_to_geopoint = dataiku.Dataset("country_to_geopoint")
+country_to_geopoint = dataiku.Dataset("country_gdp")
 country_to_geopoint_df = country_to_geopoint.get_dataframe()
 
 
