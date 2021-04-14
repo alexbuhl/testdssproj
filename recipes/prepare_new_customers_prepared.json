@@ -24,6 +24,9 @@
             },
             "weather_data_prepared": {
               "repartition": 10
+            },
+            "country_to_geopoint_py": {
+              "repartition": 10
             }
           }
         },
@@ -93,11 +96,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618401630817
+    "lastModifiedOn": 1618401649977
   },
   "shortDesc": "Parse date and compute age",
   "tags": [
