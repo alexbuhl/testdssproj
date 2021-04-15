@@ -2,7 +2,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction ( RANDOM_FOREST_REGRESSION) on crm_prepared",
-  "activeVersion": "1618488840726",
+  "activeVersion": "1618488979536",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -1781,11 +1781,11 @@
     "labels": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1618488867716
+    "lastModifiedOn": 1618489005937
   },
   "tags": [
     "Score new data"
