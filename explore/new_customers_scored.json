@@ -49,7 +49,7 @@
   },
   "charts": [
     {
-      "copySelectionFromScript": true,
+      "copySelectionFromScript": false,
       "engineType": "LINO",
       "refreshableSelection": {
         "selection": {
