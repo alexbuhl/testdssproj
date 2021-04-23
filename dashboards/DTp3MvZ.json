@@ -142,7 +142,8 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "displayMode": "variables_importance"
+              "displayMode": "variables_importance",
+              "advancedOptions": {}
             },
             "autoLoad": true,
             "showTitle": "YES",
@@ -182,7 +183,8 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "displayMode": "ensemble_summary"
+              "displayMode": "ensemble_summary",
+              "advancedOptions": {}
             },
             "autoLoad": true,
             "showTitle": "YES",
@@ -259,7 +261,8 @@
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "displayMode": "r_scatter"
+              "displayMode": "r_scatter",
+              "advancedOptions": {}
             },
             "autoLoad": true,
             "showTitle": "YES",
@@ -280,11 +283,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 47,
+    "versionNumber": 48,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1613666774309
+    "lastModifiedOn": 1619181521624
   },
   "creationTag": {
     "versionNumber": 1,
