@@ -102,12 +102,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of prediction, descending"
+                "label": "Count of records, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Sum of prediction, ascending",
+                "label": "Count of records, ascending",
                 "sortAscending": true
               }
             ],
@@ -123,8 +123,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "prediction",
-            "function": "SUM",
+            "function": "COUNT",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
@@ -220,7 +219,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAEQklEQVRoQ+2Ye0hTURzHz7Wy+Q4hMhNfpdV8hlbqCK20NQzpQQn1R1Eko9kfkmRKtBW9KDUIrYQVlvQgQ1FToYfrD1MUykrLdBAWZFpi2po2dDtxbp51d92uWzs3tbz/ec/Zz9/nfr6/c6cU+M8u6j/jBTPA/7rxv2oYyt1UeYsTgTDMG0iaQozPlpIeWPu3HjTvwNfU3RlV2Y9TPIMuAaVjGzAH/BsWqimpLI1PeF6Br3V2q1DzVTmPgbvvvQ/FbnW+FwJ3DC8LFzgxDbMB+TTOC7Cu5rnQV0AVIpAzPguATqsbeXCqfk5piGy02O/FbO/Iy98kzQHu3CZhNSWV5ZK2TRx4uLY1AUAo9xfo6V4RMLaMYh0bdBPMD2vtT3n20XMimKINmj5pYNb2ifbZsk4euOYVHWN0MaFRrDGw53JnsOVlGWefReLv9Lo04DDRA40osOxgCw2bK5llhEHQTMu3wo8O1SY1OXMBY1hchCQ0MWD48IgqvTLVCIqh2ZbLQg6A8o1qi4bZsKShiQKj5tKrUiGAv77BMaGR5a7br92OH0uMMslyc1MnaHneje9NC+D6ulCVSL/JhAPbxtACSVgC99BefmIJlqRlIoYf1QXQszvf4NMbDkW/jmVkeyziBRcjuWHH9hd1nX/C9VBIzDJRYNzsAug/FGpY7Uz/nHjGKlhjpDmgpwywXC5XuboO9K+IqjR5ty7VR3f7JN7dyRll1iKXZQfK4Vyaf2atLfXYe+02jGDNNbAm/gZYv/adTXYtWfaq6dAEX3zqhtaFHW/tei/zBoyaUygUfwTcvmy5xVmedOB6ZYFZwwhYtE82A2zN/E0bw5phg+HEnU8OGKqh/vS/ZzhOlFMBAbT4p56t0O9e9rT1dn3tm5e11WwYJn2GUVexouxxc5yfm0I3HBMTY5Plxor2cQcWhrcXFvVj9ynNBsagWE+JpoQqTCqMt2Z2B79o+940fGiztDdus9CuVxIxYLFYUaFQiMfFen/Hfrr31t2tVlm+Ik27HyHJcJ3ywKjBxsZGk1hjWLSW7C3syV6VE+vhEeFnDkY3pB0p2JP6FK0Frtwy6BUc58HeB/Vgj2ib8L01SeHaQyTSbGAmLForF+019iBQRgOfs2to44VSFT2vP/rzTHqMSD6kdZnn5cK8SSLOxCKNG0OWOWGvRhkApOjXVsXAqJGHDYwW4nadN65DJ8dUkXjJZ3vtEgcOLQ41ifXJMIkmxH0h/R0YXcguvpjA5iwzoUnZJQ6MCjKhmVH+E2D0mczSartPZmYyiM0wsyiCZsMCAKBAGW38fWzDel3LxxFt3SJmHdKwvBjGDavV+SbxZsaZPcP4M8xZ5gOWV2BUvLMz/z5FAfq0tQWYL1jegX/bzrsuUK70Zca1enBUNwrBXHyPAkArK1pn+p9AEscyqwYvM8xDn8RKzgATe5RTtNCM4SkqhlhbPwHT06U4YDg6MAAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAD/UlEQVRoQ+3YW0gUURgH8DOrrrZeEltb06wUpVaNqF5MoxQssdZMIokeDLuYqRClifWiUWli9hCSbVhEJAWmJpFEXnYlne0C3XzQkKggIU1Kc/OSysRRz3p2PLvqzBk19bztzszZ7zf/853ZXQYssMEsMC9YBM/3xGcsYS7LWXdr9XvgplYAB4cLIOploNm9ZZKSw2fiZksKLm5ui5bZMKcfn6sF5YHJ4OjfILB7TwURbMLKGC2TeOKBVHjJwKq6t7owJ6f2SFdH1bTAY1KpEqcOTkzk7Ozs3z17GDtaee5KFejvHuipzmtwdvO/DnZpynuXKC4q+EuamKjCScPEx/+hmTZVcE2Nr6aisiwNFQjRqaplHV52tstRyrCPPTcWTOhhEkobaQQ2NrKbx1al36eFpguu89HBwioqykfqw1PGwS6+OZ37WzYprSEgFo0knwxqGxo1cF/VB12jQ4ypSBx93tO9Vy6TKRJK1gKYcJ9T5u/Un2EulsA4ljaaChhiUWGW0LCXYcqwj9VqD5DWu4Pordkw0P7JY1BFOkgjaepgWChrv2+QY4bs0PKGSxuCE/xXhBGV2iI9ep+ULs2URYO56kxTuv2DB808MG19fX7HydTo3Uql3NHqxmM09mo7i15NtjmJTZkqGBWLwx2i1pNTtSDTfsk3pS3FshYNzsrK0mVvHSCWD+HzCgyxfKkZPiJ3Wuma+thCysaM+pFT0kufCH5MiUqYBMZvQHZ2tigwAvJv6qyBt4SeNSW8M0I+YVkLBRfEaaz28ZwAk5qYbcgRlPAimHc3Zy3hhuLCCZsWXlvokZT5lbBUYENl81gPc0NsSYbtnNm0GosL73IAeOMF2QRuNr0MDg4WlPA42JzKlpwBDODa00qrDkz2jczScVGPJTgpTBlH4h+kVBqAn9+paaEtYdG8IXsDBD+D4RyiwQaDgdjHEIvGVNHN69T6rrzR39KWxqyDWZZ9yjCMPSpQLv/13cWlxQMvOLbxNmg61GQ1aYhF11hDzzoYFolSxlNFxUMsGkmGayDlRrgZ/Fvmc33Po8QJgZLQYrFUljSchGXZXHf3F8H8qvlY/HiM6/jmSwLDc83QHPcjJDYwTuhmha4T3cNootbWq2a9jGPhOTBdS2D4/mRoGulSS5iPTn1TNtjW1z3yjwcc9kOK7oTXl5cKAcNrAj62iNqZ8c+lljCOnixdeC6+pOHroa6vPX36S878JUsTSz1hVGzQnSCz5c1fziQwaVnTxkoGhhMjNAk7FbAUWEnBKO3C43XELyb8JY3O987bRq1fSTs69R629tgoSqr1GuaYe3jCw8Pc4TVXtn+2dh3NYzMKplm40LkWwULv3P9y3YJL+B8WYpM4MAKJqgAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
