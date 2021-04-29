@@ -1012,7 +1012,8 @@
                     "autoModifiedByDSS": false
                 }, 
                 "role": "TARGET", 
-                "max_nb_categories": 100
+                "max_nb_categories": 100, 
+                "hash_whole_categories": false
             }, 
             "GDP_cap": {
                 "generate_derivative": false, 
@@ -1075,20 +1076,20 @@
             "alpha": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1e-23
+                "range": {
+                    "scaling": "LOGARITHMIC", 
+                    "max": 3.0, 
+                    "nbValues": 3, 
+                    "min": 0.1
                 }, 
                 "values": [
                     0.1, 
                     1.0, 
                     3.0
                 ], 
-                "range": {
-                    "scaling": "LOGARITHMIC", 
-                    "max": 3.0, 
-                    "nbValues": 3, 
-                    "min": 0.1
+                "limit": {
+                    "max": null, 
+                    "min": 1e-23
                 }
             }, 
             "alphaMode": "MANUAL", 
@@ -1109,18 +1110,18 @@
             "C": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 100.0, 
                     "nbValues": 3, 
                     "min": 0.01
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1e-23
                 }
             }, 
             "enabled": true
@@ -1159,87 +1160,87 @@
             "learning_rate": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": 1.0, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
                     "nbValues": 3, 
                     "min": 0.05
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": 1.0, 
+                    "min": 1e-23
                 }
             }, 
             "enabled": false, 
             "min_samples_leaf": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     3
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }, 
             "n_estimators": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    100
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 200, 
                     "nbValues": 3, 
                     "min": 80
+                }, 
+                "values": [
+                    100
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "max_features": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }, 
             "max_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    3
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    3
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }
         }, 
@@ -1260,87 +1261,87 @@
             "learning_rate": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": 1.0, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
                     "nbValues": 3, 
                     "min": 0.05
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": 1.0, 
+                    "min": 1e-23
                 }
             }, 
             "enabled": false, 
             "min_samples_leaf": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     3
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }, 
             "n_estimators": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    100
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 200, 
                     "nbValues": 3, 
                     "min": 80
+                }, 
+                "values": [
+                    100
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "max_features": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }, 
             "max_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    3
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    3
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }
         }, 
@@ -1368,35 +1369,35 @@
             "max_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    5
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    5
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "enabled": false, 
             "min_samples_leaf": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     1
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }
@@ -1407,53 +1408,53 @@
             "max_tree_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    8
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
                     "nbValues": 3, 
                     "min": 5
+                }, 
+                "values": [
+                    8
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "enabled": false, 
             "min_samples_leaf": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    3
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    3
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "mode": "auto", 
             "max_features": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }
@@ -1464,34 +1465,34 @@
             "reg_param": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 0.0
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10, 
                     "nbValues": 3, 
                     "min": 0.001
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 0.0
                 }
             }, 
             "enet_param": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 1.0, 
+                    "nbValues": 3, 
                     "min": 0.0
                 }, 
                 "values": [
                     1.0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 1.0, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 0.0
                 }
             }
@@ -1506,18 +1507,18 @@
             "step_size": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": 1, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
                     "nbValues": 3, 
                     "min": 0.05
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": 1, 
+                    "min": 1e-23
                 }
             }, 
             "checkpoint_interval": 10, 
@@ -1527,36 +1528,36 @@
             "num_trees": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    20
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 50, 
                     "nbValues": 3, 
                     "min": 10
+                }, 
+                "values": [
+                    20
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "seed": 1337, 
             "max_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    5
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    5
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }
         }, 
@@ -1592,34 +1593,34 @@
             "reg_param": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 0.0
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10, 
                     "nbValues": 3, 
                     "min": 0.001
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 0.0
                 }
             }, 
             "enet_param": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 1.0, 
+                    "nbValues": 3, 
                     "min": 0.0
                 }, 
                 "values": [
                     1.0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 1.0, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 0.0
                 }
             }
@@ -1644,18 +1645,18 @@
             "C": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    1.0
-                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
                     "nbValues": 3, 
                     "min": 0.1
+                }, 
+                "values": [
+                    1.0
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1e-23
                 }
             }, 
             "max_iter": -1, 
@@ -1663,18 +1664,18 @@
             "custom_gamma": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.001
-                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 1.0, 
                     "nbValues": 3, 
                     "min": 0.0001
+                }, 
+                "values": [
+                    0.001
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1e-23
                 }
             }, 
             "tol": 0.001, 
@@ -1747,20 +1748,20 @@
             "alpha": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1e-23
+                "range": {
+                    "scaling": "LOGARITHMIC", 
+                    "max": 0.001, 
+                    "nbValues": 3, 
+                    "min": 1e-05
                 }, 
                 "values": [
                     0.1, 
                     0.01, 
                     0.001
                 ], 
-                "range": {
-                    "scaling": "LOGARITHMIC", 
-                    "max": 0.001, 
-                    "nbValues": 3, 
-                    "min": 1e-05
+                "limit": {
+                    "max": null, 
+                    "min": 1e-23
                 }
             }
         }, 
@@ -1774,18 +1775,18 @@
             "step_size": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": 1, 
-                    "min": 1e-23
-                }, 
-                "values": [
-                    0.1
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
                     "nbValues": 3, 
                     "min": 0.05
+                }, 
+                "values": [
+                    0.1
+                ], 
+                "limit": {
+                    "max": 1, 
+                    "min": 1e-23
                 }
             }, 
             "checkpoint_interval": 10, 
@@ -1795,36 +1796,36 @@
             "num_trees": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    20
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 50, 
                     "nbValues": 3, 
                     "min": 10
+                }, 
+                "values": [
+                    20
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "seed": 1337, 
             "max_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    5
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    5
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }
         }, 
@@ -1833,53 +1834,53 @@
             "max_tree_depth": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    9
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
                     "nbValues": 3, 
                     "min": 5
+                }, 
+                "values": [
+                    9
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "enabled": true, 
             "min_samples_leaf": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
-                    "min": 1
-                }, 
-                "values": [
-                    1
-                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
                     "nbValues": 3, 
                     "min": 3
+                }, 
+                "values": [
+                    1
+                ], 
+                "limit": {
+                    "max": null, 
+                    "min": 1
                 }
             }, 
             "mode": "auto", 
             "max_features": {
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
-                "limit": {
-                    "max": null, 
+                "range": {
+                    "scaling": "LINEAR", 
+                    "max": 20, 
+                    "nbValues": 3, 
                     "min": 1
                 }, 
                 "values": [
                     0
                 ], 
-                "range": {
-                    "scaling": "LINEAR", 
-                    "max": 20, 
-                    "nbValues": 3, 
+                "limit": {
+                    "max": null, 
                     "min": 1
                 }
             }
