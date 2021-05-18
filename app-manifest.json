@@ -23,7 +23,35 @@
     "showVersionControlFeatures": false
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "sectionTitle": "Run new prediction",
+      "tiles": [
+        {
+          "datasetName": "country_gdp",
+          "behavior": "GO_TO_DATASET",
+          "type": "UPLOAD_DATASET_SET_FILE"
+        },
+        {
+          "scenarioId": "Score_new_customers",
+          "type": "SCENARIO_RUN"
+        },
+        {
+          "dashboardId": "DTp3MvZ",
+          "type": "DASHBOARD_LINK"
+        },
+        {
+          "dashboardId": "DTp3MvZ",
+          "format": {
+            "paperSize": "A4",
+            "orientation": "LANDSCAPE",
+            "fileType": "PDF"
+          },
+          "type": "DOWNLOAD_DASHBOARD_EXPORT"
+        }
+      ]
+    }
+  ],
   "label": "Customer Lifetime Value",
   "shortDesc": "The template *Customer Lifetime Value* was created by Administrator on Jan 27th 2021",
   "tags": [],
