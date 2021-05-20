@@ -134,7 +134,7 @@
         "maxLevenshtein": 1,
         "clearStopWords": false,
         "fuzzy": true,
-        "rightInput": "country_gdp",
+        "rightInput": "country_gdpbis",
         "stem": false
       },
       "alwaysShowComment": false
