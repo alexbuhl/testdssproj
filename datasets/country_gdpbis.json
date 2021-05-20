@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1621517027953
+    "lastModifiedOn": 1621517033912
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,17 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Country",
+        "type": "string"
+      },
+      {
+        "name": "GDP_cap",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
