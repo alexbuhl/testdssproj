@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1622037961163
+    "lastModifiedOn": 1622038100614
   },
   "creationTag": {
     "versionNumber": 0,
@@ -51,7 +51,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "DKU_CUSTOMER_LIFETIME_VALUE_web_new_visitors",
+    "table": "DKU_CUSTOMER_LIFETIME_VALUE_web_new_visitors_copy",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
