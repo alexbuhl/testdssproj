@@ -55,5 +55,7 @@
   "label": "Customer Lifetime Value",
   "shortDesc": "The template *Customer Lifetime Value* was created by Administrator on Jan 27th 2021",
   "tags": [],
+  "imgPattern": 3,
+  "showInitials": false,
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
 }
