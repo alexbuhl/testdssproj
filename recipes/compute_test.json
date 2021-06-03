@@ -1,0 +1,56 @@
+{
+  "type": "App_PROJECT_SIMPLEPREPARATION",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "variables": {},
+    "keepInstance": false
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "web_data": {
+      "items": [
+        {
+          "ref": "country_gdp",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "web_data_prepared_filtered": {
+      "items": [
+        {
+          "ref": "test",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1622712074576
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1622712074576
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
