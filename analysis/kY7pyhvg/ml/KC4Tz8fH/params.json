@@ -28,7 +28,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
@@ -253,8 +253,7 @@
       "age": {
         "generate_derivative": false,
         "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
+        "missing_handling": "DROP_ROW",
         "impute_constant_value": 0.0,
         "rescaling": "AVGSTD",
         "quantile_bin_nb_bins": 4,
@@ -263,7 +262,7 @@
         "role": "INPUT",
         "type": "NUMERIC",
         "state": {
-          "userModified": false,
+          "userModified": true,
           "autoModifiedByDSS": false,
           "recordedMeaning": "LongMeaning"
         },
@@ -936,7 +935,7 @@
           "scaling": "LOGARITHMIC"
         }
       },
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
@@ -1519,7 +1518,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
@@ -1837,7 +1836,13 @@
       "epsilon": 1.0E-6,
       "optimizer": "BFGS"
     },
-    "custom_python": [],
+    "custom_python": [
+      {
+        "enabled": false,
+        "code": "# This sample code uses a standard scikit-learn algorithm, the Adaboost regressor.\n\n# Your code must create a \u0027clf\u0027 variable. This clf must be a scikit-learn compatible\n# model, ie, it should:\n#  1. have at least fit(X,y) and predict(X) methods\n#  2. inherit sklearn.base.BaseEstimator\n#  3. handle the attributes in the __init__ function\n#     See: https://doc.dataiku.com/dss/latest/machine-learning/custom-models.html\n\nfrom sklearn.ensemble import AdaBoostRegressor\n\nclf \u003d AdaBoostRegressor(n_estimators\u003d20)\n",
+        "name": "Custom Python model"
+      }
+    ],
     "plugin_python": {},
     "keras": {
       "epochs": 10,
