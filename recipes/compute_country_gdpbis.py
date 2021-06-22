@@ -13,7 +13,7 @@ country_gdp_df = country_gdp.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 country_gdpbis_df = country_gdp_df # For this sample code, simply copy input to output
-print("test")
+print("tesjt")
 
 # Write recipe outputs
 country_gdpbis = dataiku.Dataset("country_gdpbis")
