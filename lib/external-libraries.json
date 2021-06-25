@@ -1,5 +1,11 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python": {
+      "remote": "https://github.com/alexbuhl/demojenkins",
+      "checkout": "refs/heads/master",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
     "python"
   ],
