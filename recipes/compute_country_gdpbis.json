@@ -4,7 +4,8 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "plot"
     },
     "containerSelection": {
       "containerMode": "INHERIT"
@@ -40,11 +41,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1624618202807
+    "lastModifiedOn": 1624618273457
   },
   "creationTag": {
     "versionNumber": 0,
