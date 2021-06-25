@@ -3,7 +3,8 @@
     "python": {
       "remote": "https://github.com/alexbuhl/demojenkins",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "479cf5dd446825d085cae58910d07787b2d13ea7"
     }
   },
   "pythonPath": [
