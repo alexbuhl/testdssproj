@@ -6,17 +6,21 @@
       "attachmentType": "DSS_OBJECT",
       "taggableType": "DATASET",
       "smartId": "country_gdp",
-      "details": {},
+      "details": {
+        "objectDisplayName": "country_gdp",
+        "datasetType": "UploadedFiles",
+        "userDisplayName": "Administrator"
+      },
       "attachedBy": "admin",
       "attachedOn": 1625556580833
     }
   ],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625556580832
+    "lastModifiedOn": 1625556605702
   },
   "creationTag": {
     "versionNumber": 0,
