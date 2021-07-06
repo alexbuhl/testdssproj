@@ -17,11 +17,17 @@
         {
           "datasetRef": "country_gdp",
           "packagingType": "BUNDLED_TOCONNECTION",
-          "on": [],
+          "on": [
+            {
+              "resourceLookupCol": "GDP_cap"
+            }
+          ],
           "missingLookupKeyBehavior": "IGNORE",
           "notFoundBehavior": "IGNORE",
           "multiMatchBehavior": "KEEP_FIRST",
-          "columnsMapping": {}
+          "columnsMapping": {
+            "Country": "Country"
+          }
         }
       ],
       "healthCheckQueries": [],
