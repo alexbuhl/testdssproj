@@ -1,23 +1,33 @@
 {
-    "layout": "WIKI_ARTICLE", 
-    "attachments": [], 
-    "versionTag": {
-        "lastModifiedBy": {
-            "login": "admin"
-        }, 
-        "lastModifiedOn": 1536329575178, 
-        "versionNumber": 2
-    }, 
-    "tags": [], 
-    "creationTag": {
-        "lastModifiedBy": {
-            "login": "admin"
-        }, 
-        "lastModifiedOn": 1536272372322, 
-        "versionNumber": 0
-    }, 
-    "checklists": {
-        "checklists": []
-    }, 
-    "name": "Customer Lifetime Value"
+  "name": "Customer Lifetime Value",
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "DATASET",
+      "smartId": "country_gdp",
+      "details": {},
+      "attachedBy": "admin",
+      "attachedOn": 1625556580833
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 3,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625556580832
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1536272372322
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
 }
