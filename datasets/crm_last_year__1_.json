@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625230095856
+    "lastModifiedOn": 1625556503472
   },
   "creationTag": {
     "versionNumber": 0,
@@ -90,7 +90,8 @@
       },
       {
         "name": "ds",
-        "type": "string"
+        "type": "string",
+        "comment": "This column is a test"
       },
       {
         "name": "dad",
