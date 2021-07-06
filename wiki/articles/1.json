@@ -1,26 +1,13 @@
 {
   "name": "Customer Lifetime Value",
   "layout": "WIKI_ARTICLE",
-  "attachments": [
-    {
-      "attachmentType": "DSS_OBJECT",
-      "taggableType": "DATASET",
-      "smartId": "country_gdp",
-      "details": {
-        "objectDisplayName": "country_gdp",
-        "datasetType": "UploadedFiles",
-        "userDisplayName": "Administrator"
-      },
-      "attachedBy": "admin",
-      "attachedOn": 1625556580833
-    }
-  ],
+  "attachments": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625556623478
+    "lastModifiedOn": 1625556626586
   },
   "creationTag": {
     "versionNumber": 0,
