@@ -1,0 +1,29 @@
+{
+  "type": "static_file",
+  "params": {
+    "contentType": "text/html",
+    "filetype": "html"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "chart_saved",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625658922789
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625658922789
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
