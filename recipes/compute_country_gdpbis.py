@@ -12,6 +12,7 @@ import debugpy
 # 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
 debugpy.listen(5678)
 debugpy.wait_for_client()
+debugpy.breakpoint()
 print("test")
 debugpy.breakpoint()
 print("second")
