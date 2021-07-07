@@ -8,7 +8,13 @@ from dataiku import pandasutils as pdu
 country_gdp = dataiku.Dataset("country_gdp")
 country_gdp_df = country_gdp.get_dataframe()
 
-
+import debugpy
+# 5678 is the default attach port in the VS Code debug configurations. Unless a host and port are specified, host defaults to 127.0.0.1
+debugpy.listen(5678)
+debugpy.wait_for_client()
+print("test")
+debugpy.breakpoint()
+print("second")
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
