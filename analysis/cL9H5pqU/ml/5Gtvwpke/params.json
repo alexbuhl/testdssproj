@@ -1935,7 +1935,7 @@
   "maxConcurrentModelTraining": 2,
   "envSelection": {
     "envMode": "EXPLICIT_ENV",
-    "envName": "my_custom_env"
+    "envName": "deep_learning"
   },
   "containerSelection": {
     "containerMode": "INHERIT"
