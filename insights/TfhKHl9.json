@@ -6,15 +6,15 @@
     "loadLast": true
   },
   "owner": "admin",
-  "listed": true,
+  "listed": false,
   "name": "plotly example (2021-07-08 03:10)",
   "dashboardCreationId": "DTp3MvZ",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625757945685
+    "lastModifiedOn": 1625757947157
   },
   "creationTag": {
     "versionNumber": 0,
