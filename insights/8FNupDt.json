@@ -1,0 +1,30 @@
+{
+  "type": "jupyter",
+  "params": {
+    "notebookSmartName": "plotly example",
+    "exportTimestamp": 0,
+    "loadLast": true
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "plot",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625758062118
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625758062118
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
