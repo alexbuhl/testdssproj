@@ -298,9 +298,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 32,
+              "top": 25,
               "left": 0,
-              "width": 4,
+              "width": 5,
               "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
@@ -310,25 +310,6 @@
             "autoLoad": true,
             "showTitle": "YES",
             "insightId": "ghbKI69",
-            "insightType": "jupyter",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 4,
-              "height": 5
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showCode": false
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "JUKTZnV",
             "insightType": "jupyter",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -344,11 +325,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 70,
+    "versionNumber": 71,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625730178309
+    "lastModifiedOn": 1625730211334
   },
   "creationTag": {
     "versionNumber": 1,
