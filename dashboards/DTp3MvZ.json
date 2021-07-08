@@ -311,6 +311,25 @@
             "insightType": "static_file",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 4,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showCode": false
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "ghbKI69",
+            "insightType": "jupyter",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -323,11 +342,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 63,
+    "versionNumber": 64,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625666658523
+    "lastModifiedOn": 1625729993550
   },
   "creationTag": {
     "versionNumber": 1,

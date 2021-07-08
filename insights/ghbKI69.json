@@ -1,0 +1,31 @@
+{
+  "type": "jupyter",
+  "params": {
+    "notebookSmartName": "Widgets test",
+    "exportTimestamp": 0,
+    "loadLast": true
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Widgets test (2021-07-08 07:39)",
+  "dashboardCreationId": "DTp3MvZ",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625729993452
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1625729993452
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
