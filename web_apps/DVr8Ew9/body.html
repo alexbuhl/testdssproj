@@ -1,131 +1,909 @@
-<link rel="stylesheet" href="/static/public/styles/1.0.0/dku-styles.css" />
+<html><head>
 
-<h1>Welcome to your webapp</h1>
 
-<h2>This webapp template will inspire you</h2>
-<section>
-    <ul>
-        <li>Basic styles for forms, tables, titles, etc</li>
-        <li>Layout elements</li>
-        <li>Sample JavaScript to manage user interactions</li>
-    </ul>
-    For more guidance:
-    <p>
-        <a href="https://doc.dataiku.com/dss/latest/webapps/index.html" target="_blank"><button>Webapps documentation</button></a>
-        <a href="https://www.dataiku.com/learn/guide/#refinements=%5B%7B%22tags%22%3A%22Webapp%22%7D%5D" target="_blank"><button class="blue-button">Webapps tutorials</button></a>
-    </p>
-</section>
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script type="application/vnd.jupyter.widget-state+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "a80a636929e741c7aad90f88824aebe7": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "3e15aa1af3df41d88483995307f21a6f": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "30"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_77f3eaf356844b8a933d6ae2ba34d9e6"
+            }
+        },
+        "d4c02e736215487b85b18e3fe8a25e1c": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "e4142228d47f425681d0cf80c85efc53": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "2520093e5f134e0784d40231aee2b02e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "b0c3a292bbc140ffbaf67a778169ab6d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "30a9cbc3559844d9956aa24d4629017a": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "10"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_f72aeec37bd643aaa4435feed93a3b2f"
+            }
+        },
+        "91a8f0eb962d45b58e3e4c001a0a8711": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "20"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_9c60936dde3848c2b7220239a415e088"
+            }
+        },
+        "f12c7cb25d5b40209db5f955533ff596": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_d4c02e736215487b85b18e3fe8a25e1c",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 30,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_5571e001b7d04bfdbe24eb315fcdfab9"
+            }
+        },
+        "929945546dd64d97852b460f72490b9c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "9c60936dde3848c2b7220239a415e088": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "e649dc97f001422d87d978cf53644a26": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_80781218ff404c759506ad31dffef3f1",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 20,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_929945546dd64d97852b460f72490b9c"
+            }
+        },
+        "9638db5d6cc74e6aba2f6207034c314c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "5571e001b7d04bfdbe24eb315fcdfab9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "4c818240205d4295bad0924387c892dd": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_a80a636929e741c7aad90f88824aebe7",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 10,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_9638db5d6cc74e6aba2f6207034c314c"
+            }
+        },
+        "80781218ff404c759506ad31dffef3f1": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "ece76268f2b04f209da956594f241bf6": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "19e7f1669fa3489bb98b359d2972ec28": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_b0c3a292bbc140ffbaf67a778169ab6d",
+                "children": [
+                    "IPY_MODEL_4c818240205d4295bad0924387c892dd",
+                    "IPY_MODEL_58c17ae2f0984f93b193245b1d473670"
+                ]
+            }
+        },
+        "243def6571a74ee7b26f4f7b506b555a": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_ece76268f2b04f209da956594f241bf6",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 10,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_ad8450806fbe4c00b62b1dce4bacbcd4"
+            }
+        },
+        "c89bd1e44f81400eb1c88c0a7aa7114a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "d2a70410575240da85e269d18293fe04": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "58c17ae2f0984f93b193245b1d473670": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "10"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_d2a70410575240da85e269d18293fe04"
+            }
+        },
+        "730fd797c510401a891b99933fc06688": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_c89bd1e44f81400eb1c88c0a7aa7114a",
+                "children": [
+                    "IPY_MODEL_e649dc97f001422d87d978cf53644a26",
+                    "IPY_MODEL_91a8f0eb962d45b58e3e4c001a0a8711"
+                ]
+            }
+        },
+        "f72aeec37bd643aaa4435feed93a3b2f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "1ebd37780eba43448cd370893a4a8cc3": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_e4142228d47f425681d0cf80c85efc53",
+                "children": [
+                    "IPY_MODEL_f12c7cb25d5b40209db5f955533ff596",
+                    "IPY_MODEL_3e15aa1af3df41d88483995307f21a6f"
+                ]
+            }
+        },
+        "ad8450806fbe4c00b62b1dce4bacbcd4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "4cec1899964140cab9598fdaa8459700": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_2520093e5f134e0784d40231aee2b02e",
+                "children": [
+                    "IPY_MODEL_243def6571a74ee7b26f4f7b506b555a",
+                    "IPY_MODEL_30a9cbc3559844d9956aa24d4629017a"
+                ]
+            }
+        },
+        "77f3eaf356844b8a933d6ae2ba34d9e6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "133a805e74d441699465c3d95869238c": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_da5e18746d264a6799ff8f49efd4d68a",
+                "children": [
+                    "IPY_MODEL_0120dffac6c64c43a3624892ef75b310",
+                    "IPY_MODEL_3135f71ee2734fad91eadc63b1b078e1"
+                ]
+            }
+        },
+        "2e3f6466267e429392d9696c063ed16d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "ad28aaf5e797404e90e5940e8ea03b98": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "3135f71ee2734fad91eadc63b1b078e1": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "10"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_ad28aaf5e797404e90e5940e8ea03b98"
+            }
+        },
+        "13602360a96f48f6bf140e00838fb004": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "0120dffac6c64c43a3624892ef75b310": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_13602360a96f48f6bf140e00838fb004",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 10,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_2e3f6466267e429392d9696c063ed16d"
+            }
+        },
+        "da5e18746d264a6799ff8f49efd4d68a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "c54cf91251314419aa6e23c96e46ec20": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "4ddcf6b227ae4cb08f3bdd2b7ccb0dbb": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_c54cf91251314419aa6e23c96e46ec20",
+                "children": [
+                    "IPY_MODEL_4c9f6a522dbe431fb94e55c01309d60b",
+                    "IPY_MODEL_10e847d74c0d4daf8afedfeb23602714"
+                ]
+            }
+        },
+        "50787cfc81564e5e96b1b265bdc066a6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "d1ec27dc2762433d841b86164aefd27e": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "4c9f6a522dbe431fb94e55c01309d60b": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_d1ec27dc2762433d841b86164aefd27e",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 10,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_50787cfc81564e5e96b1b265bdc066a6"
+            }
+        },
+        "91dae45095b24558a00084295aef42f9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "10e847d74c0d4daf8afedfeb23602714": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "10"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_91dae45095b24558a00084295aef42f9"
+            }
+        },
+        "1827344978c34dbe995a94758b8d2729": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "770725cb0d4a4f828abb6bae53814b1f": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.5.0",
+                "layout": "IPY_MODEL_1827344978c34dbe995a94758b8d2729",
+                "children": [
+                    "IPY_MODEL_a7f9b3099e454e9a93ea269015b4ded8",
+                    "IPY_MODEL_886cf2db9c764106a13ccb494315f1f8"
+                ]
+            }
+        },
+        "65bff27e1e0340b9b9f379df73bd2343": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "bba1979b159b47be87a896252c772051": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "",
+                "_model_module_version": "1.5.0",
+                "_view_module_version": "1.2.0"
+            }
+        },
+        "a7f9b3099e454e9a93ea269015b4ded8": {
+            "model_name": "IntSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "style": "IPY_MODEL_bba1979b159b47be87a896252c772051",
+                "description": "x",
+                "max": 30,
+                "_model_module_version": "1.5.0",
+                "value": 20,
+                "_view_module_version": "1.5.0",
+                "min": -10,
+                "description_tooltip": null,
+                "layout": "IPY_MODEL_65bff27e1e0340b9b9f379df73bd2343"
+            }
+        },
+        "f5a168b9f99b4f1d92e4f0739c3767a0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "grid_template_rows": null,
+                "_model_module_version": "1.2.0",
+                "grid_column": null,
+                "grid_auto_flow": null,
+                "grid_area": null,
+                "grid_template_columns": null,
+                "justify_items": null,
+                "grid_row": null,
+                "grid_auto_rows": null,
+                "grid_gap": null,
+                "_view_module_version": "1.2.0",
+                "grid_template_areas": null,
+                "object_position": null,
+                "object_fit": null,
+                "grid_auto_columns": null
+            }
+        },
+        "886cf2db9c764106a13ccb494315f1f8": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "outputs": [
+                    {
+                        "output_type": "display_data",
+                        "data": {
+                            "text/plain": "20"
+                        },
+                        "metadata": {}
+                    }
+                ],
+                "layout": "IPY_MODEL_f5a168b9f99b4f1d92e4f0739c3767a0"
+            }
+        }
+    }
+}
+</script>
+</head>
+<body>
 
-<h3>Fetch a dataset</h3>
-<section>
-    <p>
-        This webapp probably needs to get a dataset from Dataiku DSS. You can do that using
-        the <a href="https://doc.dataiku.com/dss/latest/api/js/index.html">Javascript API</a>.
-        <br />If you want to use more advanced features, you can even use the
-        <a href="https://doc.dataiku.com/dss/latest/publicapi/rest.html">REST API</a> directly.
-    </p>
-    <p>
-        To interact with Dataiku, the webapp must identify itself. To do that, we created an
-        <a href="https://doc.dataiku.com/dss/latest/publicapi/keys.html">API key</a>.
-        <br /> For security reasons, this API key is not allowed to do much by default.
-        Before you can fetch a dataset, you must explicitly allow it in the settings tab of the webapp editor.
-    </p>
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "model_id": "770725cb0d4a4f828abb6bae53814b1f",
+    "version_minor": 0,
+    "version_major": 2
+}
+</script>
 
-    <div class="fetch-dataset-container">
-        <section class="fetch-dataset-form">
-            <form id="form-dataset" novalidate>
-                <div class="field">
-                    <label for="dataset-to-fetch">Dataset Name</label>
-                    <input type="text" name="dataset-to-fetch" placeholder="My dataset" id="dataset-to-fetch">
-                </div>
-                <button type="button" class="main-blue-button" id="fetch-button">Fetch</button>
-            </form>
-        </section>
-
-        <section class="fetch-dataset-results">
-            <span id="message">Results will appear here.</span>
-        </section>
-    </div>
-</section>
-
-<h3>Form example</h3>
-<section>
-    A custom form that your team could use to export some data extract could look like that:
-    <form id="form-sample" novalidate>
-        <div class="field">
-            <label for="analysis-name">Analysis title</label>
-            <input type="text" name="analysis-name" placeholder="Churn Analysis" id="analysis-name" />
-        </div>
-        <div class="field">
-            <label for="dataset-name">Dataset Name</label>
-            <div class="select">
-                <select id="dataset-name" name="analysis-name">
-                    <option value="" disabled selected hidden>Pick a dataset...</option>
-                    <option value="">Dataset</option>
-                    <option value="Churn_may">Churn_may</option>
-                    <option value="Churn_june">Churn_june</option>
-                    <option value="Churn_july">Churn_july</option>
-                </select>
-            </div>
-        </div>
-        <div class="field">
-            <label for="dataset-column">Dataset Column</label>
-            <div class="select">
-                <select id="dataset-column" name="dataset-column">
-                    <option value="" disabled selected hidden>Pick a column...</option>
-                    <option value="">Column</option>
-                    <option value="ID">ID</option>
-                    <option value="Day Charge">Day Charge</option>
-                    <option value="Day Calls">Day Calls</option>
-                    <option value="Churn">Churn</option>
-                </select>
-            </div>
-        </div>
-        <div class="field">
-            <div class="checkbox">
-                <input type="checkbox" name="rows-limit" id="rows-limit" />
-                <label for="rows-limit">Display only 100 rows</label>
-            </div>
-        </div>
-        <div class="field">
-            <div class="radio">
-                <input type="radio" name="export" value="json" id="json" checked="checked" />
-                <label for="json">Export as JSON</label>
-            </div>
-            <div class="radio">
-                <input type="radio" name="export" value="csv" id="csv" />
-                <label for="csv">Export as CSV</label>
-            </div>
-        </div>
-        <button type="button" class="text-button">Reset</button>
-        <button type="button" class="main-blue-button" id="export-button">Ok</button>
-    </form>
-</section>
-
-<h3>Table example</h3>
-<section>
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th><th>Author</th><th>Write duration</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lord of the Rings</td><td>J. R. R. Tolkien</td><td>16 years</td>
-            </tr>
-            <tr>
-                <td>Harry Potter and the Philosopher's stone</td><td>J. K. Rowling</td><td>6 years</td>
-            </tr>
-            <tr>
-                <td>To Kill a Mockingbird</td><td>Harper Lee</td><td>2.5 years</td>
-            </tr>
-            <tr>
-                <td>The Little Prince</td><td>Antoine de Saint-Exupery</td><td>6 months</td>
-            </tr>
-            <tr>
-                <td>On the road</td><td>Jack Kerouac</td><td>3 weeks</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+</body>
+</html>
