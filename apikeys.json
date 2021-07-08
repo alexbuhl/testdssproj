@@ -53,5 +53,28 @@
     "key": "evqGF7PwkWlDWgGxf7jMoyzAFkfRk7B2",
     "label": "Key for Web app tensorboard(sznodc0)",
     "createdOn": 1625649571312
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "DVr8Ew9",
+    "id": "MHiFTCZrqtbgqfif",
+    "key": "ZgPHA2UNTCH0FE2bIMxiTdSPCoAquUf4",
+    "label": "Key for Web app widgets(DVr8Ew9)",
+    "createdOn": 1625758974659
   }
 ]
