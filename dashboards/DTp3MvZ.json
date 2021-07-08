@@ -298,31 +298,14 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 25,
+              "top": 32,
               "left": 0,
-              "width": 12,
-              "height": 7
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {},
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "chart_saved",
-            "insightType": "static_file",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
               "width": 4,
               "height": 5
             },
-            "clickAction": "DO_NOTHING",
+            "clickAction": "OPEN_INSIGHT",
             "tileParams": {
-              "showCode": false
+              "showCode": true
             },
             "autoLoad": true,
             "showTitle": "YES",
@@ -342,11 +325,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 66,
+    "versionNumber": 67,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625730081806
+    "lastModifiedOn": 1625730114597
   },
   "creationTag": {
     "versionNumber": 1,
