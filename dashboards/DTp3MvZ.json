@@ -317,8 +317,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 25,
+              "left": 5,
               "width": 4,
               "height": 5
             },
@@ -336,14 +336,14 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": -1,
-              "left": -1,
+              "top": 30,
+              "left": 0,
               "width": 4,
               "height": 5
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
-              "showCode": false
+              "showCode": true
             },
             "autoLoad": true,
             "showTitle": "YES",
@@ -363,11 +363,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 75,
+    "versionNumber": 76,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625758691934
+    "lastModifiedOn": 1625758703306
   },
   "creationTag": {
     "versionNumber": 1,
