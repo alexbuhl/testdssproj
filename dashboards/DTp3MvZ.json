@@ -294,63 +294,6 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 25,
-              "left": 0,
-              "width": 5,
-              "height": 5
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showCode": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "ghbKI69",
-            "insightType": "jupyter",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 25,
-              "left": 5,
-              "width": 4,
-              "height": 5
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showCode": false
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "TfhKHl9",
-            "insightType": "jupyter",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 30,
-              "left": 0,
-              "width": 4,
-              "height": 5
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "showCode": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "in4drNz",
-            "insightType": "jupyter",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -363,11 +306,11 @@
   "name": "Insights and value prediction dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 77,
+    "versionNumber": 78,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1625758715535
+    "lastModifiedOn": 1625758723601
   },
   "creationTag": {
     "versionNumber": 1,
