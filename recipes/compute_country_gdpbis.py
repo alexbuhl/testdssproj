@@ -19,7 +19,7 @@ print("second")
 # Compute recipe outputs from inputs
 # TODO: Replace this part by your actual code that computes the output, as a Pandas dataframe
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
-dgdg
+
 
 country_gdpbis_df = country_gdp_df # For this sample code, simply copy input to output
 
