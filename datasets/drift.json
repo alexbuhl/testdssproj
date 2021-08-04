@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628084238742
+    "lastModifiedOn": 1628084259573
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,49 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "date"
+      },
+      {
+        "name": "model_id",
+        "type": "string"
+      },
+      {
+        "name": "version_id",
+        "type": "string"
+      },
+      {
+        "name": "train_date",
+        "type": "string"
+      },
+      {
+        "name": "drift_score",
+        "type": "double"
+      },
+      {
+        "name": "fugacity",
+        "type": "string"
+      },
+      {
+        "name": "fugacity_relative_change",
+        "type": "string"
+      },
+      {
+        "name": "most_drifted_features",
+        "type": "string"
+      },
+      {
+        "name": "most_important_features_in_deployed_model",
+        "type": "string"
+      },
+      {
+        "name": "riskiest_features",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
