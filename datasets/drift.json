@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628084259573
+    "lastModifiedOn": 1628084259878
   },
   "creationTag": {
     "versionNumber": 0,
@@ -76,27 +76,33 @@
       },
       {
         "name": "drift_score",
-        "type": "double"
+        "type": "double",
+        "comment": "The drift score (between 0 and 1) is low (udner 0.1) if the new dataset and the original dataset are indistinguishable."
       },
       {
         "name": "fugacity",
-        "type": "string"
+        "type": "string",
+        "comment": "Proportion of samples predicted (in %) in each decile when scoring on both the original test and the new input dataset.\n\nDecile 0: from -inf to 84.84\nDecile 1: from 84.844 to 128.42\nDecile 2: from 128.424 to 172.0\nDecile 3: from 172.003 to 215.58\nDecile 4: from 215.582 to 259.16\nDecile 5: from 259.161 to 302.74\nDecile 6: from 302.74 to 346.32\nDecile 7: from 346.319 to 389.9\nDecile 8: from 389.899 to 433.48\nDecile 9: from 433.48 to +inf"
       },
       {
         "name": "fugacity_relative_change",
-        "type": "string"
+        "type": "string",
+        "comment": "Relative change (in %) in each decile with respect to the original fugacity value.\n\nFormula: 100*(new_fugacity - original_fugacity)/original_fugacity\n\nDecile 0: from -inf to 84.84\nDecile 1: from 84.844 to 128.42\nDecile 2: from 128.424 to 172.0\nDecile 3: from 172.003 to 215.58\nDecile 4: from 215.582 to 259.16\nDecile 5: from 259.161 to 302.74\nDecile 6: from 302.74 to 346.32\nDecile 7: from 346.319 to 389.9\nDecile 8: from 389.899 to 433.48\nDecile 9: from 433.48 to +inf"
       },
       {
         "name": "most_drifted_features",
-        "type": "string"
+        "type": "string",
+        "comment": "When the drift score is medium/high (above 0.1), this is the list of features that have been drifted the most, with their % of importance (max 20 features)."
       },
       {
         "name": "most_important_features_in_deployed_model",
-        "type": "string"
+        "type": "string",
+        "comment": "When the drift score is medium/high (above 0.1), this is the list of features that have been drifted the most, with their % of importance (max 20 features)."
       },
       {
         "name": "riskiest_features",
-        "type": "string"
+        "type": "string",
+        "comment": "If the drift score is medium/high (above 0.1), we recommend you to check those features.\nA feature is considered risky if it is both in the top 40% of the most drifted features as well as the top 40% most important features in the original model."
       }
     ],
     "userModified": false
