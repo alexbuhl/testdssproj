@@ -122,6 +122,7 @@
             "type": "string"
           },
           {
+            "meaning": "JSONArrayMeaning",
             "name": "birth",
             "type": "string"
           },
