@@ -122,7 +122,7 @@
             "type": "string"
           },
           {
-            "meaning": "JSONArrayMeaning",
+            "meaning": "Boolean",
             "name": "birth",
             "type": "string"
           },
