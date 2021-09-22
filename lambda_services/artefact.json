@@ -50,7 +50,15 @@
       "type": "PY_FUNCTION"
     },
     {
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "data": {
+              "customer_id": "041b77595d"
+            }
+          }
+        }
+      ],
       "lookups": [
         {
           "datasetRef": "crm_last_year",
