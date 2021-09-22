@@ -51,7 +51,27 @@
     },
     {
       "testQueries": [],
-      "lookups": [],
+      "lookups": [
+        {
+          "datasetRef": "crm_last_year",
+          "packagingType": "BUNDLED_TOCONNECTION",
+          "on": [
+            {
+              "resourceLookupCol": "customer_id"
+            }
+          ],
+          "missingLookupKeyBehavior": "IGNORE",
+          "notFoundBehavior": "IGNORE",
+          "multiMatchBehavior": "KEEP_FIRST",
+          "columnsMapping": {
+            "customer_id": "customer_id",
+            "birth": "birth",
+            "price_first_item_purchased": "price_first_item_purchased",
+            "gender": "gender",
+            "revenue": "revenue"
+          }
+        }
+      ],
       "id": "hhhh",
       "type": "DATASETS_LOOKUP"
     }
