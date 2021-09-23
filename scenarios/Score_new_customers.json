@@ -142,6 +142,30 @@
           ],
           "proceedOnFailure": false
         }
+      },
+      {
+        "id": "build_0_true_d_new_customers_prepared",
+        "type": "build_flowitem",
+        "name": "build dataset new_customers_prepared",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [
+            {
+              "type": "DATASET",
+              "itemId": "new_customers_prepared"
+            }
+          ],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
       }
     ]
   },
