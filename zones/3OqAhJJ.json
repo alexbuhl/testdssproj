@@ -1,7 +1,48 @@
 {
   "name": "test",
   "color": "#C82423",
-  "items": [],
+  "items": [
+    {
+      "objectId": "new_customers",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "web_new_visitors",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_country_gdpbis",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_new_customers_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "new_customers_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_new_customers_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_new_customers_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "new_customers_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "country_gdpbis",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "new_customers_scored",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
