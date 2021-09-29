@@ -134,6 +134,7 @@
             "type": "string"
           },
           {
+            "meaning": "Date",
             "name": "ip",
             "type": "string"
           },
