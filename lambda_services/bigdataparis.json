@@ -1,4 +1,5 @@
 {
+  "name": "bigdataparis",
   "endpoints": [
     {
       "modelRef": "8A6fb5O8",
@@ -11,7 +12,25 @@
         "subChunkSize": 5000,
         "shapleyBackgroundSize": 100
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "crm_prepared #1",
+          "q": {
+            "features": {
+              "customer_id": "041b77595d",
+              "age": 34,
+              "price_first_item_purchased": 22,
+              "gender": "M",
+              "revenue": 171,
+              "join_ip": "108.124.56.200",
+              "join_ip_country": "United States",
+              "join_pages_visited": 2,
+              "join_campain": false,
+              "join_GDP_cap": 51704
+            }
+          }
+        }
+      ],
       "enrichMapping": [],
       "healthCheckQueries": [],
       "returnPostEnrichData": false,
