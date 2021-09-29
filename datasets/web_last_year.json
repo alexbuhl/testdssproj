@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1621519137703
+    "lastModifiedOn": 1632929228326
   },
   "creationTag": {
     "versionNumber": 0,
@@ -97,7 +97,8 @@
       },
       {
         "name": "ip",
-        "type": "string"
+        "type": "string",
+        "meaning": "DoubleMeaning"
       },
       {
         "name": "pages_visited",
