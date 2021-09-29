@@ -1,7 +1,32 @@
 {
-  "type": "join",
+  "type": "spark_sql_query",
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
+  "params": {
+    "useGlobalMetastore": false,
+    "overwriteOutputSchema": true,
+    "forcePipelineableForTests": false,
+    "readParams": {
+      "mode": "AUTO",
+      "autoModeRepartitionInto": 10,
+      "map": {
+        "new_customers": {
+          "repartition": 10
+        },
+        "web_new_visitors": {
+          "repartition": 10
+        }
+      }
+    },
+    "sparkConfig": {
+      "inheritConf": "default",
+      "conf": []
+    },
+    "executionEngine": "SPARK_SUBMIT",
+    "pipelineAllowStart": true,
+    "pipelineAllowMerge": true,
+    "skipPrerunValidate": false
+  },
   "customMeta": {
     "kv": {}
   },
@@ -35,11 +60,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 24,
+    "versionNumber": 25,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1632928429031
+    "lastModifiedOn": 1632928429271
   },
   "creationTag": {
     "versionNumber": 0,
