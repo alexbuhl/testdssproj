@@ -113,7 +113,7 @@
       }
     }
   },
-  "engineType": "SPARK",
+  "engineType": "SQL",
   "virtualInputs": [
     {
       "index": 0
