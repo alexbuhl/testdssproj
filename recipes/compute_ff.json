@@ -3,7 +3,9 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "customConfig": {},
+    "customConfig": {
+      "parameter2": 42
+    },
     "containerSelection": {
       "containerMode": "INHERIT"
     }
@@ -37,11 +39,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1633957415030
+    "lastModifiedOn": 1633957418525
   },
   "creationTag": {
     "versionNumber": 0,
