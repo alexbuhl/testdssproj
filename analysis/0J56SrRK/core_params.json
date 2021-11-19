@@ -1,12 +1,55 @@
 {
   "inputDatasetSmartName": "new_customers",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "DateParser",
+        "params": {
+          "outCol": "birth_parsed",
+          "lang": "auto",
+          "timezone_id": "UTC",
+          "formats": [
+            "MM/dd/yyyy"
+          ],
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "birth"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "DateComponentsExtractor",
+        "params": {
+          "column": "birth_parsed",
+          "outYearColumn": "birth_parsed_year",
+          "outMonthColumn": "birth_parsed_month",
+          "outDayColumn": "birth_parsed_day",
+          "timezone_id": "UTC"
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "maxProcessedMemTableBytes": -1,
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "customer_id": 127,
+      "birth": 100,
+      "price_first_item_purchased": 210,
+      "gender": 100,
+      "birth_parsed": 183,
+      "birth_parsed_year": 143,
+      "birth_parsed_month": 150,
+      "birth_parsed_day": 135
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -59,7 +102,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -67,11 +112,11 @@
   "charts": [],
   "name": "Analyze new_customers",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637329856796
+    "lastModifiedOn": 1637329893676
   },
   "creationTag": {
     "versionNumber": 0,
