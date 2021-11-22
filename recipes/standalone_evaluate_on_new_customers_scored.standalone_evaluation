@@ -20,7 +20,7 @@
   "autoOptimizeThreshold": true,
   "labels": [],
   "features": [],
-  "targetVariable": "customer_id",
+  "targetVariable": "join_ip_country",
   "predictionType": "REGRESSION",
   "modelParams": {},
   "selection": {
