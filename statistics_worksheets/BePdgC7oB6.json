@@ -37,6 +37,7 @@
         "showFrequencyTable": true,
         "showSummary": true,
         "showBoxPlot": true,
+        "showCumulativeDistributionFunction": false,
         "xColumns": [
           {
             "name": "age",
@@ -47,7 +48,35 @@
             "type": "CATEGORICAL"
           },
           {
+            "name": "gender",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_GDP_cap",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "join_campain",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_ip",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_ip_country",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_pages_visited",
+            "type": "CATEGORICAL"
+          },
+          {
             "name": "price_first_item_purchased",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "revenue",
             "type": "CONTINUOUS"
           }
         ],
@@ -70,7 +99,7 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "4qNINmn"
+                "id": "AlS1ffw"
               },
               {
                 "type": "univariate_summary",
@@ -103,7 +132,7 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "Qjpu8CO"
+                "id": "dr4nVzh"
               },
               {
                 "type": "quantile_table",
@@ -113,10 +142,10 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "eKeaT6x"
+                "id": "AeANERG"
               }
             ],
-            "id": "ESMbG1t"
+            "id": "2TRG7AH"
           },
           {
             "type": "column_card",
@@ -133,7 +162,7 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "23THVea"
+                "id": "nsJ1hj3"
               },
               {
                 "type": "univariate_summary",
@@ -166,7 +195,7 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "I2olKnd"
+                "id": "3vK98L4"
               },
               {
                 "type": "univariate_frequency_table",
@@ -175,10 +204,770 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "ShuuDhy"
+                "id": "j6lgoeA"
               }
             ],
-            "id": "RtSAwaP"
+            "id": "gtmY7v7"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "gender",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "11Jz8Gn"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "pOkDMjj"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "X7yvIPg"
+              }
+            ],
+            "id": "Z4huLAI"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_GDP_cap",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "rGRsMnO"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "MlGzZIR"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "30taVoH"
+              }
+            ],
+            "id": "CyT7arN"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_campain",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Biigiqx"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hNqV8FY"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hVPRhzw"
+              }
+            ],
+            "id": "SUJaAVL"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_ip",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Blj1fWA"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "nUvWKTN"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "r13BQBp"
+              }
+            ],
+            "id": "tL0mWhE"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_ip_country",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eIuz6UK"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "zMpLpXz"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "2BMcFp8"
+              }
+            ],
+            "id": "2I0Y9Ql"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_pages_visited",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "1NR1e8s"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "aueV02G"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "nfAUfFx"
+              }
+            ],
+            "id": "XPKwhvz"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "price_first_item_purchased",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "KVUAw26"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Zylbxwt"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "0y0OqbR"
+              }
+            ],
+            "id": "hIwSWKN"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "revenue",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "8Bmi1k9"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "tQ9IcLD"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XPJZfSO"
+              }
+            ],
+            "id": "5WXqkrf"
+          }
+        ],
+        "id": "dF5S7IA"
+      },
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "showCumulativeDistributionFunction": true,
+        "xColumns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "join_GDP_cap",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "join_pages_visited",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "price_first_item_purchased",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "revenue",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "age",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "arBFjds"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Ewf38Xa"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "hB1ix9n"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "4BBLSu4"
+              }
+            ],
+            "id": "7RemYbA"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_GDP_cap",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "ohxKgBM"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "XpvOn4x"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "5HrsLA2"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "join_GDP_cap",
+                  "type": "CONTINUOUS"
+                },
+                "id": "pzcwYxK"
+              }
+            ],
+            "id": "cywhRCt"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_pages_visited",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Pwzs9eV"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CONTINUOUS"
+                },
+                "id": "z9pxso6"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CONTINUOUS"
+                },
+                "id": "gUbqH9Q"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CONTINUOUS"
+                },
+                "id": "kArjvw6"
+              }
+            ],
+            "id": "BdnBCnA"
           },
           {
             "type": "column_card",
@@ -198,7 +987,15 @@
                   "name": "price_first_item_purchased",
                   "type": "CONTINUOUS"
                 },
-                "id": "1XBcMoC"
+                "id": "yj1qdpw"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CONTINUOUS"
+                },
+                "id": "IuY3sDg"
               },
               {
                 "type": "univariate_summary",
@@ -231,7 +1028,7 @@
                   "name": "price_first_item_purchased",
                   "type": "CONTINUOUS"
                 },
-                "id": "ZOSLGIi"
+                "id": "QAQ0vjH"
               },
               {
                 "type": "quantile_table",
@@ -241,24 +1038,637 @@
                   "name": "price_first_item_purchased",
                   "type": "CONTINUOUS"
                 },
-                "id": "0FXdH7t"
+                "id": "ZSiyKET"
               }
             ],
-            "id": "Om4TKBt"
+            "id": "pA4wmdD"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "revenue",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": true,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "j6oJgSv"
+              },
+              {
+                "type": "cdf_plot",
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "gGVKShs"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "KWXiklb"
+              },
+              {
+                "type": "quantile_table",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "column": {
+                  "name": "revenue",
+                  "type": "CONTINUOUS"
+                },
+                "id": "IueY77R"
+              }
+            ],
+            "id": "x8RPdpB"
           }
         ],
-        "id": "2HumKXf"
+        "id": "8Cbrjbn"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0,
+          "filterVariablesWithoutValues": false
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "revenue",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "price_first_item_purchased",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "join_pages_visited",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "join_GDP_cap",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "sWnwOjD"
+      },
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": true,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": true,
+        "showCumulativeDistributionFunction": false,
+        "xColumns": [
+          {
+            "name": "customer_id",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "gender",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_campain",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_ip",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_ip_country",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "join_pages_visited",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "price_first_item_purchased",
+            "type": "CATEGORICAL"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "customer_id",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "customer_id",
+                  "type": "CATEGORICAL"
+                },
+                "id": "sBqDXPd"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "customer_id",
+                  "type": "CATEGORICAL"
+                },
+                "id": "n3KOdi9"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "customer_id",
+                  "type": "CATEGORICAL"
+                },
+                "id": "qs3cxkr"
+              }
+            ],
+            "id": "BbAxECv"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "gender",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bCTDd7q"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xfYO2mM"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "gender",
+                  "type": "CATEGORICAL"
+                },
+                "id": "gyotEAr"
+              }
+            ],
+            "id": "DCjeAbn"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_campain",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bbNHoXS"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "uLSdCcB"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_campain",
+                  "type": "CATEGORICAL"
+                },
+                "id": "qVSznU7"
+              }
+            ],
+            "id": "m8MT7OG"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_ip",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "UAkerGT"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "NdcSvQc"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_ip",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hbWlBuA"
+              }
+            ],
+            "id": "HBwLrDt"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_ip_country",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "WX8QCh4"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "daScynR"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_ip_country",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eGUY5dv"
+              }
+            ],
+            "id": "e7gj2Mp"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "join_pages_visited",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "tPCd2JG"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xdLsrn2"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "join_pages_visited",
+                  "type": "CATEGORICAL"
+                },
+                "id": "vwMggTG"
+              }
+            ],
+            "id": "pICGdnF"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "price_first_item_purchased",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "UPdfA8Z"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Im6uauT"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "price_first_item_purchased",
+                  "type": "CATEGORICAL"
+                },
+                "id": "HU31HYc"
+              }
+            ],
+            "id": "dDhU8Fy"
+          }
+        ],
+        "id": "6bbUZO5"
+      },
+      {
+        "type": "cdf_plot",
+        "column": {
+          "name": "revenue",
+          "type": "CONTINUOUS"
+        },
+        "id": "phwIDCp"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          },
+          {
+            "distribution": {
+              "type": "beta"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "revenue",
+          "type": "CONTINUOUS"
+        },
+        "id": "xWVBOQw"
       }
     ],
     "id": "tMUukg8"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1619621941595
+    "lastModifiedOn": 1637585628569
   },
   "creationTag": {
     "versionNumber": 0,
