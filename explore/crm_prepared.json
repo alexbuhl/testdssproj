@@ -37,6 +37,24 @@
       "_refreshTrigger": 0
     },
     "vizSampling": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": -1,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
@@ -136,9 +154,25 @@
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
+        "displayXAxis": true,
+        "displayYAxis": true,
         "hexbinRadius": 20,
         "hexbinNumber": 20,
         "hexbinRadiusMode": "NUM_HEXAGONS",
+        "yCustomExtent": {
+          "editMode": "AUTO",
+          "manualExtent": [
+            null,
+            null
+          ]
+        },
+        "xCustomExtent": {
+          "editMode": "AUTO",
+          "manualExtent": [
+            null,
+            null
+          ]
+        },
         "chartHeight": 200,
         "singleXAxis": true,
         "multiTooltips": false,
@@ -159,7 +193,10 @@
           "paletteType": "CONTINUOUS",
           "quantizationMode": "NONE",
           "numQuantizeSteps": 5,
-          "paletteMiddleValue": 0.0
+          "paletteMiddleValue": 0.0,
+          "customColors": {},
+          "heatDensityMapIntensity": 0.5,
+          "heatDensityMapRadius": 0.5
         },
         "bubblesOptions": {
           "defaultRadius": 5.0,
@@ -183,7 +220,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAMVJREFUaEPtlrEJgDAQRZM9BCsHsbFyHXEGcR0rGwexEhzExkKFhLuYYMBn/Q9z/+6/xJqffVbTb9lPi0b/1G5DW7+pj1FLwz4XmbByx1hppWEx5GSYDF8cAFrKUAEtpWEx5EALaAGt8CQBrXDvgiuBFtACWsHxMUDL412qd3u20KJhZZJc8WHCuVxLrDQr7XeADJ/+AC2g9dFbGkpDaSh9c4BriWtJAIWimyuBzCnZx2aV1qf6l+rhIT1szjoaznk6Mc52ADzj1CnJ+kMUAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABQCAYAAADSm7GJAAAAAXNSR0IArs4c6QAAAkxJREFUeF7tnLFNQ0EQRO87oQuLchCChCLIiO0OQM5JqIHQJFRjuQBK8JE4sWT9u5v1CsZ6xDvHMO92dAjhqSR83a6/7mqtq4Sju46cav3ebR5fu4avfGjK+PkAnJGqdiaAtdxsVAC2QaUZBbCWm40KwDaoNKMA1nKzUQHYBpVmFMBabjYqANug0owCWMvNRgVgG1SaUQBrudmoAGyDSjMKYC03GxWAbVBpRgGs5WajArANKs0ogLXcbFQAtkGlGQWwlpuNCsA2qDSjANZys1EB2AaVZhTAWm42KgDboNKMAljLzUYFYBtUmlEAa7nZqABsg0ozCmAtNxsVgG1QaUYBrOVmowKwDSrNKIC13GxUALZBpRkFsJabjQrANqg0owDWcrNRAXgQ1XK1fZlKuRmUXWy81sVuv7n/7D0QwL1JHeeOgJ8GZRcbr3XxDuDED0IDcCnlmj8IDcAAvlgdnzuIii6lZH5WJRvMBrPBqQmwwSfx8mvS4G2joqnowSszNs4ji4qmosd25nSaiqaiI/enqaWiqWgqurkmMwNUNBUduT9NLRVNRVPRzTWhoucj4s+FkSs0r6WiqWgqOrJfvKJ5RUfuT1NLRVPRVHRzTXhF84qOXJKIloqmoqnoyAbxiuYVHbk/TS0VTUVT0c014RXNKzpySSJaKpqKpqIjG8Qrmld05P40tf+mog+lLptuEwf2bw8fGccv19vnjHO7zzwsfv78H8C7zTKYnkDK/yalu+YbdCcA4O6oPAcB7Mmt2zWAu6PyHASwJ7du17/ggtR+2fz18wAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
