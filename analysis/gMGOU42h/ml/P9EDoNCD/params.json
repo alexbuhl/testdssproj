@@ -120,10 +120,10 @@
                     "autoModifiedByDSS": false, 
                     "recordedMeaning": "LongMeaning"
                 }, 
-                "missing_handling": "IMPUTE", 
+                "role": "INPUT", 
                 "quantile_bin_nb_bins": 4, 
                 "binarize_constant_threshold": 0.0, 
-                "role": "INPUT", 
+                "missing_handling": "IMPUTE", 
                 "rescaling": "AVGSTD", 
                 "type": "NUMERIC", 
                 "impute_constant_value": 0.0
@@ -141,10 +141,10 @@
                     "autoModifiedByDSS": false, 
                     "recordedMeaning": "DoubleMeaning"
                 }, 
-                "missing_handling": "IMPUTE", 
+                "role": "INPUT", 
                 "quantile_bin_nb_bins": 4, 
                 "binarize_constant_threshold": 0.0, 
-                "role": "INPUT", 
+                "missing_handling": "IMPUTE", 
                 "rescaling": "AVGSTD", 
                 "type": "NUMERIC", 
                 "impute_constant_value": 0.0
@@ -167,10 +167,9 @@
                 "impute_constant_value": 0.0
             }, 
             "join_campain": {
-                "cumulative_proportion": 0.95, 
                 "min_samples": 10, 
+                "dummy_drop": "AUTO", 
                 "hash_whole_categories": false, 
-                "type": "CATEGORY", 
                 "customHandlingCode": "", 
                 "category_handling": "DUMMIFY", 
                 "nb_bins_hashing": 1048576, 
@@ -182,18 +181,18 @@
                 }, 
                 "missing_handling": "NONE", 
                 "max_nb_categories": 100, 
+                "customProcessorWantsMatrix": false, 
                 "dummy_clip": "MAX_NB_CATEGORIES", 
                 "role": "INPUT", 
-                "dummy_drop": "AUTO", 
+                "max_cat_safety": 200, 
                 "missing_impute_with": "MODE", 
-                "customProcessorWantsMatrix": false, 
-                "max_cat_safety": 200
+                "type": "CATEGORY", 
+                "cumulative_proportion": 0.95
             }, 
             "gender": {
-                "cumulative_proportion": 0.95, 
                 "min_samples": 10, 
+                "dummy_drop": "AUTO", 
                 "hash_whole_categories": false, 
-                "type": "CATEGORY", 
                 "customHandlingCode": "", 
                 "category_handling": "DUMMIFY", 
                 "nb_bins_hashing": 1048576, 
@@ -205,12 +204,13 @@
                 }, 
                 "missing_handling": "NONE", 
                 "max_nb_categories": 100, 
+                "customProcessorWantsMatrix": false, 
                 "dummy_clip": "MAX_NB_CATEGORIES", 
                 "role": "INPUT", 
-                "dummy_drop": "AUTO", 
+                "max_cat_safety": 200, 
                 "missing_impute_with": "MODE", 
-                "customProcessorWantsMatrix": false, 
-                "max_cat_safety": 200
+                "type": "CATEGORY", 
+                "cumulative_proportion": 0.95
             }, 
             "age": {
                 "generate_derivative": false, 
@@ -225,19 +225,18 @@
                     "autoModifiedByDSS": false, 
                     "recordedMeaning": "LongMeaning"
                 }, 
-                "missing_handling": "IMPUTE", 
+                "role": "INPUT", 
                 "quantile_bin_nb_bins": 4, 
                 "binarize_constant_threshold": 0.0, 
-                "role": "INPUT", 
+                "missing_handling": "IMPUTE", 
                 "rescaling": "AVGSTD", 
                 "type": "NUMERIC", 
                 "impute_constant_value": 0.0
             }, 
             "join_ip": {
-                "cumulative_proportion": 0.95, 
                 "min_samples": 10, 
+                "dummy_drop": "AUTO", 
                 "hash_whole_categories": false, 
-                "type": "CATEGORY", 
                 "customHandlingCode": "", 
                 "category_handling": "DUMMIFY", 
                 "nb_bins_hashing": 1048576, 
@@ -249,18 +248,18 @@
                 }, 
                 "missing_handling": "NONE", 
                 "max_nb_categories": 100, 
+                "customProcessorWantsMatrix": false, 
                 "dummy_clip": "MAX_NB_CATEGORIES", 
                 "role": "INPUT", 
-                "dummy_drop": "AUTO", 
+                "max_cat_safety": 200, 
                 "missing_impute_with": "MODE", 
-                "customProcessorWantsMatrix": false, 
-                "max_cat_safety": 200
+                "type": "CATEGORY", 
+                "cumulative_proportion": 0.95
             }, 
             "join_ip_country": {
-                "cumulative_proportion": 0.95, 
                 "min_samples": 10, 
+                "dummy_drop": "AUTO", 
                 "hash_whole_categories": false, 
-                "type": "CATEGORY", 
                 "customHandlingCode": "", 
                 "category_handling": "DUMMIFY", 
                 "nb_bins_hashing": 1048576, 
@@ -272,22 +271,23 @@
                 }, 
                 "missing_handling": "NONE", 
                 "max_nb_categories": 100, 
+                "customProcessorWantsMatrix": false, 
                 "dummy_clip": "MAX_NB_CATEGORIES", 
                 "role": "INPUT", 
-                "dummy_drop": "AUTO", 
+                "max_cat_safety": 200, 
                 "missing_impute_with": "MODE", 
-                "customProcessorWantsMatrix": false, 
-                "max_cat_safety": 200
+                "type": "CATEGORY", 
+                "cumulative_proportion": 0.95
             }, 
             "customer_id": {
                 "min_samples": 10, 
                 "cumulative_proportion": 0.95, 
-                "missing_impute_with": "MODE", 
+                "autoReason": "REJECT_IDENTIFIER", 
+                "customProcessorWantsMatrix": false, 
                 "hash_whole_categories": false, 
-                "nb_bins_hashing": 1048576, 
                 "customHandlingCode": "", 
                 "category_handling": "DUMMIFY", 
-                "customProcessorWantsMatrix": false, 
+                "nb_bins_hashing": 1048576, 
                 "sendToInput": "main", 
                 "state": {
                     "userModified": false, 
@@ -298,10 +298,10 @@
                 "max_nb_categories": 100, 
                 "dummy_clip": "MAX_NB_CATEGORIES", 
                 "role": "REJECT", 
-                "dummy_drop": "NONE", 
-                "autoReason": "REJECT_IDENTIFIER", 
+                "max_cat_safety": 200, 
+                "missing_impute_with": "MODE", 
                 "type": "CATEGORY", 
-                "max_cat_safety": 200
+                "dummy_drop": "NONE"
             }, 
             "price_first_item_purchased": {
                 "generate_derivative": false, 
@@ -316,10 +316,10 @@
                     "autoModifiedByDSS": false, 
                     "recordedMeaning": "DoubleMeaning"
                 }, 
-                "missing_handling": "IMPUTE", 
+                "role": "INPUT", 
                 "quantile_bin_nb_bins": 4, 
                 "binarize_constant_threshold": 0.0, 
-                "role": "INPUT", 
+                "missing_handling": "IMPUTE", 
                 "rescaling": "AVGSTD", 
                 "type": "NUMERIC", 
                 "impute_constant_value": 0.0
@@ -353,6 +353,7 @@
             "beta_1": 0.9, 
             "beta_2": 0.999, 
             "shuffle": true, 
+            "momentum": 0.8, 
             "nesterovs_momentum": true, 
             "solver": "adam", 
             "validation_fraction": 0.1, 
@@ -362,23 +363,22 @@
             "batch_size": 200, 
             "power_t": 0.5, 
             "seed": 1337, 
-            "momentum": 0.8, 
+            "early_stopping": false, 
             "tol": 0.0001, 
             "epsilon": 1e-08, 
             "alpha": 0.001, 
-            "learning_rate_init": 0.001, 
             "auto_batch": true, 
             "activation": "relu", 
-            "early_stopping": false, 
+            "learning_rate_init": 0.001, 
             "layer_sizes": {
-                "values": [
-                    10
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    10
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 16, 
@@ -389,16 +389,16 @@
         }, 
         "lasso_regression": {
             "alpha": {
-                "values": [
-                    0.1, 
-                    1.0, 
-                    10.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1, 
+                    1.0, 
+                    10.0
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -411,16 +411,16 @@
         }, 
         "ridge_regression": {
             "alpha": {
-                "values": [
-                    0.1, 
-                    1.0, 
-                    3.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1, 
+                    1.0, 
+                    3.0
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 3.0, 
@@ -454,6 +454,11 @@
             }, 
             "multi_class": "ovr", 
             "C": {
+                "gridMode": "EXPLICIT", 
+                "randomMode": "RANGE", 
+                "limit": {
+                    "min": 1e-23
+                }, 
                 "values": [
                     0.01, 
                     0.1, 
@@ -461,11 +466,6 @@
                     10.0, 
                     100.0
                 ], 
-                "gridMode": "EXPLICIT", 
-                "randomMode": "RANGE", 
-                "limit": {
-                    "min": 1e-23
-                }, 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 100.0, 
@@ -479,14 +479,14 @@
         "mllib_naive_bayes": {
             "enabled": false, 
             "lambda": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -515,15 +515,15 @@
                 }
             }, 
             "max_feature_prop": {
-                "values": [
-                    0.3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.7, 
@@ -532,14 +532,14 @@
                 }
             }, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
@@ -548,15 +548,15 @@
                 }
             }, 
             "learning_rate": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
@@ -566,14 +566,14 @@
             }, 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -582,14 +582,14 @@
                 }
             }, 
             "n_estimators": {
-                "values": [
-                    100
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    100
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 300, 
@@ -598,14 +598,14 @@
                 }
             }, 
             "max_features": {
-                "values": [
-                    0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -631,15 +631,15 @@
                 }
             }, 
             "max_feature_prop": {
-                "values": [
-                    0.3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.7, 
@@ -648,14 +648,14 @@
                 }
             }, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
@@ -664,15 +664,15 @@
                 }
             }, 
             "learning_rate": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
@@ -682,14 +682,14 @@
             }, 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -698,14 +698,14 @@
                 }
             }, 
             "n_estimators": {
-                "values": [
-                    100
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    100
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 300, 
@@ -714,14 +714,14 @@
                 }
             }, 
             "max_features": {
-                "values": [
-                    0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -776,14 +776,14 @@
                 }
             }, 
             "max_depth": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
@@ -793,14 +793,14 @@
             }, 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -813,15 +813,15 @@
         "random_forest_regression": {
             "n_jobs": 1, 
             "max_tree_depth": {
-                "values": [
-                    6, 
-                    13
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    6, 
+                    13
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
@@ -832,14 +832,14 @@
             "selection_mode": "auto", 
             "enabled": true, 
             "min_samples_leaf": {
-                "values": [
-                    10
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    10
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -848,14 +848,14 @@
                 }
             }, 
             "n_estimators": {
-                "values": [
-                    100
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    100
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 200, 
@@ -864,15 +864,15 @@
                 }
             }, 
             "max_feature_prop": {
-                "values": [
-                    0.3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.7, 
@@ -881,14 +881,14 @@
                 }
             }, 
             "max_features": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -933,14 +933,14 @@
             "max_bins": 32, 
             "enabled": false, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
@@ -951,15 +951,15 @@
             "min_instance_per_node": 1, 
             "min_info_gain": 0.0, 
             "step_size": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
@@ -968,14 +968,14 @@
                 }
             }, 
             "num_trees": {
-                "values": [
-                    20
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    20
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 50, 
@@ -1022,14 +1022,14 @@
         "extra_trees": {
             "n_jobs": 4, 
             "max_tree_depth": {
-                "values": [
-                    8
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    8
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
@@ -1040,14 +1040,14 @@
             "selection_mode": "auto", 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -1056,14 +1056,14 @@
                 }
             }, 
             "n_estimators": {
-                "values": [
-                    100
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    100
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 150, 
@@ -1072,15 +1072,15 @@
                 }
             }, 
             "max_feature_prop": {
-                "values": [
-                    0.3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.7, 
@@ -1089,14 +1089,14 @@
                 }
             }, 
             "max_features": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -1151,14 +1151,14 @@
                 }
             }, 
             "C": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -1169,14 +1169,14 @@
             "max_iter": -1, 
             "enabled": false, 
             "custom_gamma": {
-                "values": [
-                    0.001
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.001
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 1.0, 
@@ -1205,14 +1205,14 @@
             "max_bins": 32, 
             "enabled": false, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
@@ -1233,14 +1233,14 @@
             "max_iter": 30, 
             "enabled": false, 
             "reg_param": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -1249,14 +1249,14 @@
                 }
             }, 
             "enet_param": {
-                "values": [
-                    0.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1269,14 +1269,14 @@
             "distance_weighting": false, 
             "algorithm": "auto", 
             "k": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 7, 
@@ -1292,14 +1292,14 @@
             "max_iter": 30, 
             "enabled": false, 
             "reg_param": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -1308,14 +1308,14 @@
                 }
             }, 
             "enet_param": {
-                "values": [
-                    0.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1342,14 +1342,14 @@
                 }
             }, 
             "C": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 10.0, 
@@ -1360,14 +1360,14 @@
             "max_iter": -1, 
             "enabled": false, 
             "custom_gamma": {
-                "values": [
-                    0.001
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.001
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 1.0, 
@@ -1394,18 +1394,18 @@
         "xgboost": {
             "cpu_tree_method": "auto", 
             "seed": 1337, 
-            "enable_early_stopping": true, 
+            "early_stopping_rounds": 4, 
             "enable_cuda": false, 
             "colsample_bylevel": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1415,14 +1415,14 @@
             }, 
             "nthread": 4, 
             "min_child_weight": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 5.0, 
@@ -1450,14 +1450,14 @@
                 }
             }, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 5, 
@@ -1468,15 +1468,15 @@
             "missing": 0.0, 
             "scale_pos_weight": 1.0, 
             "learning_rate": {
-                "values": [
-                    0.2
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.2
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
@@ -1485,14 +1485,14 @@
                 }
             }, 
             "max_delta_step": {
-                "values": [
-                    0.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1503,15 +1503,15 @@
             "base_score": 0.5, 
             "n_estimators": 300, 
             "alpha": {
-                "values": [
-                    0.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 0.0
                 }, 
+                "values": [
+                    0.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1530,15 +1530,15 @@
                 }
             }, 
             "colsample_bytree": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1549,15 +1549,15 @@
             "enabled": false, 
             "impute_missing": false, 
             "subsample": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1567,15 +1567,15 @@
             }, 
             "gpu_tree_method": "gpu_exact", 
             "lambda": {
-                "values": [
-                    1.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    1.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1584,14 +1584,14 @@
                 }
             }, 
             "gamma": {
-                "values": [
-                    0.0
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 0.0
                 }, 
+                "values": [
+                    0.0
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 1.0, 
@@ -1599,7 +1599,7 @@
                     "min": 0.0
                 }
             }, 
-            "early_stopping_rounds": 4
+            "enable_early_stopping": true
         }, 
         "sgd_regression": {
             "loss": {
@@ -1614,14 +1614,14 @@
             }, 
             "n_jobs": 2, 
             "epsilon": {
-                "values": [
-                    0.01
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.01
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 0.1, 
@@ -1647,16 +1647,16 @@
             "tol": 0.001, 
             "l1_ratio": 0.15, 
             "alpha": {
-                "values": [
-                    0.001, 
-                    0.0001, 
-                    1e-05
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.001, 
+                    0.0001, 
+                    1e-05
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 0.001, 
@@ -1689,14 +1689,14 @@
                 }
             }, 
             "max_depth": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
@@ -1706,14 +1706,14 @@
             }, 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -1752,16 +1752,16 @@
             }, 
             "tol": 0.001, 
             "alpha": {
-                "values": [
-                    0.001, 
-                    0.0001, 
-                    1e-05
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.001, 
+                    0.0001, 
+                    1e-05
+                ], 
                 "range": {
                     "scaling": "LOGARITHMIC", 
                     "max": 0.001, 
@@ -1779,14 +1779,14 @@
             "max_bins": 32, 
             "enabled": false, 
             "max_depth": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 8, 
@@ -1797,15 +1797,15 @@
             "min_instance_per_node": 1, 
             "min_info_gain": 0.0, 
             "step_size": {
-                "values": [
-                    0.1
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.1
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.5, 
@@ -1814,14 +1814,14 @@
                 }
             }, 
             "num_trees": {
-                "values": [
-                    20
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    20
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 50, 
@@ -1835,14 +1835,14 @@
         "random_forest_classification": {
             "n_jobs": 4, 
             "max_tree_depth": {
-                "values": [
-                    8
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    8
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 10, 
@@ -1853,14 +1853,14 @@
             "selection_mode": "auto", 
             "enabled": false, 
             "min_samples_leaf": {
-                "values": [
-                    3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
@@ -1869,14 +1869,14 @@
                 }
             }, 
             "n_estimators": {
-                "values": [
-                    100
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    100
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 200, 
@@ -1885,15 +1885,15 @@
                 }
             }, 
             "max_feature_prop": {
-                "values": [
-                    0.3
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "max": 1.0, 
                     "min": 1e-23
                 }, 
+                "values": [
+                    0.3
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 0.7, 
@@ -1902,14 +1902,14 @@
                 }
             }, 
             "max_features": {
-                "values": [
-                    5
-                ], 
                 "gridMode": "EXPLICIT", 
                 "randomMode": "RANGE", 
                 "limit": {
                     "min": 1
                 }, 
+                "values": [
+                    5
+                ], 
                 "range": {
                     "scaling": "LINEAR", 
                     "max": 20, 
