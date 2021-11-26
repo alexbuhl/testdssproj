@@ -71,18 +71,22 @@
   },
   "displayParams": {
     "pinnedMetrics": [],
-    "yLabels": [],
+    "yLabels": [
+      "model:name",
+      "evaluationDataset:dataset-name"
+    ],
     "alsoDisplayedLabels": [],
+    "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
     "disabledMERunIds": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637919049070
+    "lastModifiedOn": 1637919077323
   },
   "creationTag": {
     "versionNumber": 0,
