@@ -1,21 +1,61 @@
 {
   "displayName": "Compare 3 evaluations",
   "predictionType": "REGRESSION",
-  "comparedModels": [],
+  "comparedModels": [
+    {
+      "smartId": "ME-*-eL3iQzxf-i8kRQfg4MHMt",
+      "isSelected": true,
+      "color": "#1f77b4",
+      "isChampion": false
+    },
+    {
+      "smartId": "ME-*-eL3iQzxf-4tDvhLuKAn9r",
+      "isSelected": true,
+      "color": "#ff7f0e",
+      "isChampion": false
+    },
+    {
+      "smartId": "ME-*-eL3iQzxf-2X7UDYLYofko",
+      "isSelected": true,
+      "color": "#2ca02c",
+      "isChampion": false
+    }
+  ],
   "displayParams": {
-    "pinnedMetrics": [],
+    "displayedMetrics": [
+      "EVS",
+      "MAPE",
+      "MAE",
+      "MSE",
+      "RMSE",
+      "RMSLE",
+      "R2",
+      "PEARSON",
+      "DATA_DRIFT"
+    ],
+    "predictionType": "REGRESSION",
+    "pinnedMetrics": [
+      "R2"
+    ],
+    "xLabel": "model:date",
     "yLabels": [],
     "alsoDisplayedLabels": [],
+    "barLabels": [
+      "evaluation:date",
+      "evaluationDataset:dataset-name"
+    ],
+    "graphStyle": "BAR",
+    "sortColumn": "",
     "sortDescending": false,
     "showConfidenceIntervals": true,
     "disabledMERunIds": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637919388981
+    "lastModifiedOn": 1637919399520
   },
   "creationTag": {
     "versionNumber": 0,
