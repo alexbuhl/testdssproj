@@ -84,7 +84,9 @@
     "predictionType": "REGRESSION",
     "pinnedMetrics": [],
     "xLabel": "evaluation:date",
-    "yLabels": [],
+    "yLabels": [
+      "evaluationDataset:dataset-name"
+    ],
     "alsoDisplayedLabels": [],
     "barLabels": [
       "evaluation:date",
@@ -97,11 +99,11 @@
     "disabledMERunIds": []
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 27,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637919362244
+    "lastModifiedOn": 1637919483909
   },
   "creationTag": {
     "versionNumber": 0,
