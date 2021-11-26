@@ -48,15 +48,23 @@
           "appendMode": true
         }
       ]
+    },
+    "evaluationStore": {
+      "items": [
+        {
+          "ref": "eL3iQzxf",
+          "appendMode": false
+        }
+      ]
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628084514042
+    "lastModifiedOn": 1637919186300
   },
   "creationTag": {
     "versionNumber": 0,
