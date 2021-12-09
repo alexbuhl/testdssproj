@@ -10,6 +10,7 @@
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
+      "shareToWorkspaces": false,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
       "manageExposedElements": false,
@@ -42,6 +43,7 @@
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
+      "shareToWorkspaces": false,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
       "manageExposedElements": false,
@@ -65,6 +67,7 @@
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
+      "shareToWorkspaces": false,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
       "manageExposedElements": false,
@@ -76,5 +79,38 @@
     "key": "ZgPHA2UNTCH0FE2bIMxiTdSPCoAquUf4",
     "label": "Key for Web app widgets(DVr8Ew9)",
     "createdOn": 1625758974659
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "hIpMj8L",
+    "id": "hNfsMoGDOOFkqCAj",
+    "key": "KLG4spGTdyAPqXstyh6uaE0BrEiYb6le",
+    "label": "Key for Web app Plugin skin(hIpMj8L)",
+    "createdOn": 1639046730575
   }
 ]
