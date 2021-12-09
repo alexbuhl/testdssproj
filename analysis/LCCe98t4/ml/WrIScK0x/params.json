@@ -22,7 +22,7 @@
     }
   },
   "weight": {
-    "weightMethod": "NO_WEIGHTING"
+    "weightMethod": "SAMPLE_WEIGHT"
   },
   "time": {
     "enabled": false,
@@ -225,7 +225,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -307,7 +307,7 @@
         "binarize_threshold_mode": "MEDIAN",
         "binarize_constant_threshold": 0.0,
         "datetime_cyclical_periods": [],
-        "role": "INPUT",
+        "role": "REJECT",
         "type": "NUMERIC",
         "state": {
           "userModified": false,
@@ -387,7 +387,8 @@
           "min": 1
         },
         "values": [
-          100
+          100,
+          90
         ],
         "range": {
           "min": 80,
@@ -2249,22 +2250,22 @@
         "name": "AdaBoostRegressor",
         "params": {
           "n_estimators": [
-            50.0,
-            100.0
+            50,
+            100
           ],
           "learning_rate": [
-            1.0
+            1
           ],
           "loss": [
             "linear"
           ],
           "base_estimator": "decisiontree",
-          "max_depth_tree": 3.0,
-          "min_samples_split_tree": 2.0,
-          "min_samples_leaf_tree": 1.0,
-          "max_depth_gbm": -1.0,
-          "n_estimators_gbm": 100.0,
-          "min_child_samples_gbm": 20.0,
+          "max_depth_tree": 3,
+          "min_samples_split_tree": 2,
+          "min_samples_leaf_tree": 1,
+          "max_depth_gbm": -1,
+          "n_estimators_gbm": 100,
+          "min_child_samples_gbm": 20,
           "learning_rate_gbm": 0.1
         },
         "supportsSampleWeights": false,
@@ -2310,7 +2311,8 @@
       "nContainers": 4
     },
     "metrics": {
-      "evaluationMetric": "R2",
+      "evaluationMetric": "CUSTOM",
+      "customEvaluationMetricCode": "def score(y_valid, y_pred):\n    \"\"\"\n    Custom scoring function.\n    Must return a float quantifying the estimator prediction quality.\n      - y_valid is a pandas Series\n      - y_pred is a numpy ndarray with shape:\n           - (nb_records,) for regression problems and classification problems\n             where \u0027needs probas\u0027 (see below) is false\n             (for classification, the values are the numeric class indexes)\n           - (nb_records, nb_classes) for classification problems where\n             \u0027needs probas\u0027 is true\n      - [optional] X_valid is a dataframe with shape (nb_records, nb_input_features)\n      - [optional] sample_weight is a numpy ndarray with shape (nb_records,)\n                   NB: this option requires a variable set as \"Sample weights\"\n    \"\"\"\n",
       "customEvaluationMetricGIB": true,
       "customEvaluationMetricNeedsProba": false,
       "costMatrixWeights": {
@@ -2325,7 +2327,31 @@
     "max_ensemble_nodes_serialized": 6000
   },
   "assertionsParams": {
-    "assertions": []
+    "assertions": [
+      {
+        "name": "Assertion 1",
+        "filter": {
+          "distinct": false,
+          "enabled": true,
+          "uiData": {
+            "mode": "\u0026\u0026",
+            "conditions": [
+              {
+                "input": "age",
+                "operator": "\u003e  [number]",
+                "col": "age",
+                "num": 80.0
+              }
+            ]
+          }
+        },
+        "assertionCondition": {
+          "expectedValidRatio": 0.9,
+          "expectedMinValue": 400.0,
+          "expectedMaxValue": 549.0
+        }
+      }
+    ]
   },
   "predictionType": "REGRESSION",
   "targetVariable": "revenue",
