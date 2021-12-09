@@ -292,146 +292,6 @@
         "customProcessorWantsMatrix": false,
         "sendToInput": "main"
       },
-      "join_pressure": {
-        "generate_derivative": false,
-        "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
-        "impute_constant_value": 0.0,
-        "keep_regular": false,
-        "rescaling": "AVGSTD",
-        "quantile_bin_nb_bins": 4,
-        "binarize_threshold_mode": "MEDIAN",
-        "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [],
-        "role": "INPUT",
-        "type": "NUMERIC",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
-      "join_uvi": {
-        "generate_derivative": false,
-        "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
-        "impute_constant_value": 0.0,
-        "keep_regular": false,
-        "rescaling": "AVGSTD",
-        "quantile_bin_nb_bins": 4,
-        "binarize_threshold_mode": "MEDIAN",
-        "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [],
-        "role": "INPUT",
-        "type": "NUMERIC",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
-      "join_humidity": {
-        "generate_derivative": false,
-        "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
-        "impute_constant_value": 0.0,
-        "keep_regular": false,
-        "rescaling": "AVGSTD",
-        "quantile_bin_nb_bins": 4,
-        "binarize_threshold_mode": "MEDIAN",
-        "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [],
-        "role": "INPUT",
-        "type": "NUMERIC",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
-      "join_weather.0.main": {
-        "category_handling": "DUMMIFY",
-        "missing_handling": "NONE",
-        "missing_impute_with": "MODE",
-        "dummy_clip": "MAX_NB_CATEGORIES",
-        "cumulative_proportion": 0.95,
-        "min_samples": 10,
-        "max_nb_categories": 100,
-        "max_cat_safety": 200,
-        "nb_bins_hashing": 1048576,
-        "hash_whole_categories": false,
-        "dummy_drop": "AUTO",
-        "impact_method": "M_ESTIMATOR",
-        "impact_m": 10,
-        "impact_kfold": true,
-        "impact_kfold_k": 5,
-        "impact_kfold_seed": 1337,
-        "ordinal_order": "COUNT",
-        "ordinal_ascending": false,
-        "ordinal_default_mode": "HIGHEST",
-        "ordinal_default_value": 0,
-        "frequency_default_mode": "EXPLICIT",
-        "frequency_default_value": 0.0,
-        "frequency_normalized": true,
-        "role": "INPUT",
-        "type": "CATEGORY",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "Text"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
-      "join_": {
-        "category_handling": "DUMMIFY",
-        "missing_handling": "NONE",
-        "missing_impute_with": "MODE",
-        "dummy_clip": "MAX_NB_CATEGORIES",
-        "cumulative_proportion": 0.95,
-        "min_samples": 10,
-        "max_nb_categories": 100,
-        "max_cat_safety": 200,
-        "nb_bins_hashing": 1048576,
-        "hash_whole_categories": false,
-        "dummy_drop": "NONE",
-        "impact_method": "M_ESTIMATOR",
-        "impact_m": 10,
-        "impact_kfold": true,
-        "impact_kfold_k": 5,
-        "impact_kfold_seed": 1337,
-        "ordinal_order": "COUNT",
-        "ordinal_ascending": false,
-        "ordinal_default_mode": "HIGHEST",
-        "ordinal_default_value": 0,
-        "frequency_default_mode": "EXPLICIT",
-        "frequency_default_value": 0.0,
-        "frequency_normalized": true,
-        "role": "REJECT",
-        "type": "CATEGORY",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "Text"
-        },
-        "autoReason": "REJECT_MISSING",
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
       "customer_id": {
         "category_handling": "DUMMIFY",
         "missing_handling": "NONE",
@@ -462,29 +322,6 @@
           "userModified": false,
           "autoModifiedByDSS": false,
           "recordedMeaning": "Text"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
-      "join_temp": {
-        "generate_derivative": false,
-        "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
-        "impute_constant_value": 0.0,
-        "keep_regular": false,
-        "rescaling": "AVGSTD",
-        "quantile_bin_nb_bins": 4,
-        "binarize_threshold_mode": "MEDIAN",
-        "binarize_constant_threshold": 0.0,
-        "datetime_cyclical_periods": [],
-        "role": "INPUT",
-        "type": "NUMERIC",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning"
         },
         "customHandlingCode": "",
         "customProcessorWantsMatrix": false,
@@ -2401,7 +2238,37 @@
         "name": "Custom Python model"
       }
     ],
-    "plugin_python": {},
+    "plugin_python": {
+      "CustomPyPredAlgo_cc-fraud-advanced-plugin_cc-fraud-advanced-plugin_adaboost-regressor": {
+        "pluginId": "cc-fraud-advanced-plugin",
+        "pluginVersion": "0.0.1",
+        "elementId": "cc-fraud-advanced-plugin_adaboost-regressor",
+        "name": "AdaBoostRegressor",
+        "params": {
+          "n_estimators": [
+            50.0,
+            100.0
+          ],
+          "learning_rate": [
+            1.0
+          ],
+          "loss": [
+            "linear"
+          ],
+          "base_estimator": "decisiontree",
+          "max_depth_tree": 3.0,
+          "min_samples_split_tree": 2.0,
+          "min_samples_leaf_tree": 1.0,
+          "max_depth_gbm": -1.0,
+          "n_estimators_gbm": 100.0,
+          "min_child_samples_gbm": 20.0,
+          "learning_rate_gbm": 0.1
+        },
+        "supportsSampleWeights": false,
+        "acceptsSparseMatrix": false,
+        "enabled": false
+      }
+    },
     "keras": {
       "epochs": 10,
       "batchSize": 32,
