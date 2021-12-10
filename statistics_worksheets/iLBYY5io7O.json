@@ -127,7 +127,7 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "YkTvzP4"
+                "id": "Nd0IUDG"
               },
               {
                 "type": "univariate_summary",
@@ -160,7 +160,7 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "IaT6lLK"
+                "id": "KidEVUs"
               },
               {
                 "type": "quantile_table",
@@ -170,10 +170,10 @@
                   "name": "age",
                   "type": "CONTINUOUS"
                 },
-                "id": "EA0pTP8"
+                "id": "PF95Hk2"
               }
             ],
-            "id": "YSg5zXM"
+            "id": "NqFC2Qa"
           },
           {
             "type": "column_card",
@@ -190,7 +190,7 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "ZXcKBcE"
+                "id": "w1xdTz3"
               },
               {
                 "type": "univariate_summary",
@@ -223,7 +223,7 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "uME6edp"
+                "id": "t6jKCXe"
               },
               {
                 "type": "univariate_frequency_table",
@@ -232,10 +232,10 @@
                   "name": "customer_id",
                   "type": "CATEGORICAL"
                 },
-                "id": "cQHpIM8"
+                "id": "w4wqsBz"
               }
             ],
-            "id": "EJkW5sP"
+            "id": "yYHPgRy"
           },
           {
             "type": "column_card",
@@ -252,7 +252,7 @@
                   "name": "explanations",
                   "type": "CATEGORICAL"
                 },
-                "id": "xGazyAO"
+                "id": "JjLXuzr"
               },
               {
                 "type": "univariate_summary",
@@ -285,7 +285,7 @@
                   "name": "explanations",
                   "type": "CATEGORICAL"
                 },
-                "id": "q4KPQmI"
+                "id": "SBNf6ZC"
               },
               {
                 "type": "univariate_frequency_table",
@@ -294,10 +294,10 @@
                   "name": "explanations",
                   "type": "CATEGORICAL"
                 },
-                "id": "GotuIhk"
+                "id": "9lPmV2p"
               }
             ],
-            "id": "1owehf4"
+            "id": "fwWXFG9"
           },
           {
             "type": "column_card",
@@ -314,7 +314,7 @@
                   "name": "gender",
                   "type": "CATEGORICAL"
                 },
-                "id": "C2s3EMj"
+                "id": "vsGpOUQ"
               },
               {
                 "type": "univariate_summary",
@@ -347,7 +347,7 @@
                   "name": "gender",
                   "type": "CATEGORICAL"
                 },
-                "id": "6boPXeN"
+                "id": "ayqjoMx"
               },
               {
                 "type": "univariate_frequency_table",
@@ -356,10 +356,10 @@
                   "name": "gender",
                   "type": "CATEGORICAL"
                 },
-                "id": "rk0tQ4Z"
+                "id": "5XAeeYE"
               }
             ],
-            "id": "92HRvf8"
+            "id": "0DpZNWc"
           },
           {
             "type": "column_card",
@@ -379,7 +379,7 @@
                   "name": "join_GDP_cap",
                   "type": "CONTINUOUS"
                 },
-                "id": "IZVRxbG"
+                "id": "vrYzMkk"
               },
               {
                 "type": "univariate_summary",
@@ -412,7 +412,7 @@
                   "name": "join_GDP_cap",
                   "type": "CONTINUOUS"
                 },
-                "id": "tQyuRgB"
+                "id": "k3IzX38"
               },
               {
                 "type": "quantile_table",
@@ -422,10 +422,10 @@
                   "name": "join_GDP_cap",
                   "type": "CONTINUOUS"
                 },
-                "id": "TwaUse8"
+                "id": "xZqBe6Z"
               }
             ],
-            "id": "9ZJWGBe"
+            "id": "GxJc0KH"
           },
           {
             "type": "column_card",
@@ -442,7 +442,7 @@
                   "name": "join_campain",
                   "type": "CATEGORICAL"
                 },
-                "id": "pLMkh7E"
+                "id": "OzX8Dga"
               },
               {
                 "type": "univariate_summary",
@@ -475,7 +475,7 @@
                   "name": "join_campain",
                   "type": "CATEGORICAL"
                 },
-                "id": "417u2gD"
+                "id": "Gsn5jSN"
               },
               {
                 "type": "univariate_frequency_table",
@@ -484,10 +484,10 @@
                   "name": "join_campain",
                   "type": "CATEGORICAL"
                 },
-                "id": "WBkNHST"
+                "id": "gLrWYji"
               }
             ],
-            "id": "nTnMht3"
+            "id": "0cAKCut"
           },
           {
             "type": "column_card",
@@ -504,7 +504,7 @@
                   "name": "join_humidity",
                   "type": "CATEGORICAL"
                 },
-                "id": "3M9HLPv"
+                "id": "egq1fZH"
               },
               {
                 "type": "univariate_summary",
@@ -537,7 +537,7 @@
                   "name": "join_humidity",
                   "type": "CATEGORICAL"
                 },
-                "id": "QjigqVU"
+                "id": "1YPF95N"
               },
               {
                 "type": "univariate_frequency_table",
@@ -546,10 +546,10 @@
                   "name": "join_humidity",
                   "type": "CATEGORICAL"
                 },
-                "id": "oALx67e"
+                "id": "TeIsoj0"
               }
             ],
-            "id": "hD0H9lN"
+            "id": "RQZtkXu"
           },
           {
             "type": "column_card",
@@ -566,7 +566,7 @@
                   "name": "join_ip",
                   "type": "CATEGORICAL"
                 },
-                "id": "N1Srtfz"
+                "id": "YRwVbam"
               },
               {
                 "type": "univariate_summary",
@@ -599,7 +599,7 @@
                   "name": "join_ip",
                   "type": "CATEGORICAL"
                 },
-                "id": "VvTYOb8"
+                "id": "DNFw4vl"
               },
               {
                 "type": "univariate_frequency_table",
@@ -608,10 +608,10 @@
                   "name": "join_ip",
                   "type": "CATEGORICAL"
                 },
-                "id": "7jCos4a"
+                "id": "YCToHsZ"
               }
             ],
-            "id": "EymvrF5"
+            "id": "gAjAj9p"
           },
           {
             "type": "column_card",
@@ -628,7 +628,7 @@
                   "name": "join_ip_country",
                   "type": "CATEGORICAL"
                 },
-                "id": "esk6zQx"
+                "id": "HEnjRYA"
               },
               {
                 "type": "univariate_summary",
@@ -661,7 +661,7 @@
                   "name": "join_ip_country",
                   "type": "CATEGORICAL"
                 },
-                "id": "rTkpVVE"
+                "id": "54XjGHb"
               },
               {
                 "type": "univariate_frequency_table",
@@ -670,10 +670,10 @@
                   "name": "join_ip_country",
                   "type": "CATEGORICAL"
                 },
-                "id": "xiqxAEO"
+                "id": "ZF6UHSF"
               }
             ],
-            "id": "pPxjTWX"
+            "id": "XhWK9UC"
           },
           {
             "type": "column_card",
@@ -690,7 +690,7 @@
                   "name": "join_pages_visited",
                   "type": "CATEGORICAL"
                 },
-                "id": "MGqpNxt"
+                "id": "kzGnxvt"
               },
               {
                 "type": "univariate_summary",
@@ -723,7 +723,7 @@
                   "name": "join_pages_visited",
                   "type": "CATEGORICAL"
                 },
-                "id": "lFljzJo"
+                "id": "L7dNVXS"
               },
               {
                 "type": "univariate_frequency_table",
@@ -732,10 +732,10 @@
                   "name": "join_pages_visited",
                   "type": "CATEGORICAL"
                 },
-                "id": "zyyidJG"
+                "id": "XBkAQdU"
               }
             ],
-            "id": "G68NyiE"
+            "id": "JFNZfsd"
           },
           {
             "type": "column_card",
@@ -752,7 +752,7 @@
                   "name": "join_pressure",
                   "type": "CATEGORICAL"
                 },
-                "id": "OssYnav"
+                "id": "XnOhhrP"
               },
               {
                 "type": "univariate_summary",
@@ -785,7 +785,7 @@
                   "name": "join_pressure",
                   "type": "CATEGORICAL"
                 },
-                "id": "M1CROFN"
+                "id": "4Bi9MQC"
               },
               {
                 "type": "univariate_frequency_table",
@@ -794,10 +794,10 @@
                   "name": "join_pressure",
                   "type": "CATEGORICAL"
                 },
-                "id": "LCUESKc"
+                "id": "9upknm8"
               }
             ],
-            "id": "WK2Gs3A"
+            "id": "pUJqNFA"
           },
           {
             "type": "column_card",
@@ -817,7 +817,7 @@
                   "name": "join_temp",
                   "type": "CONTINUOUS"
                 },
-                "id": "cP79ysv"
+                "id": "zX6zTtg"
               },
               {
                 "type": "univariate_summary",
@@ -850,7 +850,7 @@
                   "name": "join_temp",
                   "type": "CONTINUOUS"
                 },
-                "id": "oF3rDz1"
+                "id": "YGdId3T"
               },
               {
                 "type": "quantile_table",
@@ -860,10 +860,10 @@
                   "name": "join_temp",
                   "type": "CONTINUOUS"
                 },
-                "id": "QdNZKB4"
+                "id": "TKlMiCW"
               }
             ],
-            "id": "x4GgXsI"
+            "id": "RNUy5T1"
           },
           {
             "type": "column_card",
@@ -883,7 +883,7 @@
                   "name": "join_uvi",
                   "type": "CONTINUOUS"
                 },
-                "id": "Jx29GXS"
+                "id": "2lKhIJh"
               },
               {
                 "type": "univariate_summary",
@@ -916,7 +916,7 @@
                   "name": "join_uvi",
                   "type": "CONTINUOUS"
                 },
-                "id": "8CCxGtn"
+                "id": "dhrZlAl"
               },
               {
                 "type": "quantile_table",
@@ -926,10 +926,10 @@
                   "name": "join_uvi",
                   "type": "CONTINUOUS"
                 },
-                "id": "YZAQbhm"
+                "id": "zx6BTqW"
               }
             ],
-            "id": "gJKamTY"
+            "id": "CRngkeb"
           },
           {
             "type": "column_card",
@@ -946,7 +946,7 @@
                   "name": "join_visibility",
                   "type": "CATEGORICAL"
                 },
-                "id": "F5EeJFI"
+                "id": "YzvrW77"
               },
               {
                 "type": "univariate_summary",
@@ -979,7 +979,7 @@
                   "name": "join_visibility",
                   "type": "CATEGORICAL"
                 },
-                "id": "dU7BAnr"
+                "id": "nO7faBE"
               },
               {
                 "type": "univariate_frequency_table",
@@ -988,10 +988,10 @@
                   "name": "join_visibility",
                   "type": "CATEGORICAL"
                 },
-                "id": "O8qdslz"
+                "id": "ekls9Ba"
               }
             ],
-            "id": "2ZQlaCs"
+            "id": "ERKCoDg"
           },
           {
             "type": "column_card",
@@ -1008,7 +1008,7 @@
                   "name": "join_weather.0.main",
                   "type": "CATEGORICAL"
                 },
-                "id": "nG1EEa9"
+                "id": "hEzZ29H"
               },
               {
                 "type": "univariate_summary",
@@ -1041,7 +1041,7 @@
                   "name": "join_weather.0.main",
                   "type": "CATEGORICAL"
                 },
-                "id": "HQA4uVy"
+                "id": "FUr6FaR"
               },
               {
                 "type": "univariate_frequency_table",
@@ -1050,10 +1050,10 @@
                   "name": "join_weather.0.main",
                   "type": "CATEGORICAL"
                 },
-                "id": "9A63U8X"
+                "id": "RU1eqok"
               }
             ],
-            "id": "xVSKDW3"
+            "id": "rXVPpLq"
           },
           {
             "type": "column_card",
@@ -1073,7 +1073,7 @@
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "id": "9hM8lnh"
+                "id": "bHWibPK"
               },
               {
                 "type": "univariate_summary",
@@ -1106,7 +1106,7 @@
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "id": "WvmHXbW"
+                "id": "4Z4Dtaf"
               },
               {
                 "type": "quantile_table",
@@ -1116,10 +1116,10 @@
                   "name": "prediction",
                   "type": "CONTINUOUS"
                 },
-                "id": "V7EaM1O"
+                "id": "GjMm8NV"
               }
             ],
-            "id": "xvAQueh"
+            "id": "VWTHWtb"
           },
           {
             "type": "column_card",
@@ -1136,7 +1136,7 @@
                   "name": "price_first_item_purchased",
                   "type": "CATEGORICAL"
                 },
-                "id": "a8m4qgE"
+                "id": "wkyIUN5"
               },
               {
                 "type": "univariate_summary",
@@ -1169,7 +1169,7 @@
                   "name": "price_first_item_purchased",
                   "type": "CATEGORICAL"
                 },
-                "id": "eRZgNbM"
+                "id": "TKN6daK"
               },
               {
                 "type": "univariate_frequency_table",
@@ -1178,1758 +1178,24 @@
                   "name": "price_first_item_purchased",
                   "type": "CATEGORICAL"
                 },
-                "id": "TB84RHB"
+                "id": "By8y6Hk"
               }
             ],
-            "id": "lESC7pL"
+            "id": "DZq6YW7"
           }
         ],
-        "id": "MNeGw7p"
-      },
-      {
-        "type": "univariate_header",
-        "showHistogram": true,
-        "showQuantile": true,
-        "showFrequencyTable": true,
-        "showSummary": true,
-        "showBoxPlot": true,
-        "showCumulativeDistributionFunction": true,
-        "xColumns": [
-          {
-            "name": "age",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_GDP_cap",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_humidity",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_pages_visited",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_pressure",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_temp",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_uvi",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_visibility",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "prediction",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "price_first_item_purchased",
-            "type": "CONTINUOUS"
-          }
-        ],
-        "cards": [
-          {
-            "type": "column_card",
-            "column": {
-              "name": "age",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "age",
-                  "type": "CONTINUOUS"
-                },
-                "id": "AWLwR2g"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "age",
-                  "type": "CONTINUOUS"
-                },
-                "id": "irzShOt"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "age",
-                  "type": "CONTINUOUS"
-                },
-                "id": "jRZyfIm"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "age",
-                  "type": "CONTINUOUS"
-                },
-                "id": "YVfYGYk"
-              }
-            ],
-            "id": "4vbsCK9"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_GDP_cap",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_GDP_cap",
-                  "type": "CONTINUOUS"
-                },
-                "id": "rVMkZwI"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_GDP_cap",
-                  "type": "CONTINUOUS"
-                },
-                "id": "gEf1ULw"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_GDP_cap",
-                  "type": "CONTINUOUS"
-                },
-                "id": "yD6tF00"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_GDP_cap",
-                  "type": "CONTINUOUS"
-                },
-                "id": "rWtWAmT"
-              }
-            ],
-            "id": "VGIfxpP"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_humidity",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CONTINUOUS"
-                },
-                "id": "ga3Q8xB"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CONTINUOUS"
-                },
-                "id": "LDNk5MX"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CONTINUOUS"
-                },
-                "id": "TUoAMAW"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CONTINUOUS"
-                },
-                "id": "EoqF5MZ"
-              }
-            ],
-            "id": "xGWmhAk"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_pages_visited",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CONTINUOUS"
-                },
-                "id": "fHjwVJR"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CONTINUOUS"
-                },
-                "id": "A8pyoVC"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CONTINUOUS"
-                },
-                "id": "siVrssu"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CONTINUOUS"
-                },
-                "id": "EXyTdXu"
-              }
-            ],
-            "id": "oLHQGdH"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_pressure",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CONTINUOUS"
-                },
-                "id": "jfS9fwh"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CONTINUOUS"
-                },
-                "id": "CAmaxiT"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CONTINUOUS"
-                },
-                "id": "mxqMXsl"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CONTINUOUS"
-                },
-                "id": "6UZPgED"
-              }
-            ],
-            "id": "L3fddIb"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_temp",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_temp",
-                  "type": "CONTINUOUS"
-                },
-                "id": "sJeO7E2"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_temp",
-                  "type": "CONTINUOUS"
-                },
-                "id": "TS4LVHz"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_temp",
-                  "type": "CONTINUOUS"
-                },
-                "id": "toQRtEO"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_temp",
-                  "type": "CONTINUOUS"
-                },
-                "id": "OjNbZJu"
-              }
-            ],
-            "id": "uvsZFgr"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_uvi",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_uvi",
-                  "type": "CONTINUOUS"
-                },
-                "id": "zZRTgvM"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_uvi",
-                  "type": "CONTINUOUS"
-                },
-                "id": "THWbEGD"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_uvi",
-                  "type": "CONTINUOUS"
-                },
-                "id": "mQKV7ie"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_uvi",
-                  "type": "CONTINUOUS"
-                },
-                "id": "8VK1kPa"
-              }
-            ],
-            "id": "wFZjAFH"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_visibility",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CONTINUOUS"
-                },
-                "id": "kusRVvE"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CONTINUOUS"
-                },
-                "id": "LI9axzV"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CONTINUOUS"
-                },
-                "id": "EngMW8f"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CONTINUOUS"
-                },
-                "id": "6rRXNJX"
-              }
-            ],
-            "id": "V1PwLvN"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "prediction",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "id": "bqDBGNj"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "id": "znCWgjm"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "id": "3Hv21gl"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "prediction",
-                  "type": "CONTINUOUS"
-                },
-                "id": "llIyVdk"
-              }
-            ],
-            "id": "lPJjPMx"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "price_first_item_purchased",
-              "type": "CONTINUOUS"
-            },
-            "cards": [
-              {
-                "type": "numerical_histogram",
-                "showBoxPlot": true,
-                "showHistogram": true,
-                "binningMode": "AUTO",
-                "nbBins": 25,
-                "customBinningBoundaries": [],
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CONTINUOUS"
-                },
-                "id": "kJ4LrpJ"
-              },
-              {
-                "type": "cdf_plot",
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CONTINUOUS"
-                },
-                "id": "BUg7LN5"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CONTINUOUS"
-                },
-                "id": "7Tew8EU"
-              },
-              {
-                "type": "quantile_table",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CONTINUOUS"
-                },
-                "id": "QPa3qYA"
-              }
-            ],
-            "id": "uwZkAlD"
-          }
-        ],
-        "id": "X33pD7E"
-      },
-      {
-        "type": "correlation_matrix",
-        "heatmapParams": {
-          "showValues": true,
-          "showColors": true,
-          "showAbsValues": false,
-          "threshold": 0.0,
-          "filterVariablesWithoutValues": false
-        },
-        "metric": "SPEARMAN",
-        "columns": [
-          {
-            "name": "prediction",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "age",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "price_first_item_purchased",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_pages_visited",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_GDP_cap",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_humidity",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_pressure",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_temp",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_uvi",
-            "type": "CONTINUOUS"
-          },
-          {
-            "name": "join_visibility",
-            "type": "CONTINUOUS"
-          }
-        ],
-        "id": "Bcctpep"
-      },
-      {
-        "type": "univariate_header",
-        "showHistogram": true,
-        "showQuantile": true,
-        "showFrequencyTable": true,
-        "showSummary": true,
-        "showBoxPlot": true,
-        "showCumulativeDistributionFunction": false,
-        "xColumns": [
-          {
-            "name": "gender",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_campain",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_weather.0.main",
-            "type": "CATEGORICAL"
-          }
-        ],
-        "cards": [
-          {
-            "type": "column_card",
-            "column": {
-              "name": "gender",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "TcYWz8q"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "LKoLkyT"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "B6zTIjb"
-              }
-            ],
-            "id": "njZ9XRN"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_campain",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "iUBahgx"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "IO2NcBD"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "Om8cv6Z"
-              }
-            ],
-            "id": "36stzsZ"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_weather.0.main",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "xNrNRf8"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "ggClmnH"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "g6xbzxM"
-              }
-            ],
-            "id": "vS3ywn2"
-          }
-        ],
-        "id": "01Lm0wN"
-      },
-      {
-        "type": "univariate_header",
-        "showHistogram": true,
-        "showQuantile": true,
-        "showFrequencyTable": true,
-        "showSummary": true,
-        "showBoxPlot": true,
-        "showCumulativeDistributionFunction": false,
-        "xColumns": [
-          {
-            "name": "gender",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_campain",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_humidity",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_ip",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_ip_country",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_pages_visited",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_pressure",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_visibility",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "join_weather.0.main",
-            "type": "CATEGORICAL"
-          },
-          {
-            "name": "price_first_item_purchased",
-            "type": "CATEGORICAL"
-          }
-        ],
-        "cards": [
-          {
-            "type": "column_card",
-            "column": {
-              "name": "gender",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "DfjAlB2"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "KlIuug6"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "gender",
-                  "type": "CATEGORICAL"
-                },
-                "id": "2bnIJzr"
-              }
-            ],
-            "id": "Wqd8MWN"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_campain",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "vvRPQPH"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "IENe17U"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_campain",
-                  "type": "CATEGORICAL"
-                },
-                "id": "YMsa9cU"
-              }
-            ],
-            "id": "IdPSHWu"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_humidity",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CATEGORICAL"
-                },
-                "id": "mRZzH3l"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CATEGORICAL"
-                },
-                "id": "Z9Kg7R8"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_humidity",
-                  "type": "CATEGORICAL"
-                },
-                "id": "UC7VQ7M"
-              }
-            ],
-            "id": "KBqSKcu"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_ip",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_ip",
-                  "type": "CATEGORICAL"
-                },
-                "id": "bdNqB2s"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_ip",
-                  "type": "CATEGORICAL"
-                },
-                "id": "uWkmCMQ"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_ip",
-                  "type": "CATEGORICAL"
-                },
-                "id": "7HDyI2b"
-              }
-            ],
-            "id": "aQPvyNz"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_ip_country",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_ip_country",
-                  "type": "CATEGORICAL"
-                },
-                "id": "yHEPnk7"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_ip_country",
-                  "type": "CATEGORICAL"
-                },
-                "id": "b9TwYKP"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_ip_country",
-                  "type": "CATEGORICAL"
-                },
-                "id": "bYdSgwG"
-              }
-            ],
-            "id": "7a6OSBr"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_pages_visited",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CATEGORICAL"
-                },
-                "id": "UAbI6KF"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CATEGORICAL"
-                },
-                "id": "6rOqN6k"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_pages_visited",
-                  "type": "CATEGORICAL"
-                },
-                "id": "pifgFM9"
-              }
-            ],
-            "id": "rCQWhuh"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_pressure",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CATEGORICAL"
-                },
-                "id": "s4pxcN5"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CATEGORICAL"
-                },
-                "id": "O4FFacE"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_pressure",
-                  "type": "CATEGORICAL"
-                },
-                "id": "ohDQxdu"
-              }
-            ],
-            "id": "kU71lYc"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_visibility",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CATEGORICAL"
-                },
-                "id": "FRhF9Cn"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CATEGORICAL"
-                },
-                "id": "OMRTeWH"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_visibility",
-                  "type": "CATEGORICAL"
-                },
-                "id": "jYy8etJ"
-              }
-            ],
-            "id": "79Fc89w"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "join_weather.0.main",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "2gNRcgX"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "gOHFUff"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "join_weather.0.main",
-                  "type": "CATEGORICAL"
-                },
-                "id": "PKb1duQ"
-              }
-            ],
-            "id": "e1mhUkk"
-          },
-          {
-            "type": "column_card",
-            "column": {
-              "name": "price_first_item_purchased",
-              "type": "CATEGORICAL"
-            },
-            "cards": [
-              {
-                "type": "categorical_histogram",
-                "maxValues": 10,
-                "groupOthers": false,
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CATEGORICAL"
-                },
-                "id": "nU7Y3ln"
-              },
-              {
-                "type": "univariate_summary",
-                "confidenceLevel": 0.95,
-                "showConfidenceInterval": true,
-                "compute": {
-                  "totalCount": true,
-                  "mean": true,
-                  "sum": false,
-                  "median": true,
-                  "std": true,
-                  "variance": false,
-                  "skewness": false,
-                  "kurtosis": false,
-                  "sem": false,
-                  "completeCount": true,
-                  "nbEmpty": true,
-                  "zeroCount": false,
-                  "zeroRatio": false,
-                  "nonZeroRatio": false,
-                  "iqr": false,
-                  "distinctCount": true,
-                  "nbNonEmpty": false,
-                  "min": true,
-                  "max": true,
-                  "range": false,
-                  "mode": true
-                },
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CATEGORICAL"
-                },
-                "id": "9R28lXr"
-              },
-              {
-                "type": "univariate_frequency_table",
-                "maxValues": 10,
-                "column": {
-                  "name": "price_first_item_purchased",
-                  "type": "CATEGORICAL"
-                },
-                "id": "BDLohrJ"
-              }
-            ],
-            "id": "qQP3oZ9"
-          }
-        ],
-        "id": "7qWOgzC"
+        "id": "qk96HeO"
       }
     ],
     "id": "P0irboB"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638275632336
+    "lastModifiedOn": 1639147768862
   },
   "creationTag": {
     "versionNumber": 0,
