@@ -36,6 +36,9 @@
             },
             "country_to_geopoint_py": {
               "repartition": 10
+            },
+            "crm_last_year_1": {
+              "repartition": 10
             }
           }
         },
@@ -87,7 +90,7 @@
     "scriptDeps": {
       "items": [
         {
-          "ref": "web_last_year",
+          "ref": "web_last_year_1",
           "deps": []
         },
         {
@@ -109,11 +112,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 38,
+    "versionNumber": 39,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649423500793
+    "lastModifiedOn": 1649423515808
   },
   "tags": [
     "Training pipeline"
