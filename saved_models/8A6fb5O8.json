@@ -2145,14 +2145,14 @@
     "predictionDisplayCharts": [],
     "labels": []
   },
-  "lastTrainIndex": 1,
-  "lastTrainJobId": "",
+  "lastTrainIndex": 2,
+  "lastTrainJobId": "Build_Prediction___RANDOM_FOREST_REGRESSION__on_crm_prepared_2022-04-08T13-17-28.080",
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649423876633
+    "lastModifiedOn": 1649423876980
   },
   "tags": [
     "Score new data"
