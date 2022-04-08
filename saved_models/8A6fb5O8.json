@@ -3,7 +3,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction ( RANDOM_FOREST_REGRESSION) on crm_prepared",
-  "activeVersion": "1618490929609",
+  "activeVersion": "1649423849710",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -2093,6 +2093,7 @@
       "analysisColumnData": {},
       "explorationSampling": {
         "selection": {
+          "maxRecordsForDisplay": -1,
           "maxStoredBytes": -1,
           "timeout": -1,
           "filter": {
@@ -2147,11 +2148,11 @@
   "lastTrainIndex": 1,
   "lastTrainJobId": "",
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637919294564
+    "lastModifiedOn": 1649423876633
   },
   "tags": [
     "Score new data"
