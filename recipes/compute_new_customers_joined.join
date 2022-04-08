@@ -132,7 +132,6 @@
             "type": "string"
           },
           {
-            "meaning": "Boolean",
             "name": "birth",
             "type": "string"
           },
