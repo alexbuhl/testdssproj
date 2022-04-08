@@ -82,7 +82,9 @@
       "DATA_DRIFT"
     ],
     "predictionType": "REGRESSION",
-    "pinnedMetrics": [],
+    "pinnedMetrics": [
+      "DATA_DRIFT"
+    ],
     "xLabel": "evaluation:date",
     "yLabels": [
       "evaluationDataset:dataset-name"
@@ -92,18 +94,19 @@
       "evaluation:date",
       "evaluationDataset:dataset-name"
     ],
-    "graphStyle": "BAR",
+    "graphStyle": "LINE",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
     "disabledMERunIds": []
   },
+  "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 43,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1639147998923
+    "lastModifiedOn": 1649424141227
   },
   "creationTag": {
     "versionNumber": 0,
