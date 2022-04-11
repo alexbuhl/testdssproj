@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 10,
+    "versionNumber": 11,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1624619822322
+    "lastModifiedOn": 1649675503925
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,34 +91,13 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "customer_id",
-        "type": "string"
-      },
-      {
-        "name": "birth",
-        "type": "string"
-      },
-      {
-        "name": "price_first_item_purchased",
-        "type": "string"
-      },
-      {
-        "name": "gender",
-        "type": "string"
-      },
-      {
-        "name": "ip",
-        "type": "string"
-      },
-      {
-        "name": "pages_visited",
-        "type": "string"
-      },
-      {
-        "name": "campain",
-        "type": "string"
-      }
+      {"name":"customer_id","type":"string"},
+      {"name":"birth","type":"string"},
+      {"name":"price_first_item_purchased","type":"double"},
+      {"name":"gender","type":"string"},
+      {"name":"ip","type":"string"},
+      {"name":"pages_visited","type":"bigint"},
+      {"name":"campain","type":"boolean"}
     ],
     "userModified": true
   },
