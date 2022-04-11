@@ -46,7 +46,7 @@
     },
     {
       "name": "price_first_item_purchased",
-      "type": "string",
+      "type": "double",
       "table": 0
     },
     {
@@ -61,12 +61,12 @@
     },
     {
       "name": "pages_visited",
-      "type": "string",
+      "type": "bigint",
       "table": 1
     },
     {
       "name": "campain",
-      "type": "string",
+      "type": "boolean",
       "table": 1
     }
   ],
@@ -137,7 +137,7 @@
           },
           {
             "name": "price_first_item_purchased",
-            "type": "string"
+            "type": "double"
           },
           {
             "name": "gender",
