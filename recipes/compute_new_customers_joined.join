@@ -149,11 +149,11 @@
           },
           {
             "name": "pages_visited",
-            "type": "string"
+            "type": "bigint"
           },
           {
             "name": "campain",
-            "type": "string"
+            "type": "boolean"
           }
         ],
         "userModified": false

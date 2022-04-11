@@ -13,11 +13,11 @@
     "main": {
       "items": [
         {
-          "ref": "new_customers_1",
+          "ref": "new_customers",
           "deps": []
         },
         {
-          "ref": "web_new_visitors_1",
+          "ref": "web_new_visitors",
           "deps": []
         }
       ]
@@ -35,11 +35,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 34,
+    "versionNumber": 35,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649675504411
+    "lastModifiedOn": 1649675567417
   },
   "creationTag": {
     "versionNumber": 0,
