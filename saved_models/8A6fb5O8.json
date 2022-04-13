@@ -3,7 +3,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction ( RANDOM_FOREST_REGRESSION) on crm_prepared",
-  "activeVersion": "1649423849710",
+  "activeVersion": "1649843222416",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -15,7 +15,7 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
-  "lastExportedFrom": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s6-pp1-m1",
+  "lastExportedFrom": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s7-pp2-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -463,11 +463,11 @@
         },
         "loss": {
           "values": {
-            "exponential": {
-              "enabled": false
-            },
             "deviance": {
               "enabled": true
+            },
+            "exponential": {
+              "enabled": false
             }
           }
         },
@@ -575,10 +575,10 @@
         },
         "loss": {
           "values": {
-            "lad": {
+            "huber": {
               "enabled": false
             },
-            "huber": {
+            "lad": {
               "enabled": false
             },
             "ls": {
@@ -623,21 +623,21 @@
         },
         "criterion": {
           "values": {
-            "gini": {
-              "enabled": true
-            },
             "entropy": {
               "enabled": false
+            },
+            "gini": {
+              "enabled": true
             }
           }
         },
         "splitter": {
           "values": {
-            "random": {
-              "enabled": false
-            },
             "best": {
               "enabled": true
+            },
+            "random": {
+              "enabled": false
             }
           }
         },
@@ -678,21 +678,21 @@
         },
         "criterion": {
           "values": {
-            "gini": {
-              "enabled": true
-            },
             "entropy": {
               "enabled": false
+            },
+            "gini": {
+              "enabled": true
             }
           }
         },
         "splitter": {
           "values": {
-            "random": {
-              "enabled": false
-            },
             "best": {
               "enabled": true
+            },
+            "random": {
+              "enabled": false
             }
           }
         },
@@ -778,11 +778,11 @@
             "elasticnet": {
               "enabled": false
             },
-            "l2": {
-              "enabled": false
-            },
             "l1": {
               "enabled": true
+            },
+            "l2": {
+              "enabled": false
             }
           }
         },
@@ -813,11 +813,11 @@
       "sgd_classifier": {
         "loss": {
           "values": {
-            "modified_huber": {
-              "enabled": false
-            },
             "log": {
               "enabled": true
+            },
+            "modified_huber": {
+              "enabled": false
             }
           }
         },
@@ -826,11 +826,11 @@
             "elasticnet": {
               "enabled": false
             },
-            "l2": {
-              "enabled": false
-            },
             "l1": {
               "enabled": true
+            },
+            "l2": {
+              "enabled": false
             }
           }
         },
@@ -885,11 +885,11 @@
         "multi_class": "ovr",
         "penalty": {
           "values": {
-            "l2": {
-              "enabled": true
-            },
             "l1": {
               "enabled": false
+            },
+            "l2": {
+              "enabled": true
             }
           }
         },
@@ -976,11 +976,11 @@
             "auto": {
               "enabled": false
             },
-            "scale": {
-              "enabled": true
-            },
             "custom": {
               "enabled": false
+            },
+            "scale": {
+              "enabled": true
             }
           }
         },
@@ -1002,14 +1002,14 @@
         },
         "kernel": {
           "values": {
-            "rbf": {
-              "enabled": true
-            },
             "linear": {
               "enabled": false
             },
             "poly": {
               "enabled": false
+            },
+            "rbf": {
+              "enabled": true
             },
             "sigmoid": {
               "enabled": false
@@ -1043,11 +1043,11 @@
             "auto": {
               "enabled": false
             },
-            "scale": {
-              "enabled": true
-            },
             "custom": {
               "enabled": false
+            },
+            "scale": {
+              "enabled": true
             }
           }
         },
@@ -1069,14 +1069,14 @@
         },
         "kernel": {
           "values": {
-            "rbf": {
-              "enabled": true
-            },
             "linear": {
               "enabled": false
             },
             "poly": {
               "enabled": false
+            },
+            "rbf": {
+              "enabled": true
             },
             "sigmoid": {
               "enabled": false
@@ -1606,29 +1606,29 @@
         },
         "booster": {
           "values": {
-            "gbtree": {
-              "enabled": true
-            },
             "dart": {
               "enabled": false
+            },
+            "gbtree": {
+              "enabled": true
             }
           }
         },
         "objective": {
           "values": {
-            "reg_linear": {
-              "enabled": true
-            },
-            "reg_logistic": {
-              "enabled": false
-            },
-            "reg_gamma": {
+            "binary_logistic": {
               "enabled": false
             },
             "multi_softprob": {
               "enabled": false
             },
-            "binary_logistic": {
+            "reg_gamma": {
+              "enabled": false
+            },
+            "reg_linear": {
+              "enabled": true
+            },
+            "reg_logistic": {
               "enabled": false
             }
           }
@@ -1994,7 +1994,7 @@
         "strategy": "GRID",
         "bayesianOptimizer": "SCIKIT_OPTIMIZE",
         "randomized": true,
-        "seed": 0,
+        "seed": 1337,
         "nIter": 0,
         "nIterRandom": 10,
         "timeout": 0,
@@ -2051,6 +2051,10 @@
         },
         {
           "type": "ML_DIAGNOSTICS_ML_ASSERTIONS",
+          "enabled": true
+        },
+        {
+          "type": "ML_DIAGNOSTICS_ABNORMAL_PREDICTIONS_DETECTION",
           "enabled": true
         }
       ]
@@ -2145,14 +2149,14 @@
     "predictionDisplayCharts": [],
     "labels": []
   },
-  "lastTrainIndex": 2,
+  "lastTrainIndex": 1,
   "lastTrainJobId": "Build_Prediction___RANDOM_FOREST_REGRESSION__on_crm_prepared_2022-04-08T13-17-28.080",
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649423876980
+    "lastModifiedOn": 1649843222864
   },
   "tags": [
     "Score new data"
