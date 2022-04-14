@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649763543007
+    "lastModifiedOn": 1649931128269
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,7 +59,7 @@
   "schema": {
     "columns": [
       {"name":"customer_id","type":"string"},
-      {"name":"birth","type":"string","meaning":"LongMeaning"},
+      {"name":"birth","type":"string"},
       {"name":"price_first_item_purchased","type":"double"},
       {"name":"gender","type":"string"}
     ],
