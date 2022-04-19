@@ -94,19 +94,21 @@
       "evaluation:date",
       "evaluationDataset:dataset-name"
     ],
-    "graphStyle": "LINE",
+    "graphStyle": "BAR",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
-    "disabledMERunIds": []
+    "disabledMERunIds": [
+      "4tDvhLuKAn9r"
+    ]
   },
   "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 49,
+    "versionNumber": 56,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1650350447456
+    "lastModifiedOn": 1650350669411
   },
   "creationTag": {
     "versionNumber": 0,
