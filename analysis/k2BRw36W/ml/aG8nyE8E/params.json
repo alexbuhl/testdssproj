@@ -460,7 +460,7 @@
           "scaling": "LINEAR"
         }
       },
-      "enabled": true
+      "enabled": false
     },
     "random_forest_classification": {
       "n_estimators": {
@@ -991,7 +991,7 @@
           "scaling": "LOGARITHMIC"
         }
       },
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
@@ -1532,7 +1532,7 @@
       "subsample": 0.9,
       "subsample_freq": 1,
       "use_bagging": false,
-      "enabled": false
+      "enabled": true
     },
     "lightgbm_classification": {
       "boosting_type": {
@@ -1914,7 +1914,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
@@ -2430,6 +2430,7 @@
     "analysisColumnData": {},
     "explorationSampling": {
       "selection": {
+        "maxRecordsForDisplay": -1,
         "maxStoredBytes": -1,
         "timeout": -1,
         "filter": {
