@@ -1,0 +1,29 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "8A6fb5O8"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Prediction ( RANDOM_FOREST_REGRESSION) on crm_prepared table",
+  "dashboardCreationId": "DTp3MvZ",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1650361960900
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1650361960900
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
