@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1650367926575
+    "lastModifiedOn": 1650367941515
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,7 +59,7 @@
   "schema": {
     "columns": [
       {"name":"customer_id","type":"string"},
-      {"name":"ip","type":"string"},
+      {"name":"ip","type":"string","meaning":"Date"},
       {"name":"pages_visited","type":"bigint"},
       {"name":"campain","type":"boolean"}
     ],
