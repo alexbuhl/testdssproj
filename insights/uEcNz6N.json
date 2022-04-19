@@ -1,0 +1,29 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "new_customers_scored"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Filters on new_customers_scored",
+  "dashboardCreationId": "DTp3MvZ",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1650362062181
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1650362062181
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
