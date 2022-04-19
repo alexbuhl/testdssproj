@@ -3,31 +3,181 @@
     "envMode": "INHERIT"
   },
   "modeling": {
-    "computeLearningCurves": false,
-    "max_ensemble_nodes_serialized": 0,
-    "pluginAlgoCustomGridSearch": false,
-    "ridge_grid": {
-      "alpha": {
+    "lightgbm_regression_grid": {
+      "colsample_bytree": {
         "randomMode": "RANGE",
         "values": [
-          0.1,
-          1.0,
-          3.0
+          0.7,
+          0.9
         ],
         "limit": {
-          "min": 1.0E-23
+          "min": 1.0E-23,
+          "max": 1.0
         },
         "range": {
-          "scaling": "LOGARITHMIC",
-          "min": 0.1,
-          "max": 3.0,
+          "scaling": "LINEAR",
+          "min": 0.5,
+          "max": 1.0,
           "nbValues": 3
         },
         "gridMode": "EXPLICIT"
       },
-      "alphaMode": "MANUAL",
-      "enabled": true
+      "reg_lambda": {
+        "randomMode": "RANGE",
+        "values": [
+          0.0
+        ],
+        "limit": {
+          "min": 0.0
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.0,
+          "max": 1.0,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "n_jobs": 4,
+      "max_depth": -1,
+      "early_stopping_rounds": 4,
+      "min_split_gain": {
+        "randomMode": "RANGE",
+        "values": [
+          0.0
+        ],
+        "limit": {
+          "min": 0.0,
+          "max": 1.0
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.0,
+          "max": 1.0,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "n_estimators": {
+        "randomMode": "RANGE",
+        "values": [
+          75
+        ],
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 50,
+          "max": 200,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "reg_alpha": {
+        "randomMode": "RANGE",
+        "values": [
+          0.0
+        ],
+        "limit": {
+          "min": 0.0
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.0,
+          "max": 1.0,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "early_stopping": true,
+      "random_state": 1337,
+      "boosting_type": {
+        "values": {
+          "goss": {
+            "enabled": false
+          },
+          "gbdt": {
+            "enabled": true
+          }
+        }
+      },
+      "subsample_freq": 1,
+      "enabled": true,
+      "min_child_samples": {
+        "randomMode": "RANGE",
+        "values": [
+          10,
+          30
+        ],
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 1,
+          "max": 100,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "num_leaves": {
+        "randomMode": "RANGE",
+        "values": [
+          31
+        ],
+        "limit": {
+          "min": 1
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 20,
+          "max": 500,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "subsample": 0.9,
+      "use_bagging": false,
+      "learning_rate": {
+        "randomMode": "RANGE",
+        "values": [
+          0.1,
+          0.2
+        ],
+        "limit": {
+          "min": 1.0E-23,
+          "max": 1.0
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.1,
+          "max": 0.6,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      },
+      "min_child_weight": {
+        "randomMode": "RANGE",
+        "values": [
+          0.001
+        ],
+        "limit": {
+          "min": 1.0E-23,
+          "max": 1.0
+        },
+        "range": {
+          "scaling": "LINEAR",
+          "min": 0.001,
+          "max": 1.0,
+          "nbValues": 3
+        },
+        "gridMode": "EXPLICIT"
+      }
     },
+    "computeLearningCurves": false,
+    "max_ensemble_nodes_serialized": 0,
+    "pluginAlgoCustomGridSearch": false,
     "metrics": {
       "customEvaluationMetricGIB": true,
       "costMatrixWeights": {
@@ -61,10 +211,10 @@
       "nContainers": 4
     },
     "skipExpensiveReports": false,
-    "algorithm": "RIDGE_REGRESSION",
-    "gridLength": 3
+    "algorithm": "LIGHTGBM_REGRESSION",
+    "gridLength": 8
   },
-  "generatingModelId": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s7-pp2-m1",
+  "generatingModelId": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s8-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -618,7 +768,7 @@
   },
   "operationMode": "TRAIN_SPLITTED_ONLY",
   "partSource": "ACTIVE_VERSION",
-  "modelVersionNamePrefix": "Ridge (L2) regression (s7)",
+  "modelVersionNamePrefix": "LightGBM (s8)",
   "assertionsParams": {
     "assertions": []
   },

@@ -3,7 +3,7 @@
   "publishPolicy": "UNCONDITIONAL",
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction ( RANDOM_FOREST_REGRESSION) on crm_prepared",
-  "activeVersion": "1649843222416",
+  "activeVersion": "1650350544069",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -15,7 +15,7 @@
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
-  "lastExportedFrom": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s7-pp2-m1",
+  "lastExportedFrom": "A-CUSTOMER_LIFETIME_VALUE-k2BRw36W-aG8nyE8E-s8-pp1-m1",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -2152,11 +2152,11 @@
   "lastTrainIndex": 1,
   "lastTrainJobId": "Build_Prediction___RANDOM_FOREST_REGRESSION__on_crm_prepared_2022-04-08T13-17-28.080",
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649843222864
+    "lastModifiedOn": 1650350544267
   },
   "tags": [
     "Score new data"
