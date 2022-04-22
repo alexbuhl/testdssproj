@@ -27,8 +27,27 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "gender",
+          "age"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -54,7 +73,17 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "join_pages_visited": 150,
+    "join_campain": 105,
+    "gender": 100,
+    "join_ip": 120,
+    "price_first_item_purchased": 210,
+    "join_GDP_cap": 105,
+    "customer_id": 127,
+    "age": 100,
+    "join_ip_country": 155
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
