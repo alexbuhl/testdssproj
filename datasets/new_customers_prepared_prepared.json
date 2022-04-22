@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1650630428149
+    "lastModifiedOn": 1650630457597
   },
   "creationTag": {
     "versionNumber": 0,
@@ -59,9 +59,7 @@
   "schema": {
     "columns": [
       {"name":"customer_id","type":"string"},
-      {"name":"age","type":"bigint"},
       {"name":"price_first_item_purchased","type":"double"},
-      {"name":"gender","type":"string"},
       {"name":"join_ip","type":"string"},
       {"name":"join_ip_country","type":"string"},
       {"name":"join_pages_visited","type":"bigint"},
