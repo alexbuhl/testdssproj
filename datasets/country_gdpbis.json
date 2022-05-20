@@ -1,6 +1,7 @@
 {
   "type": "PostgreSQL",
   "managed": true,
+  "shortDesc": "kkjnlnflksdnfl",
   "checklists": {
     "checklists": []
   },
@@ -28,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1621517033912
+    "lastModifiedOn": 1653035868170
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,16 +59,10 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "Country",
-        "type": "string"
-      },
-      {
-        "name": "GDP_cap",
-        "type": "bigint"
-      }
+      {"name":"Country","type":"string"},
+      {"name":"GDP_cap","type":"bigint"}
     ],
-    "userModified": false
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
