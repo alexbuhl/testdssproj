@@ -20,40 +20,13 @@
     "showFlowNavLink": false,
     "showLabNavLink": false,
     "showCodeNavLink": false,
+    "showSwitchToProjectViewButton": true,
     "showVersionControlFeatures": false
   },
   "useAppHomepage": true,
-  "homepageSections": [
-    {
-      "sectionTitle": "Run my new prediction",
-      "tiles": [
-        {
-          "datasetName": "country_gdp",
-          "behavior": "GO_TO_DATASET",
-          "type": "UPLOAD_DATASET_SET_FILE"
-        },
-        {
-          "scenarioId": "Score_new_customers",
-          "type": "SCENARIO_RUN"
-        },
-        {
-          "dashboardId": "DTp3MvZ",
-          "type": "DASHBOARD_LINK"
-        },
-        {
-          "dashboardId": "DTp3MvZ",
-          "format": {
-            "paperSize": "A4",
-            "orientation": "LANDSCAPE",
-            "fileType": "PDF"
-          },
-          "type": "DOWNLOAD_DASHBOARD_EXPORT"
-        }
-      ]
-    }
-  ],
+  "homepageSections": [],
   "label": "Customer Lifetime Value",
-  "shortDesc": "The template *Customer Lifetime Value* was created by Administrator on Sep 29th 2021",
+  "shortDesc": "The template *Customer Lifetime Value* was created by Administrator on May 24th 2022",
   "tags": [],
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
 }
