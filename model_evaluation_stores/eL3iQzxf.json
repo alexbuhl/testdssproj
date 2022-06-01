@@ -94,7 +94,7 @@
       "evaluation:date",
       "evaluationDataset:dataset-name"
     ],
-    "graphStyle": "LINE",
+    "graphStyle": "BAR",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
@@ -104,11 +104,11 @@
   },
   "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 65,
+    "versionNumber": 66,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1654085175352
+    "lastModifiedOn": 1654091553992
   },
   "creationTag": {
     "versionNumber": 0,
