@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1649939011387
+    "lastModifiedOn": 1654091629154
   },
   "creationTag": {
     "versionNumber": 0,
@@ -93,7 +93,7 @@
     "columns": [
       {"name":"customer_id","type":"string"},
       {"name":"birth","type":"string","comment":"This is my age"},
-      {"name":"price_first_item_purchased","type":"double"},
+      {"name":"price_first_item_purchased","type":"double","meaning":"JSONArrayMeaning"},
       {"name":"gender","type":"string"},
       {"name":"ip","type":"string"},
       {"name":"pages_visited","type":"bigint"},
