@@ -1,8 +1,5 @@
 {
   "tags": {
-    "sample_project": {
-      "color": "#d66b9b"
-    },
     "Training pipeline": {
       "color": "#5363f5"
     },
@@ -12,24 +9,30 @@
     "Scoring pipeline": {
       "color": "#22e665"
     },
+    "recipe-editor": {},
+    "Score new data": {
+      "color": "#ed0c33"
+    },
+    "Department:sales": {},
+    "sample_project": {
+      "color": "#d66b9b"
+    },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "deleted-recipe-editor": {},
     "imported": {
       "color": "#263238"
     },
     "SAMPLE_PROJECT": {
       "color": "#1ac2ab"
     },
-    "Score new data": {
-      "color": "#ed0c33"
-    },
     "creator:admin": {
       "color": "#28aadd"
     },
+    "Department:hr": {},
     "creator_admin": {
       "color": "#1ac2ab"
-    },
-    "Department:sales": {},
-    "recipe-editor": {},
-    "deleted-recipe-editor": {},
-    "Department:hr": {}
+    }
   }
 }
